@@ -1,0 +1,38 @@
+&lt;&lt;case "Tony M"&gt;&gt;
+/* System Link */
+    	&lt;&lt;set $Asc_Prof_Alias = "Tony M"&gt;&gt;
+    	&lt;&lt;set $Asc_Prof_Network = "Milo"&gt;&gt;
+
+/* Identity & Job */
+    	&lt;&lt;set $Asc_Prof_Obj = "Asc_Tony_M"&gt;&gt;
+    	&lt;&lt;set $Asc_Prof_FirstName = "Tony"&gt;&gt;
+    	&lt;&lt;set $Asc_Prof_LastName = "Marzo"&gt;&gt;
+	&lt;&lt;set $Asc_Prof_Archetype = "The Ageless Merchant"&gt;&gt;
+	&lt;&lt;set $Asc_Prof_Role = "Wellness Store Owner"&gt;&gt;
+	&lt;&lt;set $Asc_Prof_HiddenRoles = "The Soothsayer / The Hypochondriac"&gt;&gt;
+	&lt;&lt;set $Asc_Prof_Age = 40&gt;&gt;
+	&lt;&lt;set $Asc_System_Age_Original = 40&gt;&gt;
+	&lt;&lt;set $Asc_Prof_Occupation = "Lush Merchant"&gt;&gt;
+	&lt;&lt;set $Asc_Prof_JobVenue = "Lush"&gt;&gt;
+	&lt;&lt;set $Asc_Prof_JobLevel = 5&gt;&gt;
+	&lt;&lt;set $Asc_Prof_JobSchedStart = 9&gt;&gt;
+
+/* Physical & Location Fields */
+	&lt;&lt;set $Asc_Prof_Race = "Latino"&gt;&gt;
+	&lt;&lt;set $Asc_Prof_Height = 67&gt;&gt;
+	&lt;&lt;set $Asc_Prof_Weight = 160&gt;&gt;
+	&lt;&lt;set $Asc_Prof_Feet = 10&gt;&gt;
+	&lt;&lt;set $Asc_Prof_Band = 7.25&gt;&gt;
+	&lt;&lt;set $Asc_Prof_Residence = "N District"&gt;&gt;
+	&lt;&lt;set $Asc_Prof_SubResidence = "House_NDistrict_Tony_M"&gt;&gt;
+
+/* Partner Stats */
+	&lt;&lt;set $Asc_Prof_PartnerName = "Dakota Quinn"&gt;&gt;
+	&lt;&lt;set $Asc_Prof_PartnerJobLevel = 4&gt;&gt;
+	&lt;&lt;set $Asc_Prof_Partner_Desc = "**Partner:** Dakota (Girlfriend). **Sales Associate** (Level 4). Tony loves that she keeps him current on city trends and gossip."&gt;&gt;
+
+/* Combat Mechanics (Narrative Only) */
+	&lt;&lt;set $Asc_Prof_Weapon = "Hormone Injection"&gt;&gt;
+	&lt;&lt;set $Asc_Prof_Attack_Name = "The Ageless Drain"&gt;&gt;
+	&lt;&lt;set $Asc_Prof_Attack_Desc = "Accelerates physical decline/aging in target."&gt;&gt;
+	&lt;&lt;set $Asc_Prof_Attack_Type = "Anti-Air"&gt;&gt;
