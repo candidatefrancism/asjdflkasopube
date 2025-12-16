@@ -1,0 +1,708 @@
+&lt;&lt;case "sibling"&gt;&gt;
+    /* --- CORE IDENTITY --- */
+    &lt;&lt;set $Asc_Prof_Alias             = "Protagonist's Brother"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Network           = "Milo"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Obj               = "Asc_Milo"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FirstName         = "Milo"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_LastName          = "Doe"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Cardinal          = "Eloquence"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Vice              = "Envy"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Archetype         = "The Diplomat (Unrealized Leader)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Role              = "Student Body President / Debate Club Captain"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_HiddenRoles       = "The Orator / The Placeholder Leader"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_VisualSignature   = "Charismatic smile, expensive but subtly worn clothes, constantly carrying a leather-bound journal."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Age               = 21&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Occupation        = "Student Body President"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_JobVenue          = "Lewor College"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_JobLevel          = 7&gt;&gt;
+    &lt;&lt;set $Asc_Prof_JobSchedStart     = 8&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole        = "sibling"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder   = 1&gt;&gt;
+
+    /* --- NETWORK CONTEXT --- */
+    &lt;&lt;set $Asc_Prof_Color             = "Blue"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Theme             = "Campus Politics"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_HQ                = "Lewor College"&gt;&gt;
+
+    /* --- PHYSICAL & LOCATION FIELDS --- */
+    &lt;&lt;set $Asc_Prof_Race              = "White"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Height            = 72&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Weight            = 185&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Feet              = 10&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Band              = 8.0&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Residence         = "SE District"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_SubResidence      = "Brother's Bedroom"&gt;&gt;
+    
+    /* --- PARTNER DATA --- */
+    &lt;&lt;set $Asc_Prof_PartnerName       = "Clarisse & Janette (Double Act)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_PartnerJobLevel   = 7&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc      = "**Partner:** Clarisse (The Future) & Janette (The Escape). Actively juggling approval and authenticity—mirroring his public/private divide."&gt;&gt;
+
+    /* --- MECHANICS & COMBAT --- */
+    &lt;&lt;set $Asc_Prof_FamilyPerk        = "Charismatic++"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_BattleQuirk       = "N/A"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Loves             = "Rhetoric, Public Opinion, Football (Park Games)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Hook              = "Cannot tolerate silence; fills it instinctively with presence. Mistakes visibility for leadership."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Weapon            = "Eloquence Sphere"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Attack_Name       = "The Airing of Grievances"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Attack_Desc       = "Controls discourse by overwhelming opponents with precision rhetoric and sonic pressure."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Attack_Type       = "All Types"&gt;&gt;
+    
+    /* --- NARRATIVE BLOCKS --- */
+    &lt;&lt;set $Asc_Prof_Orig_1            = '"We speak the truth, but we must choose the words carefully. Only then can we reshape perception."
+- Milo'&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_2            = 'Milo rose quickly within Lewor College, mistaking articulation and access for authority. His envy toward Unity College is not hatred—but fear that their prestige exposes his own network’s fragility.'&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_3            = 'What Milo does not realize is that none of his associates truly follow him. They are older, wiser, stronger, or more experienced—and remain because it suits them, not because they believe in him.'&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_4            = 'Karter H was meant to be his anchor. Without the shared tragedy that should have bound them, Milo stands as a face without a core—charismatic, effective, and fundamentally incomplete.'&gt;&gt;
+    
+    /* --- PSYCHOLOGICAL PROFILE --- */
+    &lt;&lt;set $Asc_Prof_Fear_1            = "Status Collapse: Being revealed as symbolic rather than structural."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Fear_2            = "Exposure: Realizing his influence is borrowed, not owned."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Fear_3            = "Silence: Moments where no one looks to him for direction."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_1        = "Perfect Speech: One that finally makes others follow."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2        = "Assimilation: Absorbing Nick’s influence to compensate for his hollow core."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_3        = "Mayorship: Authority without understanding why it eludes him."&gt;&gt;
+    
+    /* --- FAMILY DYNAMICS --- */
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails  = "Protective elder sibling; emotionally guarded."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Leadership without intimacy."&gt;&gt;
+    
+    /* --- RELATIONSHIP WEB (10 Slots) --- */
+    &lt;&lt;set $Asc_Prof_Rel_Person_1      = "Tony M"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_1 = "The Informant. Older, self-directed. Does not defer."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_2      = "Justin S"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_2 = "Cultural Anchor. Immune to rhetoric."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_3      = "Rodnar R"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_3 = "Auditor. Sees weaknesses Milo ignores."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_4      = "John P"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_4 = "Structural Insider. Loyal to systems, not Milo."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_5      = "Karter H"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_5 = "Network Nexus. The role meant to make Milo a leader—but fate misfired."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_6      = "Peter G"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_6 = "Silent Constant. Observes without allegiance."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_7      = "Joe B"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_7 = "Peacemaker. Respects Milo, does not follow him."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_8      = "Xano D"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_8 = "Enforcer-by-necessity, not loyalty."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_9      = ""&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_9 = ''&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_10     = ""&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_10 = ''&gt;&gt;
+
+
+&lt;&lt;case "dad"&gt;&gt;
+    /* --- CORE IDENTITY --- */
+    &lt;&lt;set $Asc_Prof_Alias             = "Protagonist's Father"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Network           = "Kevin"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Obj               = "Asc_Kevin"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FirstName         = "Kevin"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_LastName          = "Doe"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Cardinal          = "Cunning"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Vice              = "Sloth"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Archetype         = "The Fallen Do-Gooder"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Role              = "SGP Executive / Financial Fraud Kingpin"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_HiddenRoles       = "The Puppet Master / The Sloth"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_VisualSignature   = "Expensive but slightly rumpled suit, perpetually calm demeanor, heavy gold SGP corporate signet ring."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Age               = 41&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Occupation        = "SGP Executive"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_JobVenue          = "Sales Global Protection"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_JobLevel          = 9&gt;&gt;
+    &lt;&lt;set $Asc_Prof_JobSchedStart     = 9&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole        = "dad"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder   = 2&gt;&gt;
+
+    /* --- NETWORK CONTEXT --- */
+    &lt;&lt;set $Asc_Prof_Color             = "Yellow"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Theme             = "Corporate Fraud"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_HQ                = "Sales Global Protection"&gt;&gt;
+
+    /* --- PHYSICAL &amp; LOCATION FIELDS --- */
+    &lt;&lt;set $Asc_Prof_Race              = "White"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Height            = 74&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Weight            = 210&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Feet              = 11.5&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Band              = 9.0&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Residence         = "SE District"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_SubResidence      = "Dad's Bedroom"&gt;&gt;
+
+    /* --- PARTNER DATA --- */
+    &lt;&lt;set $Asc_Prof_PartnerName       = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_PartnerJobLevel   = 0&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc      = "**Partner:** Currently single (Divorced from Kate). His depression and Sloth nature prevent him from seeking a new partner."&gt;&gt;
+    /* --- MECHANICS &amp; COMBAT --- */
+    &lt;&lt;set $Asc_Prof_FamilyPerk        = "Resourceful++"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_BattleQuirk       = "N/A"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Loves             = "Theoretical &amp; Financial Intellect, Clean Data, Zero Effort"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Hook              = "Speaks slowly and deliberately, relying on his reputation. Will only move if his plans are physically threatened."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Weapon            = "Cunning Sphere"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Attack_Name       = "The Chill Clause"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Attack_Desc       = "Using minimal force, he thrusts the heavy rulebook into the opponent's torso or throat, relying on the weight to crush or pin them to the ground."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Attack_Type       = "All Types"&gt;&gt;
+    
+    /* --- NARRATIVE BLOCKS --- */
+    &lt;&lt;set $Asc_Prof_Orig_1            = '"The truly brilliant man never has to lift a finger. He simply designs the system that does the work for him."
+- Kevin'&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_2            = 'SGP Executive.
+His depression after the divorce led him to a cynical Sloth persona.
+The entire SGP firm is laxing on responsibilities and procedures because Kevin’s apathetic leadership has created a culture of zero accountability.
+Elder son of William.'&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_3            = 'Driven by Sloth;
+views effort as a weakness. His power is purely intellectual and systematic.
+His exhaustion prevents him from noticing the security holes and rising non-compliance.'&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_4            = 'Kevin controls a network of analysts, auditors, and IT specialists, running his scams entirely through bureaucracy and digital manipulation.'&gt;&gt;
+    
+    /* --- PSYCHOLOGICAL PROFILE --- */
+    &lt;&lt;set $Asc_Prof_Fear_1            = "Chaos: Unpredictable violence."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Fear_2            = "Physicality: Being forced into exertion."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Fear_3            = "Internal Exposure: That Dan’s strict, ethical network will expose the deep, systemic rot in SGP caused by his Sloth."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_1        = "Retirement: Disappearing to a private island."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2        = "The Perfect System: A fraud that can never be audited."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_3        = "Total Control: Running SGP from the shadows."&gt;&gt;
+    
+    /* --- FAMILY DYNAMICS --- */
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails  = "N/A"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "N/A"&gt;&gt;
+
+    /* --- RELATIONSHIP WEB (10 Slots) --- */
+    &lt;&lt;set $Asc_Prof_Rel_Person_1      = "Quinton J"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_1 = "The Informant. Provides intelligence."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_2      = "Milan P"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_2 = "The Chef. Provides safe haven for illicit financial envelopes."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_3      = "Max S"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_3 = "The Analyst. Kevin holds his identity."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_4      = "Andrew B"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_4 = "The Auditor. Kevin’s unknowing asset who validates his fraud structure."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_5      = "Brock C"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_5 = "The Signature. Kevin controls his debt."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_6      = "Ramon N"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_6 = "The Systems Admin. Irreplaceable hacker who covers digital tracks."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_7      = "Alex L"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_7 = "The Rival. Amuses Kevin with his ambition."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_8      = "Danny S"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_8 = "The Security Manager. Provides physical protection and asset recovery."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_9      = ""&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_9 = ''&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_10     = ""&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_10 = ''&gt;&gt;
+    /* --- EXTERNAL FIGURES (3 Slots) --- */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1      = "Kate (Ex-Wife)"&gt;&gt;&lt;&lt;set $Asc_Prof_Ext_Description_1 = "The Emotional Trigger. He still watches her."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_2      = "Victoria"&gt;&gt;&lt;&lt;set $Asc_Prof_Ext_Description_2 = "The Auditor. An external asset who manages his legal risk."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3      = "Federal Investigator"&gt;&gt;&lt;&lt;set $Asc_Prof_Ext_Description_3 = "Kevin is aware of his progress."&gt;&gt;
+
+&lt;&lt;case "grand"&gt;&gt;
+    /* --- CORE IDENTITY --- */
+    &lt;&lt;set $Asc_Prof_Alias             = "Protagonist's Grandfather"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Network           = "William"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Obj               = "Asc_William"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FirstName         = "William"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_LastName          = "Doe"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Cardinal          = "Opulence"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Vice              = "Gluttony"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Archetype         = "The Fortress"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Role              = "Ranch Owner / Land Baron"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_HiddenRoles       = "The Patriarch / The Gatekeeper"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_VisualSignature   = "Heavy tweed, belt often unbuckled (Gluttony focus), always holds a cane or riding crop."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Age               = 61&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Occupation        = "Land Baron"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_JobVenue          = "Farm"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_JobLevel          = 10&gt;&gt;
+    &lt;&lt;set $Asc_Prof_JobSchedStart     = 9&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole        = "grand"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder   = 3&gt;&gt;
+
+    /* --- NETWORK CONTEXT --- */
+    &lt;&lt;set $Asc_Prof_Color             = "Orange"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Theme             = "Old Money &amp; Excess"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_HQ                = "Grandpa's Farm"&gt;&gt;
+
+    /* --- PHYSICAL &amp; LOCATION FIELDS --- */
+    &lt;&lt;set $Asc_Prof_Race              = "White"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Height            = 73&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Weight            = 240&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Feet              = 12&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Band              = 10.0&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Residence         = "Country Ville"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_SubResidence      = "Grandpa's House"&gt;&gt;
+    
+    /* --- PARTNER DATA --- */
+    &lt;&lt;set $Asc_Prof_PartnerName       = "Elizabeth"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_PartnerJobLevel   = 10&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc      = "**Partner:** Elizabeth (Wife). **Deceased.** Was the original heart of the family; her passing shattered William."&gt;&gt;
+    /* --- MECHANICS &amp; COMBAT --- */
+    &lt;&lt;set $Asc_Prof_FamilyPerk        = "Curated++"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_BattleQuirk       = "N/A"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Loves             = "Preserving the land, Heirloom recipes, Family lineage"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Hook              = "Only talks about duty or the land's health. Distrusts technology and urban ideals."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Weapon            = "Opulence Sphere"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Attack_Name       = "The Landslide Charge"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Attack_Desc       = "A heavy, unstoppable, momentum-driven waddle/charge that overwhelms the opponent, using the massive silver tureen as a battering helmet."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Attack_Type       = "All Types"&gt;&gt;
+    
+    /* --- NARRATIVE BLOCKS --- */
+    &lt;&lt;set $Asc_Prof_Orig_1            = '"My purpose is not to merely *own* this land, but to make sure it outlives the reckless ambition of the City."
+- William'&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_2            = 'Ranch Owner who controls his vast domain.
+Driven by Gluttony (a relentless need to acquire and preserve).
+The local xenophobia means he must keep their vast resources and land strictly insulated from the city\'s control.
+Widower of Elizabeth.'&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_3            = 'Views his sons, Kevin and Sebastian, as failures for abandoning the heritage.
+His great fear is scarcity and the destruction of his land.
+His Opulence ensures the resources of the farms—his Gluttonous acquisition—remain exclusive to the area.'&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_4            = 'William will leverage every political favor and legal maneuver—his Opulence—to ensure that not one inch of his territory falls to the greedy hands of Rick and his city developers.'&gt;&gt;
+    
+    /* --- PSYCHOLOGICAL PROFILE --- */
+    &lt;&lt;set $Asc_Prof_Fear_1            = "Asset Loss: That Rick's development scheme will succeed."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Fear_2            = "Legacy Failure: That none of his grandchildren will embody his rigid values."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Fear_3            = "Urban Penetration: That Rick's developers will successfully annex a critical parcel of land."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_1        = "Perpetuity: To legally protect the land for ten generations."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2        = "Total Dominance: To acquire the last few contested parcels of land."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_3        = "A Worthy Heir: To find a family member who will uphold his legacy."&gt;&gt;
+    
+    /* --- FAMILY DYNAMICS --- */
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails  = "N/A"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "N/A"&gt;&gt;
+
+    /* --- RELATIONSHIP WEB (10 Slots) --- */
+    &lt;&lt;set $Asc_Prof_Rel_Person_1      = "Jay P"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_1 = "The Land Merchant. William's chief contact to the outside."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_2      = "Colton C"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_2 = "The Cook. Provides supply and local gossip."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_3      = "Tommy P"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_3 = "The Reserved Bartender. Passive informant at the local pub."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_4      = "Ridge C"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_4 = "The Sheriff. Provides physical defense/law enforcement."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_5      = "Jason S"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_5 = "The Commander. William's right-hand confidant."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_6      = "Juan L"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_6 = "The Agricultural Lead. Manages crop quality and rural logistics."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_7      = "Adam L"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_7 = "The Cattle Lead. Manages ranch stability and livestock."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_8      = "Jmac"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_8 = "The Town Vet. Handles chemical supply and rural intel."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_9      = ""&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_9 = ''&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_10     = ""&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_10 = ''&gt;&gt;
+    /* --- EXTERNAL FIGURES (3 Slots) --- */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1      = "Elizabeth"&gt;&gt;&lt;&lt;set $Asc_Prof_Ext_Description_1 = "The Deceased. The emotional core."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_2      = "Rick (Rival)"&gt;&gt;&lt;&lt;set $Asc_Prof_Ext_Description_2 = "The developer trying to acquire his land."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3      = "William's Lawyer"&gt;&gt;&lt;&lt;set $Asc_Prof_Ext_Description_3 = "Handles his complex land deeds."&gt;&gt;
+
+&lt;&lt;case "uncle"&gt;&gt;
+    /* --- CORE IDENTITY --- */
+    &lt;&lt;set $Asc_Prof_Alias             = "Protagonist's Uncle"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Network           = "Sebastian"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Obj               = "Asc_Sebastian"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FirstName         = "Sebastian"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_LastName          = "Doe"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Cardinal          = "Glamour"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Vice              = "Lust"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Archetype         = "The Curator"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Role              = "CEO of Men's Style Journal / Mercenary Kingpin"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_HiddenRoles       = "The Perfectionist / The Puppet Master"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_VisualSignature   = "Avant-garde clothing, perfectly sculpted hair, moves with theatrical grace."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Age               = 35&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Occupation        = "CEO of MSJ"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_JobVenue          = "Iron Syndicate"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_JobLevel          = 8&gt;&gt;
+    &lt;&lt;set $Asc_Prof_JobSchedStart     = 14&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole        = "uncle"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder   = 4&gt;&gt;
+
+    /* --- NETWORK CONTEXT --- */
+    &lt;&lt;set $Asc_Prof_Color             = "Violet"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Theme             = "Nightlife &amp; Vice"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_HQ                = "Iron Syndicate"&gt;&gt;
+
+    /* --- PHYSICAL &amp; LOCATION FIELDS --- */
+    &lt;&lt;set $Asc_Prof_Race              = "White"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Height            = 71&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Weight            = 175&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Feet              = 10&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Band              = 7.0&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Residence         = "NW District"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_SubResidence      = "Uncle Sebastian House"&gt;&gt;
+    
+    /* --- PARTNER DATA --- */
+    &lt;&lt;set $Asc_Prof_PartnerName       = "Inconsistent"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_PartnerJobLevel   = 7&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc      = "**Partner:** Status is fluid (**Lust**). Married 3 times, currently divorced; the current partner is always a high-status woman used to project his image."&gt;&gt;
+    /* --- MECHANICS &amp; COMBAT --- */
+    &lt;&lt;set $Asc_Prof_FamilyPerk        = "Alluring++"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_BattleQuirk       = "N/A"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Loves             = "Aesthetics, Performance Art, High-Risk Thrills"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Hook              = "Speaks only in dramatic pronouncements. Will only trade or deal if the transaction is aesthetically pleasing."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Weapon            = "Glamour Sphere"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Attack_Name       = "The Shadow Curator"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Attack_Desc       = "A theatrical leap followed by a graceful, spinning aerial attack, creating a cloud of light and slashing danger as he descends."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Attack_Type       = "All Types"&gt;&gt;
+    
+    /* --- NARRATIVE BLOCKS --- */
+    &lt;&lt;set $Asc_Prof_Orig_1            = '"Life is a performance, and I am the only director who can truly appreciate its beautiful cruelty."
+- Sebastian'&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_2            = 'Owner of Men\'s Style Journal (MSJ).
+Driven by Lust for admiration and the aesthetic destruction of anything common. Younger son of William.'&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_3            = 'He tests his subordinates by engineering scenarios that force them to choose between their personal relationships/morals and financial loyalty to him. This is his definition of "worth".'&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_4            = 'Sebastian ensures the instability: associates are routinely hired, tested, and sometimes fired/disappeared if they fail his personal moral/loyalty tests.'&gt;&gt;
+    
+    /* --- PSYCHOLOGICAL PROFILE --- */
+    &lt;&lt;set $Asc_Prof_Fear_1            = "Mediocrity: Being forgotten."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Fear_2            = "Exposure: Financial fraud being revealed."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Fear_3            = "Loyalty Failure: That his subordinates will choose their emotional/moral ties over the mercenary code, leading to his exposure."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_1        = "The Gallery: Making the whole city his living exhibit."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2        = "Freedom: Successfully laundering a final fund and cutting all ties."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_3        = "The Legacy: Leaving nothing behind but a legend."&gt;&gt;
+    
+    /* --- FAMILY DYNAMICS --- */
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails  = "N/A"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "N/A"&gt;&gt;
+
+    /* --- RELATIONSHIP WEB (10 Slots) --- */
+    &lt;&lt;set $Asc_Prof_Rel_Person_1      = "Cyrus K"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_1 = 'The Quartermaster.
+Cyrus is the strategic brain behind the operation.'&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_2      = "London F"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_2 = 'The Swordsman.
+Hidden sentry and combat trainer.'&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_3      = "Ray R"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_3 = 'The Night Watchman.
+Passive informant and meeting hub.'&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_4      = "Danny M"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_4 = 'The Mimic.
+Elite bodyguard and surveillance expert.'&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_5      = "Max C"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_5 = 'The Theatrical General.
+Field commander and extraction leader.'&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_6      = "GI J"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_6 = 'The Veteran.
+Emotionally apathetic physical extraction expert.'&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_7      = "Parker S"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_7 = 'The Hacker.
+Digital smoke screen and comms specialist.'&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_8      = "Thor J"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_8 = 'The Breacher.
+Grumbling demolitions expert.'&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_9      = ""&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_9 = ''&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_10     = ""&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_10 = ''&gt;&gt;
+    /* --- EXTERNAL FIGURES (3 Slots) --- */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1      = "Kate (Sister-in-law)"&gt;&gt;&lt;&lt;set $Asc_Prof_Ext_Description_1 = "He views her as Kevin's baggage."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_2      = "Art Critic"&gt;&gt;&lt;&lt;set $Asc_Prof_Ext_Description_2 = "Sebastian manipulates his reviews."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3      = "Rival Artist"&gt;&gt;&lt;&lt;set $Asc_Prof_Ext_Description_3 = "Sebastian has ruined his career."&gt;&gt;
+
+&lt;&lt;case "dan"&gt;&gt;
+    /* --- CORE IDENTITY --- */
+    &lt;&lt;set $Asc_Prof_Alias             = "Protagonist's Step Father"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Network           = "Dan"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Obj               = "Asc_Dan_Smith"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FirstName         = "Dan"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_LastName          = "Smith"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Cardinal          = "Prominence"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Vice              = "Pride"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Archetype         = "The Ethical Hacker"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Role              = "CEO of Digital Dynamo / Boss"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_HiddenRoles       = "The Authority / The Gatekeeper"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_VisualSignature   = "Impeccably tailored power suit, silver hair, heavy jewelry, constant, forced smile of superiority."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Age               = 42&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Occupation        = "Digital Dynamo CEO"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_JobVenue          = "Digital Dynamo"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_JobLevel          = 10&gt;&gt;
+    &lt;&lt;set $Asc_Prof_JobSchedStart     = 9&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole        = "dan"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder   = 5&gt;&gt;
+
+    /* --- NETWORK CONTEXT --- */
+    &lt;&lt;set $Asc_Prof_Color             = "Indigo"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Theme             = "Tech &amp; Surveillance"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_HQ                = "Digital Dynamo"&gt;&gt;
+
+    /* --- PHYSICAL &amp; LOCATION FIELDS --- */
+    &lt;&lt;set $Asc_Prof_Race              = "White"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Height            = 75&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Weight            = 220&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Feet              = 12&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Band              = 9.5&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Residence         = "SW District"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_SubResidence      = "Mom and Dan"&gt;&gt;
+
+    /* --- PARTNER DATA --- */
+    &lt;&lt;set $Asc_Prof_PartnerName       = "Kate (Wife)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_PartnerJobLevel   = 10&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc      = "**Partner:** Kate (Wife). She married Dan after leaving Kevin due to his corruption, trading financial insecurity for psychological stability."&gt;&gt;
+    /* --- MECHANICS &amp; COMBAT --- */
+    &lt;&lt;set $Asc_Prof_FamilyPerk        = "Dedicated++"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_BattleQuirk       = "N/A"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Loves             = "Technical &amp; Logical Intellect, System Design, Legacy"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Hook              = "Treats every conversation like a negotiation he has already won. Insists on being addressed by his title."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Weapon            = "Prominence Sphere"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Attack_Name       = "The Power Surge"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Attack_Desc       = "An overwhelming, momentum-fueled forward charge, smashing the marble gavel down with the full weight of his authority."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Attack_Type       = "All Types"&gt;&gt;
+    
+    /* --- NARRATIVE BLOCKS --- */
+    &lt;&lt;set $Asc_Prof_Orig_1            = '"My word is law. My family built this city, and it will remain ours until the last brick falls."
+- Dan'&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_2            = 'CEO of Digital Dynamo (Tech Conglomerate).
+Driven by absolute Pride in his legacy. His network is currently strained because his team of elite, proud specialists take any peer review or failure personally.
+Lost his first wife (mother of Nick/Rick) when the twins were five.'&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_3            = 'His power is derived from status.
+The stubborn pride of his elite employees creates constant, internal friction, turning small technical errors into personal battles that undermine Dan\'s authority.
+Views all rivals as beneath him.'&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_4            = 'Dan\'s network is focused on total control: surveillance (Richard), planning (Sam), enforcement (Brick), and PR (Tommy).'&gt;&gt;
+    
+    /* --- PSYCHOLOGICAL PROFILE --- */
+    &lt;&lt;set $Asc_Prof_Fear_1            = "Humiliation: Publicly failing."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Fear_2            = "Anarchy: Losing structural control."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Fear_3            = "Peer Insubordination: That the proud, rebellious nature of his elite staff will lead to outright collapse of the command structure."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_1        = "The Monopoly: Owning every service contract."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2        = "Protecting Kate: Shielding her from Kevin’s influence."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_3        = "The Dynasty: Ensuring his name endures a century."&gt;&gt;
+    
+    /* --- FAMILY DYNAMICS --- */
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails  = "N/A"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "N/A"&gt;&gt;
+
+    /* --- RELATIONSHIP WEB (10 Slots) --- */
+    &lt;&lt;set $Asc_Prof_Rel_Person_1      = "Richard G"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_1 = "The Hacker. Builds his surveillance tech."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_2      = "Tommy W"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_2 = "The Propagandist. Shapes public opinion and targets rivals with slander."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_3      = "Ryan D"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_3 = "The DJ. Provides real-time information from the nightlife scene."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_4      = "Oliver F"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_4 = "The Code Auditor. Corporate spy reporting on Sebastian's network."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_5      = "Codey S"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_5 = "The Manager. Keeps his operations timely."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_6      = "Brick D"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_6 = "The Destructor. Handles physical barriers and enforcement."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_7      = "Dan D"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_7 = "The Nephew. His puppet and reckless proxy."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_8      = "Sam S"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_8 = "The Architect. The key to his infrastructure."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_9      = ""&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_9 = ''&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_10     = ""&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_10 = ''&gt;&gt;
+    /* --- EXTERNAL FIGURES (3 Slots) --- */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1      = "Kate"&gt;&gt;&lt;&lt;set $Asc_Prof_Ext_Description_1 = "The Wife. His emotional anchor."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_2      = "Nick &amp; Rick"&gt;&gt;&lt;&lt;set $Asc_Prof_Ext_Description_2 = "Sons. He struggles to contain their ambition."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3      = "The Mayor"&gt;&gt;&lt;&lt;set $Asc_Prof_Ext_Description_3 = "Owes Dan a massive debt."&gt;&gt;
+
+&lt;&lt;case "nick"&gt;&gt;
+    /* --- CORE IDENTITY --- */
+    &lt;&lt;set $Asc_Prof_Alias             = "Protagonist's Step Brother (Nick)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Network           = "Nick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Obj               = "Asc_Nick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FirstName         = "Nick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_LastName          = "Smith"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Cardinal          = "Imperium"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Vice              = "Anger"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Archetype         = "The Warlord"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Role              = "Senior Fraternity Faction Boss / Varsity Football Player"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_HiddenRoles       = "The Kingpin / The Turf Tyrant"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_VisualSignature   = "Athletic build, signature red letterman jacket, perpetual scowl, fists always tight."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Age               = 21&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Occupation        = "Fraternity Boss"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_JobVenue          = "Fraternity House"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_JobLevel          = 8&gt;&gt;
+    &lt;&lt;set $Asc_Prof_JobSchedStart     = 9&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole        = "nick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder   = 6&gt;&gt;
+
+    /* --- NETWORK CONTEXT --- */
+    &lt;&lt;set $Asc_Prof_Color             = "Red"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Theme             = "Physical Dominance"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_HQ                = "Fraternity House"&gt;&gt;
+
+    /* --- PHYSICAL &amp; LOCATION FIELDS --- */
+    &lt;&lt;set $Asc_Prof_Race              = "White"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Height            = 74&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Weight            = 215&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Feet              = 11.5&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Band              = 9.0&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Residence         = "SW District"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_SubResidence      = "Mom and Dan"&gt;&gt;
+
+    /* --- PARTNER DATA --- */
+    &lt;&lt;set $Asc_Prof_PartnerName       = "Tiffany"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_PartnerJobLevel   = 8&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc      = "**Partner:** Tiffany (Girlfriend). **Sorority President** (Level 8). She shares his hunger for absolute social and territorial control."&gt;&gt;
+    /* --- MECHANICS &amp; COMBAT --- */
+    &lt;&lt;set $Asc_Prof_FamilyPerk        = "Intimidating++"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_BattleQuirk       = "N/A"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Loves             = "Violence, Loyalty, Total Submission"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Hook              = "Speaks only in commands or threats. Will stop if shown an unexpected sign of total submission."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Weapon            = "Imperium Sphere"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Attack_Name       = "The Napalm Reckoning"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Attack_Desc       = "A wild, high-speed charge followed by a jumping, overhead smash with the reinforced stick, designed to crush the opponent's will."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Attack_Type       = "All Types"&gt;&gt;
+    
+    /* --- NARRATIVE BLOCKS --- */
+    &lt;&lt;set $Asc_Prof_Orig_1            = '"My turf. My rules. Anyone who steps out of line gets a hard lesson in loyalty."
+- Nick'&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_2            = 'Fraternity Faction Boss.
+Driven by unquenchable Anger and a lust for Imperium (absolute control).
+His core challenge is defending his turf against the established and aggressive rival gang that operates out of the local park.
+He views the official Fraternity Leader, Karter H, as a political puppet he controls.'&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_3            = 'He views weakness as the ultimate betrayal.
+The constant need to assert Imperium is fueled by the ongoing, messy frat wars over the neutral territory of the local park.'&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_4            = 'Nick is the volatile **contact point** for his network, channeling the network\'s aggression and territorial Imperium toward the Protagonist.
+His associates, like Zack D and Luke C, manage the physical control, keeping Nick\'s hands relatively clean.'&gt;&gt;
+    
+    /* --- PSYCHOLOGICAL PROFILE --- */
+    &lt;&lt;set $Asc_Prof_Fear_1            = "Weakness: Being seen as emotional."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Fear_2            = "Karter H: Karter H unexpectedly exerting real authority and challenging his criminal command structure."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Fear_3            = "Turf Loss: That the Park Gang will successfully claim the disputed neutral zone, destroying Nick’s credibility."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_1        = "Total Fraternity Takeover: Unify the AΦT under a single, iron-fisted leadership."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2        = "Secure Imperium: Ascend to a position of power in the city where his commands cannot be questioned."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_3        = "The Perfect Feat: A feat of dominance that permanently silences Milo and Karter."&gt;&gt;
+    
+    /* --- FAMILY DYNAMICS --- */
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails  = "N/A"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "N/A"&gt;&gt;
+
+    /* --- RELATIONSHIP WEB (10 Slots) --- */
+    &lt;&lt;set $Asc_Prof_Rel_Person_1      = "Logan X"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_1 = "The Blackmailer. Provides Nick with leverage."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_2      = "Josh R"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_2 = "The Chef. Nick holds his debt and feeds him."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_3      = "Kyle M"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_3 = "The Disillusioned. Veiled observer and informant."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_4      = "Luke C"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_4 = "The Enforcer. Nick's loyal soldier."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_5      = "Zack D"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_5 = "The Prince/Next-in-Line. Nick grooms him for power."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_6      = "Chase A"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_6 = "The Chemical Alchemist. Emotional synthesis expert and supplier."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_7      = "Johnny L"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_7 = "The Spokesperson. Image and PR Manager."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_8      = "Ryan L"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_8 = "The Prankster. Disruption and chaos asset."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_9      = ""&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_9 = ''&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_10     = ""&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_10 = ''&gt;&gt;
+    /* --- EXTERNAL FIGURES (3 Slots) --- */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1      = "Tiffany"&gt;&gt;&lt;&lt;set $Asc_Prof_Ext_Description_1 = "The Partner. Sorority President."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_2      = "Dan (Father)"&gt;&gt;&lt;&lt;set $Asc_Prof_Ext_Description_2 = "His father, whose ethics he rejects."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3      = "Dean of Students"&gt;&gt;&lt;&lt;set $Asc_Prof_Ext_Description_3 = "Nick regularly intimidates him."&gt;&gt;
+
+&lt;&lt;case "rick"&gt;&gt;
+    /* --- CORE IDENTITY --- */
+    &lt;&lt;set $Asc_Prof_Alias             = "Protagonist's Step Brother (Rick)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Network           = "Rick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Obj               = "Asc_Rick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FirstName         = "Rick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_LastName          = "Smith"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Cardinal          = "Affluence"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Vice              = "Greed"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Archetype         = "The Speculator"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Role              = "College Senate Candidate / Arts Patron"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_HiddenRoles       = "The Investor / The Risk Taker"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_VisualSignature   = "Cashmere sweater, always checking the market on a high-end tablet, perpetually restless energy."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Age               = 21&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Occupation        = "Senate Candidate"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_JobVenue          = "Unity College"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_JobLevel          = 9&gt;&gt;
+    &lt;&lt;set $Asc_Prof_JobSchedStart     = 9&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole        = "rick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder   = 7&gt;&gt;
+
+    /* --- NETWORK CONTEXT --- */
+    &lt;&lt;set $Asc_Prof_Color             = "Green"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Theme             = "High Finance &amp; Theft"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_HQ                = "Unity College"&gt;&gt;
+
+    /* --- PHYSICAL &amp; LOCATION FIELDS --- */
+    &lt;&lt;set $Asc_Prof_Race              = "White"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Height            = 72&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Weight            = 170&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Feet              = 10.5&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Band              = 8.5&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Residence         = "SW District"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_SubResidence      = "Mom and Dan"&gt;&gt;
+
+    /* --- PARTNER DATA --- */
+    &lt;&lt;set $Asc_Prof_PartnerName       = "Dana H"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_PartnerJobLevel   = 9&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc      = "**Partner:** Dana H (Wife). **Art Curator** (Level 9). She manages his vast collection of assets and ensures his displays of wealth are tasteful."&gt;&gt;
+    /* --- MECHANICS &amp; COMBAT --- */
+    &lt;&lt;set $Asc_Prof_FamilyPerk        = "Gilded++"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_BattleQuirk       = "N/A"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Loves             = "Market Tickers, Rare Metals, Risk Calculation"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Hook              = "Only talks about money/ROI. Will gamble high-value information on a coin toss. Highly focused on physical assets."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Weapon            = "Affluence Sphere"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Attack_Name       = "The Liquid Asset"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Attack_Desc       = "A reckless, sweeping strike designed to smash the opponent's leverage or foundation, delivered with the heavy barbell."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Attack_Type       = "All Types"&gt;&gt;
+    
+    /* --- NARRATIVE BLOCKS --- */
+    &lt;&lt;set $Asc_Prof_Orig_1            = '"The only thing that matters is the bottom line. If you can\'t buy it, it has no value."
+- Rick'&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_2            = 'Driven by unending Greed for Affluence.
+The network\'s current challenge is desperately seeking more funds because their financial reserves are dangerously low due to corruption and an extravagant lifestyle.
+Fraternal twin of Nick.'&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_3            = 'Money is his only defense.
+His need to maintain the high-end socialite image conflicts with his financial reality, forcing him to pressure his Unity College contacts (Filthy R) for ever-larger, more risky embezzlements.'&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_4            = 'Rick acts as the extravagant **contact point** for his network, representing the Affluence.
+His associates handle all acquisitions and financial schemes, ensuring Rick only interfaces with the Protagonist to direct resources and discuss high-level greed.'&gt;&gt;
+    
+    /* --- PSYCHOLOGICAL PROFILE --- */
+    &lt;&lt;set $Asc_Prof_Fear_1            = "Deflation: Market collapse."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Fear_2            = "The Poor: People without assets."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Fear_3            = "Reserve Collapse: That Filthy R will be caught, destroying their reserve funds and exposing their lavish facade as a fraud."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_1        = "Total Affluence: Acquiring enough wealth and social capital to secure a position where his status is unassailable."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2        = "Land Development: To acquire William's land, achieving a final victory over the old guard."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_3        = "The Perfect Campaign: Winning the College Senate seat and launching a national political career."&gt;&gt;
+    
+    /* --- FAMILY DYNAMICS --- */
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails  = "N/A"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "N/A"&gt;&gt;
+
+    /* --- RELATIONSHIP WEB (10 Slots) --- */
+    &lt;&lt;set $Asc_Prof_Rel_Person_1      = "Peter K"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_1 = "The Broker. Handles all his real estate deals."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_2      = "Eddie D"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_2 = "The Chef. Controls party logistics and catering."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_3      = "Criss S"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_3 = "The Principal. Provides political favors and campus protection."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_4      = "Filthy R"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_4 = "The Auditor. Keeps his books clean."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_5      = "Kai J"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_5 = "The Icon. His public face and magnet for 'Whales.'"&gt;&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_6      = "Matty I"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_6 = "The Chemist. Provides supply chain integrity."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_7      = "Jodie J"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_7 = "The Artist. Falsifies land deeds and documents."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_8      = "Apollo B"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_8 = "The Grower. Sources 'organic' poisons and herbs."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_9      = ""&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_9 = ''&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_10     = ""&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_10 = ''&gt;&gt;
+    /* --- EXTERNAL FIGURES (3 Slots) --- */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1      = "Dana H"&gt;&gt;&lt;&lt;set $Asc_Prof_Ext_Description_1 = "The Partner. Manages his wealth display."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_2      = "William (Rival)"&gt;&gt;&lt;&lt;set $Asc_Prof_Ext_Description_2 = "The Grandfather whose land he covets."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3      = "SEC Investigator"&gt;&gt;&lt;&lt;set $Asc_Prof_Ext_Description_3 = "Rick is actively trying to bribe him."&gt;&gt;
+
+&lt;&lt;case "mom"&gt;&gt;
+    /* --- CORE IDENTITY --- */
+    &lt;&lt;set $Asc_Prof_Alias             = "Protagonist's Mother"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Network           = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Obj               = "Asc_Kate"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FirstName         = "Kate"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_LastName          = "Smith"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Cardinal          = "Empathy"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Vice              = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Archetype         = "The Emotional Anchor"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Role              = "Wife / Peacemaker / Domestic Manager"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_HiddenRoles       = "The Mediator / The Final Judge"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_VisualSignature   = "Warm, focused, often managing phone calls and domestic logistics simultaneously."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Age               = 40&gt;&gt;
+    /* Estimated */
+    &lt;&lt;set $Asc_Prof_Occupation        = "Domestic Manager"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_JobVenue          = "Home"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_JobLevel          = 5&gt;&gt;
+    &lt;&lt;set $Asc_Prof_JobSchedStart     = 0&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole        = "mom"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder   = 8&gt;&gt;
+
+    /* --- NETWORK CONTEXT --- */
+    &lt;&lt;set $Asc_Prof_Color             = "White"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Theme             = "Domestic Peace"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_HQ                = "Family Home"&gt;&gt;
+
+    /* --- PHYSICAL &amp; LOCATION FIELDS --- */
+    &lt;&lt;set $Asc_Prof_Race              = "White"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Height            = 66&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Weight            = 130&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Feet              = 7&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Band              = 6.0&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Residence         = "SW District"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_SubResidence      = "Mom and Dan"&gt;&gt;
+
+    /* --- PARTNER DATA --- */
+    &lt;&lt;set $Asc_Prof_PartnerName       = "Dan"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_PartnerJobLevel   = 10&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc      = "**Partner:** Dan (Husband). She married Dan after leaving Kevin due to his corruption, trading financial insecurity for psychological stability."&gt;&gt;
+    /* --- MECHANICS &amp; COMBAT --- */
+    &lt;&lt;set $Asc_Prof_FamilyPerk        = "Empathy++"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_BattleQuirk       = "N/A"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Loves             = "Stability, Family Health, Ethical Hope"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Hook              = "Maintains contact with all family members, often mediating their feuds. Her presence forces all conflict to become polite and contained."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Weapon            = "Empathy Sphere"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Attack_Name       = "The Healing Light"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Attack_Desc       = "A quick, precise strike that targets emotional weak spots, delivered with the heated tongs (symbolizing the heat of domestic conflict)."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Attack_Type       = "All Types"&gt;&gt;
+    
+    /* --- NARRATIVE BLOCKS --- */
+    &lt;&lt;set $Asc_Prof_Orig_1            = '"I know you are smart, but are you wise? Wisdom is knowing when to stop the fight."
+- Kate'&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_2            = 'Your mother.
+Formerly married to Kevin, she divorced him due to his growing corruption. She married Dan just under two years ago.
+She is the non-affiliated peacekeeper, deeply aware of the conflicts between her children and step-children.'&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_3            = 'Kate’s decision to leave Kevin was a choice driven by survival, trading high-stakes financial insecurity for stability.
+She remains the final emotional bridge between the blended family factions, maintaining contact with Kevin to monitor his state.'&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_4            = 'Kate is the emotional anchor, maintaining contact with key members across all family factions.
+Talking with Kate increases the Protagonist\'s Craftsmanship (Cooking) stat.'&gt;&gt;
+    
+    /* --- PSYCHOLOGICAL PROFILE --- */
+    &lt;&lt;set $Asc_Prof_Fear_1            = "Relapse: Kevin's corruption or depression pulling her back in."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Fear_2            = "Family Collapse: The rivalries between Nick/Rick and Milo destroying her marriage to Dan."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Fear_3            = "Loss of Integrity: Being forced to choose a side between the ethical Dan and the ruthless Kevin."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_1        = "Peace: Achieving permanent, domestic tranquility."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2        = "Stability: Ensuring Milo is safe and grounded."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_3        = "Mending: Healing the rift between her sons and Dan."&gt;&gt;
+    
+    /* --- FAMILY DYNAMICS --- */
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails  = "N/A"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "N/A"&gt;&gt;
+
+    /* --- RELATIONSHIP WEB (10 Slots) --- */
+    &lt;&lt;set $Asc_Prof_Rel_Person_1      = "Kevin"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_1 = "Ex-Husband. Maintains contact to monitor his state."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_2      = "Dan"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_2 = "Husband. Her source of stability and ethical hope."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_3      = "Milo"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_3 = "Son. Her primary emotional focus."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_4      = "Nick"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_4 = "Step-Son. Manages his aggression through careful mediation."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_5      = "Rick"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_5 = "Step-Son. Manages his entitlement through careful mediation."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_6      = "William"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_6 = "Ex-Father-in-law. Her connection to her past and the traditions of the land."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_7      = "Sebastian"&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_7 = "Brother. Minimal contact due to his reckless glamour."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_8      = ""&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_8 = ''&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_9      = ""&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_9 = ''&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Rel_Person_10     = ""&gt;&gt;&lt;&lt;set $Asc_Prof_Rel_Description_10 = ''&gt;&gt;
+    /* --- EXTERNAL FIGURES (3 Slots) --- */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1      = "Luna (Rodnar's Wife)"&gt;&gt;&lt;&lt;set $Asc_Prof_Ext_Description_1 = "The confidant. Kate uses Luna to gauge the administrative climate at Lewor."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_2      = ""&gt;&gt;&lt;&lt;set $Asc_Prof_Ext_Description_2 = ''&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3      = ""&gt;&gt;&lt;&lt;set $Asc_Prof_Ext_Description_3 = ''&gt;&gt;
+
+ 
