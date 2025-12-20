@@ -1,0 +1,2265 @@
+&lt;&lt;switch $args[0]&gt;&gt;
+
+/* ========================================================== */
+/* MILO'S NETWORK (Eloquence / Envy)                          */
+/* ========================================================== */
+
+&lt;&lt;case "Tony M"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Milo"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "sibling"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 1&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Always impeccably dressed, looks perpetually 30 due to extreme wellness focus. Carries an aura of calm that seems synthetic."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Dakota Quinn is his opposite: wild, reckless, and open to anything, serving as his chaotic emotional release."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Loves = "dogs, wellness focus, synthetic calm"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The moment Tony's manufactured calm cracks, revealing the underlying envy and insecurity."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "Tony was a failed med-student who realized the money was in selling hope (vitamins, supplements, anti-aging)."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He found success by catering exclusively to the wealthy elite who fear aging."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He uses his skills to craft specialized wellness plans for Milo's circle, making them addicted to his 'cures'."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_4 = ""&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Aging (views wrinkles as a sign of failure)."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Exposure (fears his supplements are traced back to the black market)."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Fear_3 = "Physical weakness."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Become the wellness guru to a Senator."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Develop an immortality serum."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Open a chain of exclusive clinics."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Dr. Simon West"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Rival Doctor. Compete over wealthy elderly patients."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = "Mayor Thompson"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = "Client. Provides the Mayor with youth supplements."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Consultant)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Milo, stressed from the Principal and students, relies on Tony for stress-management formulas and advice on 'spiritual alignment'."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Oracle)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Tony speaks in vague parables; Milo translates them into actionable strategy. Tony respects Milo for keeping the market busy, but secretly envies Milo's genuine youth."&gt;&gt;
+
+&lt;&lt;case "Justin S"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Milo"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "sibling"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 1&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Clean chef whites. Obsessed with sanitation, his kitchen is spotless. He views food presentation as a moral imperative."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Sasha Tatcha is a hyper-critical art student who judges everyone and everything, encouraging Justin's judgmental nature."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Loves = "Fine dining, sanitation, cooking"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The quiet moment when he admits his real passion is fine dining, not feeding cafeteria slop."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "Former Michelin-star chef who sabotaged his restaurant when an investor demanded he 'dumb down' the menu."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_2 = "Now manages the university cafeteria, maintaining a small 'secret menu' for those who appreciate true quality."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He uses his control of food supply to control nutritional supplements and drug delivery for Milo."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_4 = ""&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Mediocrity (fears having to serve 'slop')."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Food poisoning/cross-contamination."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Fear_3 = "A hostile takeover of his kitchen."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Open a new, hyper-exclusive restaurant."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Publish a culinary manifesto."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Achieve a perfect health inspection score (impossible in the university)."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Chef Antoine"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Former rival/peer chef who now works under Justin."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = "Chef Bobby Flay"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = "Chef whose career Justin follows obsessively."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Nutrition)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Justin runs the nutrition program for Milo's athletes and the college at large."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Standard)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Milo appreciates the quality but constantly fights Justin on food costs. Justin refuses to serve 'slop,' viewing every meal as a battle for dignity."&gt;&gt;
+
+&lt;&lt;case "Rodnar R"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Milo"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "sibling"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 1&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "A towering figure. Clean-cut, wearing perfectly pressed suits. He carries an intimidating air of academic authority."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Luna Luxe is his complete obsession; she represents the youthful popularity he never had, which he constantly tries to buy for her."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Loves = "studying, studying, studying"&gt;&gt; &lt;!-- Preserving existing data, fulfilling 3 slots --&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "When Rodnar abandons formal language and authority, revealing a man deeply afraid of disorder and painfully aware of his own social inadequacy."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+	&lt;&lt;set $Asc_Prof_Orig_1 = "Institutions exist to restrain chaos. People forget that at their own peril."&gt;&gt;
+	&lt;&lt;set $Asc_Prof_Orig_2 = "Rodnar Rokwud is a brilliant academic who entered administration to prove that authority over people could be engineered as precisely as authority over ideas. He treats Lewor College as a controlled ecosystem rather than a community."&gt;&gt;
+	&lt;&lt;set $Asc_Prof_Orig_3 = "As Principal of a middle-class institution overshadowed by Unity College, Rodnar compensates through rigid systems, exhaustive policy, and absolute procedural control. His authority is strongest when mediated through titles, offices, and paperwork."&gt;&gt;
+	&lt;&lt;set $Asc_Prof_Orig_4 = "Outside his principal persona, Rodnar struggles with informal human interaction, often appearing distant or threatening without intending to be. This disconnect fuels both his insecurity and his quiet envy of Milo’s effortless charisma."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Social chaos (unplanned parties, public disorder)."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Loss of academic prestige."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Fear_3 = "A public scandal ruining his career."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Become University President."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Write the definitive book on political power structures."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Achieve the effortless charisma of Milo."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Milo"&gt;&gt;&lt;&lt;set $Asc_Prof_Ext_Description_1 = "The Boss. Rodnar serves as his gatekeeper."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = "William"&gt;&gt;&lt;&lt;set $Asc_Prof_Ext_Description_2 = "Land Foe. Seeks to remove William's influence and develop his land."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = "Dean Hemlock"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = "Academic rival who constantly attempts to undermine Rodnar."&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Administrator)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Rodnar is the ultimate authority over Milo (Student Body President)."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Wall)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Rodnar views Milo as a charming but potential chaos agent. Milo must navigate Rodnar's bureaucracy to achieve anything. Rodnar secretly envies Milo's ease with people."&gt;&gt;
+
+&lt;&lt;case "John P"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Milo"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "sibling"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 1&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Faded button-downs, perpetually tired, surrounded by stacks of books. He rarely makes eye contact."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Veronica Leal is a driven, corporate lawyer who loves his passivity, viewing him as a pet she can protect from the outside world."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Loves = "Quiet stacks, philosophy, rare texts"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The rare moment John forgets to be afraid and speaks passionately about literature or philosophy, exposing an intensity he normally suppresses."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+	&lt;&lt;set $Asc_Prof_Orig_1 = "Most answers already exist. People just don’t like where they lead."&gt;&gt;
+	&lt;&lt;set $Asc_Prof_Orig_2 = "John Price retreated from the competitive academic world into librarianship, choosing routine and silence over ambition. He finds safety in predictable systems and the quiet permanence of written thought."&gt;&gt;
+	&lt;&lt;set $Asc_Prof_Orig_3 = "Though outwardly passive, John possesses a sharp philosophical mind and deep institutional knowledge. Milo gains access to rare texts and forgotten spaces by engaging John through sincere discussions of literature and ideas."&gt;&gt;
+	&lt;&lt;set $Asc_Prof_Orig_4 = "John avoids visibility and action, fearing responsibility more than danger. His secret interest in parkour reflects a suppressed desire for movement and agency, one he hides carefully to preserve his expected persona."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Responsibility/Commitment."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Loud noises and crowds."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Fear_3 = "The destruction of a historical text."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Read every book in the library."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Retire to a remote, quiet cottage."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Achieve true philosophical peace (death)."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Professor Miller"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Only person John respects; Miller is oblivious to John's criminal side."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = "Security Guard Ben"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = "Guard he regularly pays to look the other way."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Student)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Milo is a frequent visitor to the library for 'study' (often cover for stress breaks)."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Observer)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "John observes Milo's stress when the mask slips in the quiet stacks, identifying with the hidden pressure. Milo sees John as a safe harbor."&gt;&gt;
+
+&lt;&lt;case "Karter H"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Milo"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "sibling"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 1&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Always wearing branded AΦT gear, perpetually drunk or hungover, but has an easy, aggressive charm."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Katee V is his trophy girlfriend who uses his frat house power for parties and social domination."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Loves = "cars, frat life, social connections"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The moment he snaps out of his drunken stupor and lays out a ruthless, detailed political plan."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "Wealthy heir who uses the fraternity to maintain power and cover for his family's shady real estate deals."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He is terrible at academics but excellent at leveraging social connections."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He sees Milo as the one political genius in a sea of college amateurs."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He provides Milo with access to the frat house's resources and wealthy alumni network."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Social exclusion."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Being cut off from his family's money."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Fear_3 = "A drug test/public sobriety."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Graduate without doing any work."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Become a major political lobbyist."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Own a fleet of classic sports cars."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Dean Hemlock"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Dean who constantly threatens to suspend Karter."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Power Broker)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Karter controls the powerful AΦT house vote; Milo controls the Student Senate. They trade influence."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Mutual Necessity)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Milo needs the frat house for logistics; Karter needs Milo to secure funding. Milo views Karter as a junior protégé."&gt;&gt;
+
+&lt;&lt;case "Peter G"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Milo"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "sibling"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 1&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Lean, athletic build. Dressed in minimalist athletic gear. He is physically dynamic but emotionally flat, moving with precise indifference."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Chloe Temple is a free-spirited hippie who is constantly trying to make Peter 'feel' things, drawing him into emotional chaos he avoids."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Loves = "Parkour, risk assessment, dispassion"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The casual, cold efficiency with which he analyzes a dangerous physical scenario."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "A former child gymnast pushed to the brink by an abusive coach, he found freedom in parkour."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He sees emotion as a failure state, viewing the world as pure physics and risk assessment."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He provides Milo with physical training, safe routes for sensitive materials, and tactical movement advice."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He rarely speaks, preferring to observe and act with cold precision."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Emotional compromise (having to care about anything).">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Claustrophobia (being trapped).">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "Physical paralysis.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Master every movement discipline."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Live a life entirely free of attachment.">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Open a school that teaches pure, dispassionate survival."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Coach Jones"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "The abusive former coach who still monitors Peter's career.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Variable)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Milo sends Peter students with psychological 'blocks,' viewing Peter's training as psychological therapy."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Unmoved)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Peter offers Milo pure, unvarnished advice on strategy. Milo respects the honesty, knowing Peter cannot be bought or flattered."&gt;&gt;
+
+&lt;&lt;case "Joe B"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Milo"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "sibling"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 1&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Massive build, perpetually wearing a tracksuit. He radiates simple, friendly, but utterly dominant physical strength."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Riley Jean is a cheerleader who uses her hyper-femininity to manage Joe's brute strength, reminding him of his morals.">>
+    &lt;&lt;set $Asc_Prof_Loves = "romance, simple redemption, moral compass"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The quiet shame when he realizes his simple analogy offended someone, showing his deep desire to be good."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "Former college football star whose career ended due to a minor, moral infraction (betting on a game). He now sees his life as a path to simple redemption."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He views Milo as the smart kid who needs a simple, moral compass to keep him straight.">>
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He ensures the powerful athletes stay loyal to Milo and serves as Milo's last resort for sheer physical force."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He is terrified of slipping back into moral ambiguity."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Moral compromise (slipping back into corruption)."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Letting Milo down.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "Public disgrace.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Become a major college football coach.">>
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Be a good role model for his team.">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Write a children's book on teamwork."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Head Coach Riley"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "His boss, who is completely unaware of Joe's ties to the campus underworld.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = "Quarterback Tim"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = "His favorite player, whose loyalty to Milo is paramount.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Budget)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Milo, as Student President, approves Joe's massive athletic budget. Milo uses this power to ensure Joe stays loyal to the political structure."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Confidant)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Joe acts as Milo's confidant, offering simple, moral guidance when Milo gets too caught up in the political game. Milo values the genuine advice."&gt;&gt;
+
+&lt;&lt;case "Xano D"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Milo"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "sibling"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 1&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Always wired, moving with the coiled intensity of a viper. Wears wrestling gear or tight athletic shirts, showcasing a vascular, lean build."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Mackenzie Mace is an equally intense wrestling enthusiast whose drive fuels Xano's ruthless focus on dominance.">>
+    &lt;&lt;set $Asc_Prof_Loves = "Wrestling, perfect records, discipline"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The moment his explosive anger dissolves into quiet, focused discipline during a planning session."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "A former Olympic wrestler whose career ended after a questionable loss; he is obsessed with maintaining a perfect record of dominance, however small the arena."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He views the campus as a chaotic free-for-all that must be controlled through sheer aggression.">>
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He physically enforces Milo's will when Eloquence fails, using his wrestling program as a source of clean, disposable muscle.">>
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He struggles to understand any motivation that isn't pride or winning."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Public humiliation/shame.">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Losing a match (regardless of stakes).">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "Being deemed weak."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Coach an Olympic Gold Medalist.">>
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Eradicate all non-competitive 'soft' sports from the college."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Achieve the reputation of being the most physically dangerous man on campus."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Dean Hemlock"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Manages Dean Hemlock's athletic security team.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = "Wrestler Mark"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = "Wrestler Xano is grooming for a major win.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Intensity)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Milo sees Xano as a political ally, using Xano's fierce defense of his program to pressure the athletic budget."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Unstoppable Force)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Milo channels Xano's relentless focus to cut through red tape, but often has to mollify Xano after he yells at a donor."&gt;&gt;
+
+/* ========================================================== */
+/* KEVIN'S NETWORK (Cunning / Sloth)                          */
+/* ========================================================== */
+
+&lt;&lt;case "Quinton J"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Kevin"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "dad"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 2&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Thin, clean, and pale. Moves slowly due to a fake knee injury he leverages for sympathy and strategic positioning. Looks perpetually exhausted."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Willow Ryder is a vibrant musician who acts as his emotional and creative outlet, seeing past his exhaustion to the sharp mind beneath."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Loves = "sing and piano, statistical modeling, resting"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The rare moment when he moves with sudden, shocking speed when his life is threatened."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "Former prodigy analyst who suffered burnout and now uses his 'exhaustion' as a tool for financial manipulation."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He is terrified of working hard again, viewing all effort as finite and wasteful."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He monetizes his photographic memory by selling patient data and insurance claim details to Kevin."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He carries a cane, not for injury, but as a mental trigger to remind himself to rest."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Returning to hard labor/burnout.">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Physical pain.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "Having his medical history exposed.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Retire by age 35."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Finish his symphony."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Be permanently excused from all physical activity."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Kevin"&gt;&gt;&lt;&lt;set $Asc_Prof_Ext_Description_1 = "The Client. Monetizes his knowledge and uses him as a key resource."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = "Dr. Lisa Monroe"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = "Quinton's therapist, who believes his injury is real.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = "Security Guard Bob"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = "Guard he pays to keep the pharmacy locked during off-hours."&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Data Broker)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Quinton provides Kevin with insider client information (SGP claims, asset status) to aid Kevin’s insurance fraud schemes."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Necessary Evil)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Quinton views Kevin as the only way to monetize his dangerous knowledge; Kevin views Quinton as a disposable asset he must keep on the line."&gt;&gt;
+
+&lt;&lt;case "Milan P"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Kevin"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "dad"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 2&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Always dressed in high-end casual wear, but his hands are covered in burn scars. Carries a disdain for anyone who cannot cook."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Chloe Temple, a manager who believes in Milan's culinary genius but is the practical force behind his restaurant.">>
+    &lt;&lt;set $Asc_Prof_Loves = "Culinary art, safe havens, high-end cutlery"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The moment he passionately defends the artistry and complexity of a simple dish."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "Former private chef to a senator who lost his career after serving a dish too complex for the politician's palate."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He is devoted to the purity of his craft, viewing all financial dealings as vulgar necessary evils."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_3 = "His restaurant is Kevin's cash-out point, distributing illicit funds hidden in takeout containers and providing safe haven for meetings."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He deliberately keeps his social circle small, focused only on those who appreciate his cooking."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "His restaurant being exposed as a front.">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Poor Yelp reviews.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "Being forced to serve fast food.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Achieve three Michelin stars."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Create the perfect, simple dish.">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Open a school dedicated to traditional cuisine."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Kevin"&gt;&gt;&lt;&lt;set $Asc_Prof_Ext_Description_1 = "The Client. Provides a covert, safe haven for meetings and resource dispersal."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = "Food Critic Rex"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = "A local food critic Milan bribes with free meals for good reviews.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = "Mayor Thompson"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = "A regular customer who loves Milan's cooking.">>
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Sanctuary)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Milan's restaurant is Kevin's preferred safe haven for meetings and transactions."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Distributor)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Milan distributes illicit financial envelopes for Kevin via hidden compartments in takeout containers, completely focused on the presentation of the food itself."&gt;&gt;
+
+&lt;&lt;case "Max S"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Kevin"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "dad"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 2&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Sharp, precise, always dressed in clean, modern business wear. His eyes constantly scan the room, looking for flaws. Rarely sits down."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Nia Bleu is a socialite who views Max as her entry point into the world of serious business and power."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Loves = "Financial modeling, minimalism, expensive coffee"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The sheer panic in his eyes when he realizes his meticulously crafted financial model has a single flaw."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "Former financial genius who was nearly ruined by a sudden market crash he failed to predict. He is obsessed with calculating and mitigating all risk."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He runs the cafe as a front for his illegal, high-level financial analysis for Kevin.">>
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He provides Kevin with the complex economic modeling needed to sustain the fraud scheme without collapsing the company."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_4 = "His entire life is a complex series of contingency plans and fail-safes."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Financial ruin (losing everything).">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Unpredictable chaos (random chance).">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "Being trapped in an uncalculated situation.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Create the perfect, uncrashable financial bubble."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Own the largest investment fund in the state.">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Predict the precise date of his own death."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Kevin"&gt;&gt;&lt;&lt;set $Asc_Prof_Ext_Description_1 = "The Controller. Max is Kevin's primary financial resource modeler."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = "FBI Agent Davis"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = "FBI agent who suspects Max is involved in high-level financial crimes.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = "Financial Reporter Sue"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = "Reporter Max manipulates with misleading data.">>
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Analyst)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Max provides the high-level financial modeling for Kevin's fraud, ensuring the debt bubble doesn't pop unexpectedly."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (Mutual Hostage)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Max is terrified of Kevin, who holds the key to Max's financial identity. Kevin needs Max's analysis to survive."&gt;&gt;
+
+&lt;&lt;case "Andrew B"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Kevin"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "dad"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 2&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Overly enthusiastic, wearing a clean, white shirt and suspenders. He believes rules are the key to happiness and is perpetually cheerful."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Kaye Lovely is a kindergarten teacher who provides him with the simple, moral validation he desperately craves.">>
+    &lt;&lt;set $Asc_Prof_Loves = "travel, compliance forms, action movies"&gt;&gt; &lt;!-- Added compliance and action movies --&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The moment he realizes a procedure he followed led directly to a criminal outcome, causing a moral break."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "A mid-level auditor who was nearly fired for finding too many small, irrelevant flaws in major accounts. Kevin 'saved' him by redirecting his focus."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He believes Kevin is a genius who invented 'ethical loopholes' that make the business more efficient.">>
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He ensures Kevin's illegal operations are structurally sound and bulletproof against legitimate auditing procedures.">>
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He is the ultimate believer in the system, which makes him the perfect tool to break it."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Being wrong/incorrect about a procedure.">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Non-compliance.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "Chaos (lack of rules).">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Become Head of Global Compliance."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Write the definitive SGP Policy Handbook."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Achieve the 'Employee of the Month' award."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Kevin"&gt;&gt;&lt;&lt;set $Asc_Prof_Ext_Description_1 = "The Mentor. Andrew believes he is working for Kevin's 'secret compliance unit'."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = "CEO Richard"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = "The SGP CEO whose audits Andrew handles (and hides Kevin's fraud from).">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Auditor)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Andrew audits Kevin's fraud operation to ensure it is structurally sound and protected from external auditors."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Blind Tool)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Kevin presents the fraud as 'efficiency improvement' that Andrew loves. Andrew is Kevin's most dangerous asset because he truly believes he is enforcing rules, not breaking them."&gt;&gt;
+
+&lt;&lt;case "Brock C"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Kevin"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "dad"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 2&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Perpetually disheveled, hair unkempt, always smells faintly of cheap whiskey. He is aggressively confident but easily manipulated when liquor is involved."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Eliza Eves is a wealthy, controlling socialite who treats Brock as a chaotic adventure before she marries someone respectable.">>
+    &lt;&lt;set $Asc_Prof_Loves = "expensive scotch, 18 holes of golf, afternoon naps"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The flash of intellectual brilliance before the slurred speech sets back in."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "A highly educated claims analyst who spiraled into alcoholism after a personal loss. He now signs whatever is placed in front of him for the right bribe."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_2 = "His primary function is maintaining a drunken, easily managed status quo; his predictability is his only asset for Kevin."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He signs off on Kevin's large fraudulent claims, making the operation possible at a massive scale."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_4 = "His lethargy and deep dependence on alcohol make him highly resistant to change, ensuring he follows his routine without deviation."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Sobriety (fears having to face his failures and lose his functional routine).">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Being discovered by his family.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "The police/jail.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Get enough money to disappear forever."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Write a drunken manifesto on corporate greed."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Steal the SGP yacht and sail into the sunset."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Kevin"&gt;&gt;&lt;&lt;set $Asc_Prof_Ext_Description_1 = "The Controller. Kevin funnels claims through Brock, exploiting his debt and dependency."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = "Head of HR, Ms. Davies"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = "Constantly threatens to report Brock's drinking.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Signature)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Brock's signature approves all of Kevin's fraudulent claims, making him liable for millions."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Liability)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Kevin needs Brock to maintain a minimal, predictable work schedule. Brock knows his lethargy is what keeps him functionally useful to the operation, as he never pushes back."&gt;&gt;
+	
+&lt;&lt;case "Ramon N"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Kevin"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "dad"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 2&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Immaculate casual dress, dark-rimmed glasses. He is physically imposing but attempts to shrink into the shadows, observing everything silently."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Valerica Steele is a financial executive who is utterly devoted to Ramon's silent competence, trusting him with all her secrets.">>
+    &lt;&lt;set $Asc_Prof_Loves = "romance, clean code, silence"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The subtle, predatory flicker in his eyes when he identifies a network vulnerability."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "A coding genius who hates the spotlight and prefers the intellectual challenge of maintaining digital ghost status."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He is terrified of accidentally leaving a digital footprint that could expose him.">>
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He provides Kevin with the deep network access needed to infiltrate the City Bank and cleans up the digital messes left by Kevin's fraud."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He views technology as the ultimate shield and sword, allowing him to rule from the shadows."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "The physical world (random accidents, unpredictable force).">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Exposure/visibility.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "A network virus he cannot stop.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Create an unhackable network."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Live completely off-grid, digitally invisible."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Sabotage the world's primary internet lines (for peace and quiet)."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Kevin"&gt;&gt;&lt;&lt;set $Asc_Prof_Ext_Description_1 = "The Boss. Ramon maintains the digital integrity and backdoors for Kevin's fraud operations."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = "IT Director David"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = "Ramon’s boss, who is blissfully unaware Ramon controls the entire network."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Backdoor)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Ramon provides Kevin with deep network access to the City Bank's infrastructure."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Fixer)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Ramon quietly cleans up technical messes left by Kevin's aggressive schemes, always remaining in the shadows. Kevin views Ramon as irreplaceable."&gt;&gt;
+
+&lt;&lt;case "Alex L"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Kevin"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "dad"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 2&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Preppy and clean, carrying a thick binder of legal precedents. He is driven by pride and a need to prove he is the smartest person in the room."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Chloe Temple, a cafe manager who views Alex as her brilliant, charming future husband."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Loves = "guitar, legal precedents, high prestige"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The moment his charm fails and he resorts to aggressive, condescending intellectual snobbery."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "A former corporate lawyer who realized the real power lies in writing the rules, not just following them.">>
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He is aggressively ambitious, constantly seeking promotions and prestige to feed his ego.">>
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He spends his time drafting legal documents to shield Kevin's operation, viewing himself as the strategic partner."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He genuinely believes he is smarter and more capable than Kevin, whom he views as a lucky fool."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Intellectual failure (being wrong).">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Losing a promotion/status.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "Being replaced by Max S.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Replace Kevin as the head of the organization."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Win a major, landmark legal case."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Be nominated for a state senate seat."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Kevin"&gt;&gt;&lt;&lt;set $Asc_Prof_Ext_Description_1 = "The Rival. Alex constantly tries to prove his superiority to Kevin."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = "Rival Attorney Mr. West"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = "Attorney Alex tries to ruin professionally.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Distraction)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Kevin ensures Alex is always swamped with irrelevant, complex cases to keep him from exposing Kevin's fraud."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Rival)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Alex believes he is smarter than Kevin and will eventually defeat him for the promotion. Kevin is amused by Alex's pride."&gt;&gt;
+
+&lt;&lt;case "Danny S"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Kevin"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "dad"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 2&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Muscular and aggressive, but carries a saxophone case everywhere. He is prone to angry outbursts that quickly dissolve into melancholic music."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Willow Ryder is a vibrant musician who shares his passion for music, grounding him and giving him a release from the violence.">>
+    &lt;&lt;set $Asc_Prof_Loves = "marching band, brass instruments, martial arts"&gt;&gt; &lt;!-- Added brass instruments and martial arts from description --&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The moment he stops yelling and uses his saxophone to play a complex, emotional piece of jazz."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "Former military musician turned mercenary after being discharged for uncontrollable rage. He uses violence for money, but music for his soul."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He hates the paperwork and digital nature of SGP, preferring physical, tangible results."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He handles all of Kevin's physical confrontations and is the last line of defense for the SGP operation."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He secretly longs for the structured, moral framework of the military."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "His own rage (losing control).">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Being stuck in an office.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "The military discovering his mercenary work.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Form a successful jazz quartet."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Get a job that requires no deskwork.">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Buy a remote cabin and never speak again."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Kevin"&gt;&gt;&lt;&lt;set $Asc_Prof_Ext_Description_1 = "The Boss. Danny serves as Kevin's physical security anchor and debt collector."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = "Mercenary Leader GI J"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = "Danny’s friend and mentor from his military days.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Enforcer)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Danny handles all of Kevin's physical confrontations and real-world asset recovery that cannot be solved digitally."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Leash)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Kevin keeps Danny on a short leash, knowing Danny is a powerful but reckless asset who constantly risks exposure. Danny hates the paperwork."&gt;&gt;
+
+/* ========================================================== */
+/* WILLIAM'S NETWORK (Opulence / Gluttony)                    */
+/* ========================================================== */
+
+&lt;&lt;case "Jay P"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "William"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "grand"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 3&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Expensive, tailored suit despite being covered in mud or dirt from the farm. He moves with a nervous energy, constantly checking his phone."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Alex Coal is an accomplished chef who provides the stability and routine Jay lacks, making him feel grounded."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Loves = "boxing, piano, land acquisition"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The moment he stops talking about profit margins and plays a perfect piece of melancholic piano."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "Wealthy heir obsessed with turning old money into new money through aggressive land acquisition."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He is terrified of being seen as less capable than his grandfather, William, so he over-aggressively pursues deals.">>
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He uses his property management business, Dime Time, as a clean front for acquiring parcels of land around William's farm."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He has a deep respect for William's traditional ways but is frustrated by his resistance to modern tech."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Losing his family inheritance.">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Being deemed a failure by William.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "Publicly appearing unfashionable or poor.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Acquire every piece of land bordering the farm.">>
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Replace his father in William's eyes.">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Become the sole owner of Dime Time."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Bank Manager Sue"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Manager he uses for off-the-books financing for land buys.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Acquisition)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Jay P identifies and secures land parcels for William, often buying them through his business to avoid attracting attention from developers."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Anchor)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "William uses Jay P's public image as proof that he supports local business. Jay P views William as the ultimate guarantor of their regional economic stability."&gt;&gt;
+
+&lt;&lt;case "Colton C"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "William"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "grand"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 3&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Clean, country-casual clothes, always standing with a professional stiffness. He maintains a friendly facade despite his cynical nature."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Danae Mari is a historian who loves collecting Colton's stories of old-town politics and corruption.">>
+    &lt;&lt;set $Asc_Prof_Loves = "Travel, Diving, local corruption intel"&gt;&gt; &lt;!-- Added local corruption intel --&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The moment he drops his polite persona and delivers a vicious, accurate assessment of a person's character."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "Former lobbyist who became disillusioned with DC politics, finding more honest corruption in his small hometown."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He runs the Country Grill as a perfect public ear, collecting intel on local moods and political movements."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He filters local sentiment for William, advising him on how to maintain public support while fighting off developers."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He views William as the last true aristocrat worthy of his strategic mind."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Boredom (losing the intellectual challenge of the fight).">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Being discovered as a mole."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Fear_3 = "Being underestimated by his opponents.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Retire to a tropical island and dive year-round."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Become the mayor of the town (but refuse to take the job).">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Write a comprehensive history of the town's hidden corruption."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Councilman Smith"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Local politician Colton blackmails for information.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = "Chef Gordon"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = "Chef he is secretly trying to ruin.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Sentiment)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Colton provides William with a real-time understanding of the town's mood and who is mobilizing against him."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Public Face)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Colton is William's public ear, projecting a friendly facade while monitoring for threats. William trusts Colton's honest assessment of public opinion."&gt;&gt;
+
+&lt;&lt;case "Tommy P"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "William"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "grand"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 3&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Sun-bleached hair, perpetually shirtless or wearing Hawaiian prints. He is passive and slow-moving, hiding a sharp mind behind a vacation persona."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Addison Vodka is a high-energy, reckless socialite who views Tommy as her stable, quiet retreat.">>
+    &lt;&lt;set $Asc_Prof_Loves = "turtles, beachfront property, quiet power"&gt;&gt; &lt;!-- Added beachfront property and quiet power --&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The moment he uses detailed, complex legal language to explain why a property deal is dead."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "Law student who dropped out after realizing he preferred the simplicity and information flow of the bar scene."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He uses the beach bar to collect gossip from wealthy beachgoers and college faculty."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He provides William with early warnings of official legal and political moves against William's holdings."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He views William as a wise, patient old man who uses power the right way: quietly."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Working a corporate job."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Losing the bar (his intelligence hub).">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "A hostile land takeover.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Own the entire beachfront property line.">>
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Be rich enough to never wear shoes again."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Found a turtle sanctuary."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Professor Miller"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Faculty member who drinks and spills university secrets at the bar.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Intel)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Tommy P provides information on political movements and college faculty gossip to William, helping him anticipate attacks on his land.">>
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Quiet Hand)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "William trusts Tommy's quiet competence. Tommy views William as a strong, immovable force worth defending through information warfare."&gt;&gt;
+
+&lt;&lt;case "Ridge C"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "William"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "grand"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 3&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Tall, imposing, wearing a perfectly starched Sheriff's uniform and cowboy hat. He moves with unquestionable authority and a slow, methodical pace."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Jenifer Jane is a local business owner who respects his authority and grounds him in the community he protects.">>
+    &lt;&lt;set $Asc_Prof_Loves = "sports and travel, authority, local laws"&gt;&gt; &lt;!-- Added authority and local laws --&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The quiet admission that he only became Sheriff to protect William's land from what he sees as 'city corruption'."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "A former State Trooper disillusioned by city politics, he returned home to take the Sheriff position.">>
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He is blindly loyal to William, viewing him as a symbol of the old ways worth protecting at all costs.">>
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He uses his legal authority to enforce William's borders, run off trespassers, and delay planning commission approvals for rival developers."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He views bureaucracy as a weapon best wielded by those who truly know the local laws."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "The destruction of the rural environment.">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Losing his badge/authority.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "Urban sprawl.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Become the lifelong Sheriff.">>
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Get the county declared a protected zone.">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Stop a hostile developer dead in their tracks."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Developer Mark"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "The target of his bureaucratic chokehold."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Law)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Ridge uses his authority to protect William's land from developers and trespassers.">>
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Protector)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "William provides off-the-books funding and information to Ridge; Ridge provides uncompromising legal and physical protection for William's domain."&gt;&gt;
+
+&lt;&lt;case "Jason S"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "William"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "grand"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 3&gt;&gt;
+    
+    /* VISUALS & PERSONALITY (UPDATED) */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Clean, rugged look, perfectly fitted work clothes. He is physically massive and moves with the quiet confidence of someone who is always prepared for war."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Eva Generosi is an animal activist who keeps Jason focused on the moral side of protecting the wildlife on the farm."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Loves = "Animal Rescue, operational readiness, loyalty"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The moment he breaks his silence to deliver a simple, brutal threat with unwavering conviction."&gt;&gt;
+	
+/* ORIGIN STORY (UPDATED) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "Former mercenary and demolitions expert who found peace and purpose working the farm under William."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He is William's operational commander, organizing all physical and logistic moves, and training the farmhands into a capable militia."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He views William as the only person worthy of his absolute loyalty and the farm as the last thing worth protecting."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He is ruthlessly efficient but secretly struggles with the violent past he left behind."&gt;&gt;
+	
+/* FEARS & AMBITIONS (UPDATED) */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Losing the farm (his place of peace)."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Fear_2 = "A catastrophic farming accident."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Fear_3 = "His past catching up to him."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Maintain perfect operational readiness for the farm."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Mentor the next generation of farmhands/soldiers."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Never have to leave the country again."&gt;&gt;
+	
+/* EXTERNAL RELATIONSHIPS (UPDATED) */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Mercenary Leader GI J"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Former colleague he avoids contacting."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+/* FAMILY DYNAMICS (UPDATED) */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Command)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Jason S executes all of William's orders, both agricultural and tactical."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Unwavering)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "William trusts Jason's judgment implicitly, allowing him full operational control. Jason views William as a father figure and his mission as sacrosanct."&gt;&gt;
+
+&lt;&lt;case "Juan L"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "William"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "elder"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 4&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Clean, dark chef's jacket over farm overalls. Always carries a sharp pairing knife, checking the texture of vegetables."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Scarlett Fall is a sommelier who manages William's wine and liquor cellar; she shares his refined palate."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Loves = "gourmet cooking, rare herbs, culinary criticism"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The moment he judges another person's food and spits it out in disgust."&gt;&gt;
+    
+    /* ORIGIN STORY */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "Former gourmet chef who quit the restaurant scene to pursue more authentic, high-quality ingredients on William's land."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He is now William's Agricultural Lead, ensuring the farm produces the highest quality yields, which are the core of William's wealth."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He views food as an art and the farm as his canvas; he is passionate and volatile about quality."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He is quietly competitive with Adam L over who is more vital to the health of the farm."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_5 = ""&gt;&gt;
+    
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Crop failure."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Industrial farming (lowering quality)."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Fear_3 = "Losing his sense of taste."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Make William's farm the premier source of illegal gourmet food."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Open a secret five-star restaurant that only the elite can find."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Create a new, perfect hybrid crop."&gt;&gt;
+    
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS (Note: These are included for completeness but often in a separate asc_family.txt) */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Harvest)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Juan L ensures the profitability of William's land by maximizing crop yield and managing the planting schedule."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Foundation)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "William trusts Juan L because his work is honest and tangible, forming the physical foundation of William's Opulence."&gt;&gt;
+
+&lt;&lt;case "Adam L"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "William"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "grand"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 3&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Huge build, perpetually angry, wearing leather and denim. He moves with uncontrolled aggression, focused entirely on the livestock."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Serena Santos is a quiet, musical woman whose drumming helps Adam channel his rage into rhythm.">>
+    &lt;&lt;set $Asc_Prof_Loves = "drums and marine, livestock, territory defense"&gt;&gt; &lt;!-- Added livestock and territory defense --&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The gentle way he interacts with a wounded animal, revealing a fierce protectiveness."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "Former Marine who left the military after a disastrous mission, seeking simple labor and a place to put his aggressive energy."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He now manages William's prize cattle herd, using his military discipline to maintain the herd's health and security."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He is completely obsessed with protecting the livestock and the farm's territory from intruders."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He struggles with the slow, patient nature of farming, often resorting to unnecessary aggression."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Losing control of his temper.">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "The destruction of the cattle herd.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "Being trapped in a city/office.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Become the sole cattle lead for the entire county.">>
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Perfect the art of roping and herd management.">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Eradicate all non-native pests from the farm."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Cattle Broker Tom"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Broker he uses for selling the prize cattle in the black market.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Livestock)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Adam L manages the health and commerce of William's prize cattle herd, a major asset of William's Opulence.">>
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Edge)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "William relies on Adam L's fiery temper and willingness to physically defend the land. Adam L views William as the last line of defense for the rural way of life."&gt;&gt;
+
+&lt;&lt;case "Jmac"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "William"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "grand"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 3&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Clean-cut, intelligent, but often found fixing machinery or tending to animals. He projects quiet competence."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Kyler Quinn is a chaotic tech developer who forces Jmac to pay attention to the outside world.">>
+    &lt;&lt;set $Asc_Prof_Loves = "animal health, mechanics, silent service"&gt;&gt; &lt;!-- Added animal health and silent service --&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The depth of his medical knowledge when dealing with a complex animal injury."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "Highly respected town vet who is secretly responsible for fixing William's expensive race cars and providing medical care to William's people."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He is devoted to William due to a complex, unstated family debt.">>
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He ensures the health of William's most valuable assets (the cattle) and maintains the complex infrastructure of the farm.">>
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He views his work as a silent, essential service, asking for nothing in return."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Losing a patient (animal or human).">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "The world discovering his mechanical/criminal skills.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "Failure to repay the debt to William.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Become the most skilled mechanic/vet in the region."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Achieve total independence from William."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Settle down and raise a family."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "County Planning Commissioner"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Client who pays Jmac for discreet vet services.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Health)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Jmac ensures the health of William's prize cattle herd and his personal animals.">>
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Specialist)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "William trusts Jmac implicitly due to his unmatched skill. Jmac is given total autonomy to manage animal health."&gt;&gt;
+
+/* ========================================================== */
+/* SEBASTIAN'S NETWORK (Glamour / Lust)                       */
+/* ========================================================== */
+
+&lt;&lt;case "Cyrus K"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Sebastian"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "uncle"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 4&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Tall, rigid, wears expensive but conservative suits. He is impeccably organized, with zero emotional expression, viewing life as a problem to be solved."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Madi Collins is a sharp political consultant who helps Cyrus navigate social structures he finds illogical and tedious.">>
+    &lt;&lt;set $Asc_Prof_Loves = "comedy, rigid organization, military logistics"&gt;&gt; &lt;!-- Added rigid organization and military logistics --&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The dry, precise joke he makes that is so accurate it's terrifying."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "Former military logistics genius who was recruited by Sebastian for his ability to plan and execute operations requiring massive logistics under impossible deadlines."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He maintains Sebastian's armory, finances, and intelligence streams, viewing Sebastian as an efficient machine."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He secretly uses his logistics network to fund his own side projects, preparing for Sebastian's inevitable collapse."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He respects Sebastian's flair but finds the glamour a pointless, inefficient distraction from the goal."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Operational failure (losing a target).">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Chaos (unplanned variables).">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "The world running out of clean data.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Become the global leader in private security logistics."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Develop an AI that can perfectly predict human behavior."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Retire to a meticulously organized vault."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Arms Dealer Rico"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Primary supplier for Sebastian's armory."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Logistics)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Cyrus controls the armory, finances, and intelligence required for Sebastian's contracts. He makes the impossible happen logistically.">>
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Executor)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Sebastian supplies the mission; Cyrus executes the planning. Sebastian relies entirely on Cyrus's meticulous nature, despite finding his personality tedious."&gt;&gt;
+
+&lt;&lt;case "London F"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Sebastian"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "uncle"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 4&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Stylish, highly trained, dressed in expensive casual wear. He is physically dynamic and capable, but internally struggles with Sebastian's amoral contracts."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Sasha Tatcha is a hyper-critical art student who appreciates London's quiet dedication to his 'art' (fighting)."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Loves = "DJ and juggle, martial arts, honorable contracts"&gt;&gt; &lt;!-- Added martial arts and honorable contracts --&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The profound guilt that surfaces when he is forced to use violence against a morally innocent target."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "Former mercenary and martial arts prodigy who joined Sebastian seeking high-risk, high-reward contracts.">>
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He operates as a hidden sentry within Sebastian's building (MSJ), protecting the complex from internal threats.">>
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He struggles with the moral consequences of Sebastian's contracts, often finding excuses to avoid killing.">>
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He views his fighting skill as an art form that should not be wasted on petty theft."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Losing his physical ability/control.">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Being forced to kill an innocent person.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "Losing his moral code.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Complete his contract and leave Sebastian's employ."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Become a full-time martial arts instructor.">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Find an honest, honorable contract."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Martial Arts Master Lee"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "His former teacher, who disowned him for joining Sebastian.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Sentinel)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "London operates as a hidden sentry within Sebastian's own building (MSJ), guarding against internal threats.">>
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (Moral Conflict)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "London finds Sebastian's mercenary ethics repugnant but views his physical protection of the office as a distinct, honorable duty required to fulfill his contract."&gt;&gt;
+
+&lt;&lt;case "Ray R"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Sebastian"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "uncle"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 4&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Clean, professional bartender attire. He is physically imposing but attempts to appear friendly and forgettable, hiding his sharp memory."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Ava West is a beautiful lounge singer who uses Ray's connections to secure gigs at exclusive, dangerous venues.">>
+    &lt;&lt;set $Asc_Prof_Loves = "romance, mental ledger, gossip collection"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The flicker of recognition when he correctly names a stranger's drink and life story."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "Former information broker who became a bartender to gain access to the city's elite without having to chase people for data."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_2 = "His pub, Hemlock, is an unofficial meeting spot for Sebastian's clients and targets; Ray serves as Sebastian's human database."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He maintains a mental ledger of all gossip, deals, and alliances made within his pub's walls.">>
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He views Sebastian as a powerful, high-paying patron, appreciating the quiet nature of the underworld deals."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Physical confrontation (being forced to fight).">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Being caught in a police raid.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "Losing his memory/mental ledger.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Own a chain of elite, discreet pubs."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Write the definitive book on human motivation (never to be published).">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Marry Ava West and retire."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Police Chief Benson"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Client who drinks at Hemlock and provides Ray with intel.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Hub)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Pub Hemlock serves as a crucial, unofficial meeting spot for Sebastian's team and their clients. Ray keeps a mental database of who meets whom.">>
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Observer)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Sebastian (The Boss) uses the bar as a point of contact and pays Ray handsomely for his silence and his mental ledger of who comes and goes."&gt;&gt;
+
+&lt;&lt;case "Danny M"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Sebastian"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "uncle"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 4&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Massive build, perpetually wearing a headset. He moves with silent, disciplined focus, viewing his job as military protocol."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Sadie Pop is a digital influencer whose loud, chaotic personality is the opposite of Danny's quiet control.">>
+    &lt;&lt;set $Asc_Prof_Loves = "Protocol, counter-surveillance, security profiles"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The brief moment he drops his surveillance mode and reveals the deep, tactical paranoia beneath the discipline."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "Former military security specialist who was discharged for extreme paranoia regarding internal threats.">>
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He acts as Sebastian's shadow, responsible for his physical safety and ensuring every location is clean of bugs and surveillance."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He views Sebastian as a high-value target who must be protected by rigorous protocol.">>
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He provides Sebastian with highly detailed security profiles of all associates and targets."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Internal sabotage/a traitor in the ranks.">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Being caught off-guard.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "Uncontrolled variables (noise, chaos).">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Achieve a perfect security rating for Iron Syndicate."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Write the definitive manual on counter-surveillance.">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Retire to a completely monitored, secure compound."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Security Chief Tom"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Security chief at a rival firm whose methods Danny studies obsessively.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Shadow)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Danny acts as Sebastian's shadow, responsible for his physical safety and ensuring every meeting place is clean of bugs.">>
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Protocol)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Sebastian trusts Danny's judgment entirely on security matters. Danny provides Sebastian with comprehensive profiles of potential targets and threats, always based on rigorous protocols."&gt;&gt;
+
+&lt;&lt;case "Max C"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Sebastian"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "uncle"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 4&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Perfectly fit, dressed in black tactical wear under stylish clothing. He moves with the silent, predatory grace of a professional killer.">>
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Asteria Jade is a highly successful model who views Max as her personal, obedient trophy.">>
+    &lt;&lt;set $Asc_Prof_Loves = "fitness, flawless execution, high-stakes contracts"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The unexpected, almost polite conversation he holds moments after performing an act of ruthless violence."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "Former South American cartel assassin who was recruited by Sebastian for his surgical precision and complete lack of conscience."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He is Sebastian's primary field commander, responsible for all extraction and combat operations.">>
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He views Sebastian as the ultimate source of high-stakes contracts that challenge his professional limits.">>
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He takes immense pride in flawless execution, viewing violence as a professional service."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Sloppiness (operational failure).">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Being betrayed by a mercenary under his command.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "A political capture/torture.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Become the most famous assassin in the world (while remaining anonymous).">&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Retire to a tropical island with Asteria.">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Achieve the perfect, untraceable extraction."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Cartel Boss Juan"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Former boss who still attempts to blackmail Max.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = "The Russian"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = "Rival mercenary Max constantly attempts to sabotage.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Execution)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Max C is Sebastian's primary field commander, responsible for successful extraction and combat operations.">>
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Talent)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Sebastian relies entirely on Max C's ability to command and deliver results, often giving Max C free rein in mission execution."&gt;&gt;
+
+&lt;&lt;case "GI J"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Sebastian"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "uncle"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 4&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Massive, physically dominant. Dressed in military fatigues or simple tactical gear. He speaks only in short, direct sentences, focused purely on the immediate mission."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Valerica Steele is a high-powered executive who views GI J as her obedient, physically dangerous secret weapon.">>
+    &lt;&lt;set $Asc_Prof_Loves = "MMA, simple objectives, cash contracts"&gt;&gt; &lt;!-- Added simple objectives and cash contracts --&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The terrifying lack of humanity in his eyes when he takes an order to eliminate a target."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "Former special forces soldier who was discharged after a series of questionable kills. He is now a mercenary focused only on cash."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He performs the high-risk, high-violence physical tasks that Max C orchestrates, valuing simple, clear objectives.">>
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He views Sebastian as the most efficient source of high-paying violence, asking for no justification beyond the contract.">>
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He has completely segmented his emotions, viewing himself as a tool for violence."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Complex orders/ambiguity.">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Running out of clean contracts.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "Being decommissioned/deemed useless.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Earn enough money to buy his own small army.">>
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Become Max C's right hand indefinitely.">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Execute a mission with zero collateral damage."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Danny S"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Former military friend who left the unit before GI J did.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Muscle)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "GI J performs the high-risk, high-violence physical tasks that Max C orchestrates.">>
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Tool)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Sebastian views GI J as a necessary tool, appreciating his lack of fear or conscience. Sebastian ensures GI J is always paid immediately and in cash."&gt;&gt;
+
+&lt;&lt;case "Parker S"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Sebastian"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "uncle"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 4&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Thin, nervous energy, always wears a hoodie and carries a custom laptop. He fidgets constantly, living in a world of data and code."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Natalie Brooks is a choreographer who sees Parker's coding as a form of complex, beautiful movement.">>
+    &lt;&lt;set $Asc_Prof_Loves = "choreographer, digital systems, untraceable tech"&gt;&gt; &lt;!-- Added digital systems and untraceable tech --&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The moment he realizes a flaw in his code could expose the entire operation, sending him into a panic attack."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "A programming prodigy who was nearly caught by the FBI after a disastrous hack. Sebastian offered him untraceable tech and high pay for his loyalty.">>
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He ensures Sebastian's entire operation remains digitally invisible, managing military-grade communications and electronic countermeasures.">>
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He is terrified of the physical world, finding security only in complex digital systems.">>
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He views Sebastian as the gatekeeper to the best, most complex digital challenges available."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "A system crash/power loss.">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Physical harm (cannot fight).">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "The FBI discovering his identity.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Develop a completely sentient AI security system."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Erase all traces of his past identity.">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Hack the Pentagon just to see if he can."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Hacker Ghost"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Rival hacker who constantly attempts to break Parker's encryption.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Signal)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Parker ensures Sebastian's entire operation remains untraceable via military-grade communications.">>
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Digital Smoke)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Sebastian views Parker as the perfect digital smoke screen. Parker respects Sebastian for providing him with impossible technological challenges."&gt;&gt;
+
+&lt;&lt;case "Thor J"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Sebastian"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "uncle"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 4&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Massive, covered in leather and biker patches. He is loud, aggressive, and fiercely protective of his small circle.">>
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "April Olsen is a simple baker who views Thor as a soft-hearted giant who just needs direction.">>
+    &lt;&lt;set $Asc_Prof_Loves = "cooking, controlled demolition, chaos & adrenaline"&gt;&gt; &lt;!-- Added controlled demolition and chaos & adrenaline --&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The sudden, controlled delicacy with which he handles explosive materials or a small pet."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "Former roadie for a heavy metal band who discovered a passion for controlled demolition. He joined Sebastian for the high pay and access to military-grade explosives."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He is Sebastian's demolitions expert, creating physical entry points and destroying evidence with surgical precision.">>
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He views Sebastian as the only boss with the style and nerve to match his own dangerous hobbies.">>
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He is fueled by adrenaline and chaos, constantly seeking the next explosion."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Running out of explosives.">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "A failed detonation (operational failure).">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "Being trapped in a silent room.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Design the largest, most controlled demolition in city history."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Become a full-time military contractor.">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Open a biker bar/bakery with April."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Biker Gang Leader Joe"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Former gang leader Thor despises and constantly attempts to undermine.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Breach)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Thor J ensures Sebastian's team always has a physical entry point, regardless of security.">>
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Wildcard)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Sebastian trusts Thor is untamable, so he gives Thor maximum autonomy, trusting Thor's pride in his work to ensure flawless execution."&gt;&gt;
+
+/* ========================================================== */
+/* DAN'S NETWORK (Prominence / Pride)                         */
+/* ========================================================== */
+
+&lt;&lt;case "Richard G"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Dan"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "dan"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 5&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Clean-cut, wearing smart-casual clothes. He moves with a calculated energy, constantly focused on the next big disruption.">>
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Sandy Love is a hyper-efficient data manager who organizes Richard's life and protects him from administrative chaos."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Loves = "studying, bespoke hardware, intellectual superiority"&gt;&gt; &lt;!-- Added bespoke hardware and intellectual superiority --&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The quiet pride when he unveils a piece of flawless, custom-built, illegal technology."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "Tech prodigy who founded Aether Tech, intending to use technology to disrupt old systems, even if illegally.">>
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He is driven by a profound pride in his own intellectual superiority.">>
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He provides Dan's team with bespoke, untraceable hardware (drones, jammers, encrypted comms) for their operations."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He views Dan as a chaotic but efficient client, appreciating the clean capital Dan provides."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Failure of his custom hardware.">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Being copied/intellectual theft.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "Losing the competitive edge.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Create the next global computing platform."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Achieve a technology monopoly.">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Be revered as the greatest tech mind of the century."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Rival CEO Jane"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "CEO Richard constantly attempts to sabotage digitally."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Hardware)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Richard provides Big Dan's team with bespoke, untraceable hardware for their digital operations."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Pragmatist)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Richard views Dan as an efficient client; Dan respects Richard's ability to deliver specialized, clean equipment without asking questions."&gt;&gt;
+
+&lt;&lt;case "Tommy W"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Dan"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "dan"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 5&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Average, forgettable office wear. He is perpetually anxious, hiding behind a facade of harmlessness. He views everyone with suspicion."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Serena Hill is a strong-willed business owner who protects Tommy from the corporate world he fears."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Loves = "Food critique, health codes, moral cleansing"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The moment he stops talking about work and launches into a passionate, articulate rant about a gross kitchen."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "Disgruntled cafeteria worker who became a prolific online food critic, known for destroying restaurants with vicious, truthful reviews.">>
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He hates corporate inefficiency and dirtiness, channeling his anger into his blog.">>
+    &lt;&lt;set $Asc_Prof_Orig_3 = "His blog creates online chaos, directing attention away from Dan's real targets. Dan feeds him tips to amplify the distraction."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He believes his reviews are a form of moral cleansing."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Food contamination.">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Being discovered as the true identity of the critic.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "His identity being linked to Dan's schemes.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Become the most feared food critic online."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Shut down the worst-rated restaurant in the city.">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Achieve zero contaminants in the Aether Tech cafeteria."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Restaurant Owner Sal"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Owner of the restaurant Tommy is targeting for closure.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Distraction)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Tommy's blog creates online chaos and directs attention away from Dan's real targets."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Content)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Dan D provides Tommy with inside tips on restaurant hygiene to make his reviews more impactful. Tommy, in turn, amplifies Dan's digital noise.">>
+
+&lt;&lt;case "Ryan D"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Dan"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "dan"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 5&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Flashy, loud clothing, often wearing custom LED shoes. He is energetic and extroverted, masking a deeply suspicious and calculating mind.">>
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Kylie Quinn is a social media manager who leverages Ryan's social connections for her own viral campaigns.">>
+    &lt;&lt;set $Asc_Prof_Loves = "Entrepreneur, analog intelligence, nightclubs"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The sudden switch to cold, coded language when discussing business or intel."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "Nightclub owner and DJ who uses his venue as an intelligence hub, trading gossip and rumors for tech upgrades from Dan's team.">>
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He specializes in analog intelligence, preferring face-to-face gossip over digital leaks.">>
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He provides Dan with real-time ground intelligence from the city's youth and nightlife networks, feeding Dan's surveillance obsession."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He despises Dan's 'cold' digital nature, viewing the human touch as the ultimate form of intelligence."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Being trapped in silence.">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "A police raid/liquor license revocation.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "Digital vulnerability/being hacked.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Own the largest entertainment venue in the city.">>
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Become a legendary DJ.">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Achieve a perfect social reputation."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Police Captain Jones"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Captain Ryan bribes to ignore noise complaints.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Noise)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Ryan provides Dan D with localized, real-time ground intelligence from the youth networks.">>
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (Analog Database)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Dan D respects Ryan's analog system of intelligence gathering; Ryan despises Dan D's flashy digital methods. They exchange information in coded song lyrics."&gt;&gt;
+
+&lt;&lt;case "Oliver F"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Dan"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "dan"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 5&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Impeccably groomed, expensive suit, carries a heavy briefcase. He is quiet and twitchy, moving with nervous efficiency.">>
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Blake Blossom is a sweet, innocent receptionist who is completely unaware of Oliver's criminal activity.">>
+    &lt;&lt;set $Asc_Prof_Loves = "target practice, identity erasure, digital stability"&gt;&gt; &lt;!-- Added identity erasure and digital stability --&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The subtle, satisfied smile when he successfully deletes someone's existence."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "Former operative for Sebastian's network who broke down under the stress of violence. Dan D offered him a clean, digital role as a cleaner.">>
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He performs 'quality assurance' (i.e., cleaning up digital mistakes) and legal identity erasure for Dan's black market deals.">>
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He views Dan D as his savior, obsessively loyal to the quiet stability Aether Tech offers him."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He is terrified of returning to the chaotic physical world of Sebastian's contracts."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Physical confrontation/violence.">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Sebastian finding him again.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "A hostile computer virus.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Achieve total digital invisibility for himself."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Become Dan's primary systems operator.">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Create a digital sanctuary."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "GI J"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Former colleague who is secretly hunting Oliver."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Exploit)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Oliver reports the digital and physical weaknesses of Sebastian's operations directly to Dan D.">>
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Liability)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Dan D relies on Oliver but finds his anxiety exhausting. Oliver views Dan D as his savior for pulling him out of the chaos of MSJ."&gt;&gt;
+
+&lt;&lt;case "Codey S"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Dan"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "dan"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 5&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Enthusiastic, perpetually optimistic, wearing branded Aether Tech gear. He is organized to a fault, viewing project management as life itself.">>
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Sidra Sage is a reserved, philosophical woman who appreciates Codey's simple, reliable enthusiasm.">>
+    &lt;&lt;set $Asc_Prof_Loves = "travel, project management, endless organization"&gt;&gt; &lt;!-- Added project management and organization --&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The deep anxiety when a project misses a deadline by five minutes."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "Former Scrum Master who was hired by Dan D for his ability to organize chaotic, illegal tech projects into predictable sprints.">>
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He manages the human resources and scheduling for all of Dan D's black market tech, ensuring maximum efficiency.">>
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He views Dan D as a visionary whose genius must be protected by relentless organization and positivity.">>
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He believes any problem can be solved by adding a new meeting or document."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Scope creep/project failure.">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Lack of a clear schedule.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "An unexpected meeting.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Become the Head of Operations."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Develop the perfect project management software.">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Achieve the perfect work-life balance."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Rival Project Manager"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Project Manager Codey constantly attempts to out-organize.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Manager)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Codey manages the human resources and scheduling for Dan D's black market tech projects.">>
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Shield)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Codey's relentless optimism shields Dan D from the project risks. Dan D sees Codey as irreplaceable for his ability to maintain morale under illegal pressure."&gt;&gt;
+
+&lt;&lt;case "Brick D"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Dan"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "dan"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 5&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Muscular, perpetually frowning, wears plain office clothes that barely conceal his bulk. He is ruthlessly logical but profoundly pessimistic.">>
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Blake Blossom is a sweet, innocent receptionist who is completely unaware of Brick's dark side.">>
+    &lt;&lt;set $Asc_Prof_Loves = "romance, proving pessimism, confronting vulnerability"&gt;&gt; &lt;!-- Added proving pessimism and confronting vulnerability --&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The moment his pessimism is proven right, which gives him a grim, satisfied glow."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "Former military demolition expert who found his calling as Dan D's chief risk assessor—his job is to find all the weaknesses in Dan's operation."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He is fiercely loyal to Dan D but constantly criticizes the hubris and ambition of the Aether Tech team.">>
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He forces the team to confront their vulnerability, often by destroying prototypes or testing security with ruthless aggression.">>
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He views the entire world as a highly flawed system waiting to be destroyed."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Unforeseen goodness (optimism that derails plans).">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Total organizational collapse.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "Being wrong about a prediction.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Be the last man standing after the collapse."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Prove that Dan's operation is ultimately flawed.">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Develop a foolproof security system (so flawed systems can't exist)."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Demolition Expert Thor J"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Rival demolition expert whose methods Brick despises.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Vulnerability)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Brick's job is to find the biggest weakness in Dan D's operation, ensuring they can exploit it before an enemy does.">>
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Reality Check)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Dan D needs Brick's relentless pessimism to counteract his own team's hubris. Brick views the operation as a ticking time bomb he enjoys watching."&gt;&gt;
+
+&lt;&lt;case "Dan D"&gt;&gt;
+
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Dan"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "child"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 2&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Looks tired, sharp, paranoid, constantly scanning the room for bugs or cameras. Always drinking cold coffee."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Chloe Temple is a student and he appreciates her youthful enthusiasm, which offsets his own burnout."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Loves = "golf, computers, high security."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The moment he realizes a piece of hardware is not secure and begins to panic."&gt;&gt;
+	
+/* ORIGIN STORY (UPDATED WITH NEW ENTRY) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "His boss (Big Dan) hired him due to his coding talent but treats him like an errand boy/intern."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He is a competent developer but is paranoid about being exposed or replaced."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He is responsible for keeping Big Dan's digital workspace clean, secure, and ready for use."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_4 = "Hates the name 'Little Dan' but has been unable to escape it."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Orig_5 = "He must arrive at 4:00 AM to perform preemptive network surveillance and critical server data cleanup before any corporate employee arrives."&gt;&gt;
+	
+/* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Being fired or replaced."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Being physically attacked due to Big Dan's enemies."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Fear_3 = "His paranoia being proven right."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Earn Big Dan's genuine respect."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Develop an unhackable personal server."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Be seen as 'Dan D,' not 'Little Dan.'"&gt;&gt;
+	
+/* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+/* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Name Confusion)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Everyone calls the boss 'Big Dan' and him 'Little Dan' (which he hates). He works directly under Big Dan."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Mentorship)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Big Dan tries to teach him professional maturity. Little Dan thinks Big Dan is 'old school' and needs to loosen up."&gt;&gt;
+
+&lt;&lt;case "Sam S"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Dan"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "dan"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 5&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Clean-shaven, military-precise posture, wears well-fitted, simple clothing. He is quiet and analytical, with a veteran's distrust of reckless technology.">>
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Blake Blossom is a sweet, innocent receptionist who provides Sam with the peace he lost in the military.">>
+    &lt;&lt;set $Asc_Prof_Loves = "Army Vet, security architecture, moral consistency"&gt;&gt; &lt;!-- Added security architecture and moral consistency --&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The quiet, moral objection he raises just before Dan gives a final, illegal order."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "Former military engineer who was honorably discharged after questioning an ethical order. He is hyper-focused on security and blueprints.">>
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He designs the security architecture for all of Dan D's targets, and then serves as the perfect alibi when the security is breached.">>
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He acts as Dan D's moral compass, constantly questioning the ethics of their operations, yet always completing his designs.">>
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He views Dan D as a powerful genius whose hubris will eventually destroy them."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Reckless abandonment of protocol.">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "His family discovering his criminal work.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "The final, moral test of Dan's integrity.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Build a flawless, impenetrable bunker/home."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Achieve total peace of mind.">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Achieve a job that requires no ethical compromise."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Colonel Green"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Former military superior who still believes Sam is a good soldier.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Blueprint)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Sam designs the security architecture for all of Dan D's primary targets.">>
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Moral Compass)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Sam constantly questions Dan D's motives, forcing the boss to justify the morality of every operation, but Sam always completes the work."&gt;&gt;
+
+/* ========================================================== */
+/* NICK'S NETWORK (Imperium / Anger)                          */
+/* ========================================================== */
+
+&lt;&lt;case "Logan X"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Nick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "nick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 6&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Muscular, dressed in custom-tailored suits. He has a charismatic presence that hides a cold, calculating mind. Looks perpetually bored."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Valerica Steele is a high-powered executive who views Logan as her personal, obedient trophy.">>
+    &lt;&lt;set $Asc_Prof_Loves = "music, blackmail, controlling leverage"&gt;&gt; &lt;!-- Added blackmail and controlling leverage --&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The moment his bored facade drops and he delivers a precise, chilling threat."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "Erotic market merchant who uses his gym connections (Nick) to gain access to the wealthiest, most influential clients in the city.">>
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He maintains a meticulous black ledger of all his clients' secrets, giving him immense leverage over the city elite.">>
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He provides Nick with high-value gossip and blackmail material, funding Nick's power structure.">>
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He views Nick as a powerful but simple puppet he can manipulate for market access."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "His black ledger being exposed.">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Losing his leverage/control.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "A hostile takeover of his market.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Become the single most powerful blackmailer in the region."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Retire to an anonymous tropical island.">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Ruining the career of a major politician."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Police Captain Benson"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Blackmailed client Logan controls.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Leverage)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Logan supplies the Unity brothers with highly discreet information and services, maintaining strict leverage over their secrets.">>
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Investor)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Nick sees Logan as a necessary financial asset. Logan sees Nick as a powerful but predictable athlete he can easily manipulate for access to elite networks."&gt;&gt;
+
+&lt;&lt;case "Josh R"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Nick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "nick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 6&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Perpetually nervous, dressed in ill-fitting cafeteria uniforms. He projects insecurity and fear, hiding a deep love for fine cuisine.">>
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Vivianne DeSilva is a demanding art critic who views Josh as her simple, obedient project."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Loves = "Fine cuisine, secret menus, culinary anonymity"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The moment he describes the complex flavor profile of a dish he secretly created."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "Highly talented chef who failed out of culinary school due to performance anxiety. He now hides his talent in a low-stakes cafeteria job.">>
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He provides Nick and his inner circle with high-quality, discreet catering for their lavish, private fraternity events.">>
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He views Nick as a temporary, wealthy client whose business keeps him fed and hidden.">>
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He is terrified of the pressure of competition and fame."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Public critique/negative reviews.">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Losing his job (his cover).">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "Food poisoning his clients.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Become a celebrated, anonymous chef.">&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Achieve the perfect recipe for a classic dish.">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Own a small, quiet cafe far from the city."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Chef Bobby Flay"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Chef whose recipes Josh constantly attempts to improve."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Supply)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Josh R provides Nick and his inner circle with high-quality, discreet food catering for their lavish, private fraternity events.">>
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Necessity)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Nick is oblivious to Josh's insecurity but loves the food. Josh views Nick as a temporary client until he achieves his true culinary fame."&gt;&gt;
+
+&lt;&lt;case "Kyle M"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Nick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "nick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 6&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Perpetually sun-tanned, muscular build, moves with the slow, controlled ease of a surfer. He is philosophical but deeply judgmental of others' lifestyles.">>
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Anna Chambers is a high-energy dance instructor who keeps Kyle grounded in the physical world he otherwise ignores.">>
+    &lt;&lt;set $Asc_Prof_Loves = "Pro Dance Instructor, surfing, simple living"&gt;&gt; &lt;!-- Added surfing and simple living --&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The moment he uses deep philosophical rhetoric to tear down a rival."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "Former philosophy student who became a lifeguard to escape academic pretense and live a simple life by the ocean.">>
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He views the fraternity as a necessary evil: a source of money and low-stakes drama that funds his beach lifestyle.">>
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He provides Nick's hyperactive, wealthy stepbrothers with a means of achieving calm and escaping the city stress (via the ocean).">>
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He believes true morality lies in physical labor and simple living, despising excess."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Being forced back into city life/academia.">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Losing his freedom/beach access.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "The ocean becoming polluted.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Travel the world's best surfing beaches."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Open a simple beachside shack.">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Write a book on surfing philosophy."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Local Beach Patrol Chief"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Chief Kyle constantly evades due to minor infractions.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Escape)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Kyle provides Nick's hyperactive, wealthy stepbrothers with a means of achieving calm and escaping the city stress (via the ocean).">>
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Disgusted)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Kyle despises the entitled life of the Unity students but uses the fraternity connection to maintain low visibility. Nick views Kyle as a reliable, if odd, resource."&gt;&gt;
+
+&lt;&lt;case "Luke C"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Nick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "nick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 6&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Muscular and disciplined, always dressed in clean, sharp fraternity clothes. He is utterly devoted to the rules and structures of the frat."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Brin Summer is a free-spirited painter who views Luke's rigid control as a fascinating art form.">>
+    &lt;&lt;set $Asc_Prof_Loves = "soccer and chatting, AΦT code, enforcing rules"&gt;&gt; &lt;!-- Added AΦT code and enforcing rules --&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The quiet, nervous tremor when he is forced to act outside the fraternity's constitution."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "The fraternity's Constitution is his bible. He ensures all of Nick's actions are backed by legitimate AΦT power structures.">>
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He is Nick's enforcement hand, ensuring all members comply with the rigid internal rules.">>
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He views Nick as the charismatic figurehead who respects the power of the code.">>
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He is terrified of procedural error or the collapse of the fraternity's hierarchy."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Procedural failure/loopholes.">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "The dissolution of the fraternity.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "Anarchy/lack of rules.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Become the Head of the National AΦT Board."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Write a comprehensive AΦT handbook of all rules.">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Achieve total compliance from all members."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Dean Hemlock"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Dean he constantly lobbies to avoid disciplinary action against the fraternity.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Code)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Luke C maintains the fraternity code and constitution that Nick leverages for authority.">>
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Hand)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Nick is the public face; Luke C is the enforcement hand, ensuring Nick's orders are backed by legitimate AΦT power structures. Nick finds Luke tedious but necessary."&gt;&gt;
+
+&lt;&lt;case "Zack D"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Nick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "nick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 6&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Muscular and aggressive, wearing expensive gym clothes. He is ruthlessly competitive, viewing every social interaction as a chance to dominate.">>
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Violet Moore is a quiet, ambitious social climber who views Zack as her ticket to the top of the fraternity hierarchy.">>
+    &lt;&lt;set $Asc_Prof_Loves = "fitness, domination, Nick's approval"&gt;&gt; &lt;!-- Added domination and Nick's approval --&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The subtle, predatory satisfaction when he successfully humiliates a rival."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "A younger, hungrier version of Nick; he is being groomed by Nick as his ultimate successor in the Fraternity.">>
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He runs all of Nick's dirty work, viewing violence and psychological warfare as simple tools for Imperium.">>
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He views Nick as the perfect template for powerful, effortless authority.">>
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He constantly seeks Nick's approval, doing whatever is necessary to impress him."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Failing to live up to Nick's expectations.">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Being physically defeated/weakness.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "Being replaced by a better protégé.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Succeed Nick as the most powerful man in AΦT."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Achieve a perfect domination record.">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Own his own chain of luxury gyms."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Gym Owner Green"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Rival gym owner Zack is trying to ruin professionally.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Power)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Zack D reports directly to Nick, who sees Zack's ruthless drive as a reflection of his own youthful ambition.">>
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Protégé)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Nick grooms Zack as his ultimate successor in the Fraternity. Zack views Nick as the template for powerful, effortless Imperium."&gt;&gt;
+
+&lt;&lt;case "Chase A"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Nick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "nick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 6&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Clean, preppy, wearing expensive casual clothes. He is highly intelligent but emotionally cold, viewing the world through a chemical lens.">>
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Kyler Quinn is a chaotic tech developer who appreciates Chase's focused, dangerous intelligence.">>
+    &lt;&lt;set $Asc_Prof_Loves = "dogs, chemistry, emotional detachment"&gt;&gt; &lt;!-- Added chemistry and emotional detachment --&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The sudden, cold logic when he explains the most efficient way to dispose of a body."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "Chemistry genius who was expelled from university after creating a highly illegal compound. Nick offered him security and funds for his black-market work.">>
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He provides Nick's inner circle with specialized chemical compounds (drugs, cleaning agents, poisons) for various illegal purposes.">>
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He views Nick as a simple, high-paying client, maintaining professional distance from the organization's chaos.">>
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He is terrified of emotional attachment, viewing it as a chemical vulnerability."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Emotional attachment/vulnerability.">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Running out of clean chemicals.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "Police investigation of his lab.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Develop a perfect, untraceable poison."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Become the premier black-market chemist.">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Achieve total intellectual control over his emotions."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Professor Chem"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Former professor who tried to expose Chase's illegal work.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Chemistry)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Chase A provides Nick's inner circle with specialized chemical compounds (drugs, cleaning agents, adhesives) for various purposes.">>
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Intellectual)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Chase views Nick as a simple, high-paying client. Nick views Chase as a necessary genius who fuels the fraternity's disruptive actions."&gt;&gt;
+
+&lt;&lt;case "Johnny L"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Nick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "nick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 6&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Loud, dramatic, always wearing flashy, ill-fitting clothes. He is obsessed with self-promotion and the spotlight.">>
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Venus Vixen is a social media celebrity who views Johnny L as her source of dramatic content and chaos.">>
+    &lt;&lt;set $Asc_Prof_Loves = "propaganda, public narrative, self-promotion"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The moment he drops his loud persona and begs Nick for validation."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "Failed actor and public speaker obsessed with achieving fame and controlling the public narrative.">>
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He translates Nick's plans into loud, persuasive, and often misleading rhetoric for the public, acting as the propaganda machine.">>
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He views Nick as the most powerful man he must constantly imitate and please for continued access to power.">>
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He is terrified of silence and being ignored."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Silence/being ignored.">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "A negative press article.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "Losing his voice/charisma.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Become a celebrity motivational speaker.">&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Achieve viral fame.">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Be Nick's preferred public voice."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Journalist Mike"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Journalist Johnny L constantly attempts to feed false information.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Voice)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Johnny L translates Nick's plans into loud, persuasive, and often misleading rhetoric for the public.">>
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Fluffer)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Nick tolerates Johnny L's loudness because he controls the public message. Johnny L views Nick as the most powerful man he must imitate and please."&gt;&gt;
+
+&lt;&lt;case "Ryan L"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Nick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "nick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 6&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Oversized, baggy clothes, wearing a wide grin. He is the master of pranks and juvenile disruption, viewing chaos as the highest form of entertainment.">>
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Anna Chambers is a dance instructor who views Ryan as an energetic but lovable project she must constantly manage.">>
+    &lt;&lt;set $Asc_Prof_Loves = "Mexican Food, pranks, juvenile disruption"&gt;&gt; &lt;!-- Added pranks and juvenile disruption --&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The genuine, childish delight when a prank causes maximum confusion."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "The fraternity mascot and master prankster. He specializes in creating noise and confusion to distract officials from Nick's more serious criminal activities.">>
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He is funded entirely by Nick, viewing the money as necessary capital for his pranks.">>
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He views Nick as a fun source of endless capital and a protector against authority figures who don't appreciate his 'art'.">>
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He is terrified of being forced to act like a mature adult."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Maturity/responsibility.">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Being grounded/expelled.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "A failure of a high-stakes prank.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Pull off the greatest college prank in history."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Be Nick's preferred source of entertainment.">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Retire as the eternal frat mascot."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Campus Security Chief"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Chief Ryan constantly avoids and pranks.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Disruption)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Ryan L's pranks create the perfect noise and confusion to distract officials from Nick's more serious activities.">>
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Entertainment)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Nick funds Ryan's pranks for entertainment and distraction. Ryan views Nick as a fun source of endless capital."&gt;&gt;
+
+/* ========================================================== */
+/* RICK'S NETWORK (Affluence / Greed)                         */
+/* ========================================================== */
+
+&lt;&lt;case "Peter K"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Rick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "rick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 7&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Exceedingly stylish, wearing clothes that project wealth and effortless taste. He is obsessed with superficial appearance.">>
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Sawyer Cassidy is a vibrant rapper who views Peter K as her quiet, wealthy fan and source of designer clothes.">>
+    &lt;&lt;set $Asc_Prof_Loves = "rapper, designer clothing, projected wealth"&gt;&gt; &lt;!-- Added designer clothing and projected wealth --&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The quiet admission that he only feels value when wearing designer clothing."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "A former fashion stylist who realized he could monetize his taste by controlling the image of wealthy, ambitious clients like Rick.">>
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He maintains and elevates Rick's public image as the sophisticated, successful Unity College Senate Candidate.">>
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He views Rick as the key to accessing true, permanent wealth and the validation of the elite.">>
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He is utterly terrified of being exposed as a fraud or having to wear cheap clothes."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Wearing non-designer clothes.">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Being publicly exposed as having low status.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "A fashion faux pas.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Become the personal stylist to a President.">&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Own his own line of luxury clothing.">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Achieve total aesthetic control over Rick's image."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Rival Stylist Mark"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Stylist Peter constantly attempts to outshine publicly.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Image)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Peter K maintains and elevates Rick's public image as the sophisticated, successful Unity College Senate Candidate.">>
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Flatterer)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Rick uses Peter K as a constant source of flattery and material goods. Peter K views Rick as the key to accessing true, permanent wealth."&gt;&gt;
+
+&lt;&lt;case "Eddie D"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Rick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "rick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 7&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Clean chef whites, perpetually nervous. He is obsessed with culinary perfection, easily swayed by flattery.">>
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Valerica Steele is a high-powered executive who views Eddie D as a reliable source of luxury catering.">>
+    &lt;&lt;set $Asc_Prof_Loves = "fitness, culinary perfection, political validation"&gt;&gt; &lt;!-- Added culinary perfection and political validation --&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The moment he stops talking about food and reveals his deep desire for political validation."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "Highly talented chef who failed to open his own restaurant due to bad financial decisions. He now caters private events for the elite.">>
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He manages the high-end catering and private events that Rick uses to secure political influence and funds.">>
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He constantly flatters Rick, viewing him as a key to future political access and wealth.">>
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He is terrified of returning to his former poverty and will do anything to maintain his current status."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Financial ruin/poverty.">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "A catastrophic catering failure.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "A negative review from a high-status client.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Open his own ultra-exclusive restaurant."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Cater the inaugural ball for a new Senator.">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Achieve the highest status in the city's culinary scene."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "City Council Member Sue"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Client who pays Eddie D high fees for discreet catering.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Cuisine)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Eddie D manages the high-end catering and private events that Rick uses to secure political influence.">>
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Flattery)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Eddie D constantly flatters Rick, viewing him as a key to future political access. Rick uses Eddie D's services to project an image of effortless affluence."&gt;&gt;
+
+&lt;&lt;case "Criss S"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Rick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "rick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 7&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Impeccably tailored, formal suit, carrying a heavy leather briefcase. He projects cold authority and bureaucratic competence.">>
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Kyler Queen is a demanding tech developer who views Criss S as her source of stability and legal leverage.">>
+    &lt;&lt;set $Asc_Prof_Loves = "control, wealth, political power"&gt;&gt; &lt;!-- Added control, wealth, political power --&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "When Criss momentarily drops his polished professionalism and reveals the raw greed and insecurity driving every decision he makes."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+	&lt;&lt;set $Asc_Prof_Orig_1 = "Power isn’t taken. It’s assigned — and I decide who qualifies."&gt;&gt;
+	&lt;&lt;set $Asc_Prof_Orig_2 = "Criss Simon operates at the intersection of law, wealth, and institutional authority. As Unity College’s Principal, he transforms bureaucracy into leverage and legality into a weapon."&gt;&gt;
+	&lt;&lt;set $Asc_Prof_Orig_3 = "Publicly polished and widely respected, Criss conceals extensive financial manipulation beneath layers of compliance and popularity. His enigmatic nature allows him to remain untouchable while directing corruption at arm’s length."&gt;&gt;
+	&lt;&lt;set $Asc_Prof_Orig_4 = "He views Rick as a charismatic instrument — useful, visible, and ultimately expendable. Every alliance he maintains is transactional, calibrated toward long-term consolidation of wealth and land."&gt;&gt;
+
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Loss of political/legal power.">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "A federal audit.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "Losing his seat as Principal.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Become the most powerful Principal in the state.">&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Own every piece of land bordering the campus.">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Achieve a net worth of $500 million."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Local Politician Smith"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Politician Criss S secretly funds and controls.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Power Base)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Criss S provides Rick with his power base at Unity College and the financial backing for his political career.">>
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Enabler)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Rick uses Criss S's money and network for his political ambition. Criss S uses Rick's success to project his own status and cover the land scheme."&gt;&gt;
+
+&lt;&lt;case "Filthy R"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Rick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "rick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 7&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Sloppy, expensive clothing, wears heavy gold jewelry. He is obsessed with money and status, hiding his true vulgarity behind a facade of wealth.">>
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Sidra Sage is a reserved, philosophical woman who views Filthy R as a grotesque source of endless funding.">>
+    &lt;&lt;set $Asc_Prof_Loves = "romance, accumulating wealth, financial schemes"&gt;&gt; &lt;!-- Added accumulating wealth and financial schemes --&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "When Filthy tries to appear sincere or romantic, only to expose how deeply uncomfortable he is with honesty and emotional accountability."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+	&lt;&lt;set $Asc_Prof_Orig_1 = "Money doesn’t lie. People do."&gt;&gt;
+	&lt;&lt;set $Asc_Prof_Orig_2 = "Filthy Rich rose from street-level hustling into high finance through instinct, risk, and relentless opportunism. He believes wealth is the only honest measure of worth and security."&gt;&gt;
+	&lt;&lt;set $Asc_Prof_Orig_3 = "As Unity College’s Treasurer, Filthy acts as the financial engine behind Rick’s rise, laundering funds and redirecting resources with crude efficiency. His excesses are masked by institutional opacity."&gt;&gt;
+	&lt;&lt;set $Asc_Prof_Orig_4 = "Despite his bravado, Filthy fears exposure — not of his crimes, but of his inadequacy. His relationship with Sidra Sage represents a fragile attempt at legitimacy he struggles to maintain."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Returning to poverty.">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Losing his access to high finance.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "Being publicly humiliated.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Achieve the highest financial status in the city."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Buy his own private island.">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Become Rick's most valued associate."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "City Bank CEO"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "CEO Filthy R constantly bribes and manipulates.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Funding)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Filthy R provides the untraceable funds for Rick's political campaign and lavish lifestyle.">>
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Engine)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Rick views Filthy R as a necessary but repulsive figure he must tolerate for his funds."&gt;&gt;
+
+&lt;&lt;case "Kai J"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Rick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "rick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 7&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Artist-chic, constantly surrounded by fans and music gear. He is charismatic but deeply cynical, viewing the world as a stage.">>
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Eva Nyx is a professional dancer who views Kai J as her rebellious creative muse.">>
+    &lt;&lt;set $Asc_Prof_Loves = "drums and piano, celebrity status, black market deals"&gt;&gt; &lt;!-- Added celebrity status and black market deals --&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The raw, emotional quality of his music when he's playing alone, contrasting with his public persona."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "A musician and celebrity obsessed with fame, recruited by Rick to give his political campaigns cultural weight and appeal to the youth.">>
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He views Rick as a high-paying, necessary connection to the wealthy elite who fund his lavish lifestyle.">>
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He uses his celebrity to create diversions and secure black-market deals for Rick's political operations.">>
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He is terrified of losing his fame and returning to obscurity."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Obscurity/losing fame.">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "A bad performance review.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "Losing his musical touch.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Become a global music icon."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Write a revolutionary concept album.">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Achieve a political position through fame alone."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Music Critic Rex"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Critic Kai J constantly attempts to impress or bribe.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Image)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Kai J's name and fame are used by Rick to give his political campaigns cultural weight and appeal to the youth.">>
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Icon)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Rick uses Kai J's status constantly. Kai J views Rick and his brother Nick as bothersome but necessary connections to the wealthy elite."&gt;&gt;
+
+&lt;&lt;case "Matty I"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Rick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "rick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 7&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Average, sloppy college student look. He is driven by laziness and a desire for easy money, hiding a surprising knowledge of chemistry.">>
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Krissy Knight is a professional wrestler who views Matty I as her quiet, brilliant fan."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Loves = "wrestling, easy money, chemical cleaning"&gt;&gt; &lt;!-- Added easy money and chemical cleaning --&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The sudden, cold focus when he discusses a complex chemical reaction."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "Chemistry student recruited by Nick and Rick for his ability to produce specialized chemicals for pranks and covert cleaning.">>
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He is profoundly lazy, seeking the easiest way to earn money and maintain his slacker lifestyle.">>
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He views Rick as a source of endless, easy cash for minimal effort.">>
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He is terrified of hard work or being forced to get a real job."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Hard labor/real work.">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "A difficult chemistry exam.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "Losing his easy money source.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Graduate with the least amount of effort possible.">&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Develop a self-cleaning chemical.">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Find a job that requires him to do nothing."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Professor Chem"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Professor Matty I constantly avoids.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Supplies)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Matty I ensures the fraternity and Rick's political operations have access to specialized chemicals for pranks and covert cleaning.">>
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Liability)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Rick views Matty I as a vital asset but a liability due to his laziness. Matty I views Rick as a source of endless, easy cash."&gt;&gt;
+
+&lt;&lt;case "Jodie J"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Rick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "rick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 7&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Stylish, avant-garde clothing, moves with dramatic flair. He views the world as a giant art canvas to be manipulated.">>
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Charlotte Mae is a disciplined dancer who views Jodie J's chaos as her creative inspiration.">>
+    &lt;&lt;set $Asc_Prof_Loves = "flexible, political film, cultural dominance"&gt;&gt; &lt;!-- Added political film and cultural dominance --&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The moment he stops talking about his art and reveals the deep cynicism behind his work."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "Art student obsessed with propaganda and visual manipulation. Recruited by Rick to create high-concept political films and advertisements.">>
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He views Rick as a simple source of funding for his true art, secretly mocking Rick's lack of aesthetic taste.">>
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He uses his aesthetic skill to create powerful, misleading political narratives for Rick's Senate campaign.">>
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He believes aesthetic control is the ultimate form of power."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Mediocrity/unoriginality.">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "Being forced to create simple, corporate art.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "A lack of funding for his projects.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Create a globally recognized political art movement.">&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Direct a major Hollywood film.">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Achieve a position of cultural dominance."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Art Critic Jane"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Critic Jodie J constantly attempts to impress."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Aesthetics)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Jodie J creates the high-concept political films and advertisements that Rick uses in his Senate campaign.">>
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Ego)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Rick pays Jodie J exorbitant fees for his services. Jodie J views Rick as a simple source of funding for his true art, secretly mocking Rick's lack of aesthetic taste."&gt;&gt;
+
+&lt;&lt;case "Apollo B"&gt;&gt;
+    /* IDENTITY & NETWORK CONTEXT */
+    &lt;&lt;set $Asc_Prof_Network = "Rick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRole = "rick"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_FamilyRoleOrder = 7&gt;&gt;
+    
+    /* VISUALS & PERSONALITY */
+    &lt;&lt;set $Asc_Prof_VisualSignature = "Hippie-chic, covered in dirt, perpetually carrying exotic plants. He is quiet and anti-establishment, viewing the world as an ecosystem to be protected.">>
+    &lt;&lt;set $Asc_Prof_Partner_Desc = "Braylin Bailey is a simple farm girl who views Apollo B as her nature-loving prophet."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Loves = "natural toxins, herbology, anti-greed politics"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Hook = "The moment he drops his gentle demeanor and reveals his knowledge of deadly plant-based toxins."&gt;&gt;
+
+    /* ORIGIN STORY (Optional) */
+    &lt;&lt;set $Asc_Prof_Orig_1 = "Herbology student obsessed with rare plants and natural toxins. He views Rick as the personification of the greed destroying the earth.">>
+    &lt;&lt;set $Asc_Prof_Orig_2 = "He provides rare, organic herbs and specialized chemical compounds (toxins) to Eddie D and Matty I for college use.">>
+    &lt;&lt;set $Asc_Prof_Orig_3 = "He views Rick as a necessary evil to be tolerated until the day he can expose the entire operation.">>
+    &lt;&lt;set $Asc_Prof_Orig_4 = "He is terrified of the spread of human-made toxins."&gt;&gt;
+
+    /* FEARS & AMBITIONS */
+    &lt;&lt;set $Asc_Prof_Fear_1 = "Pollution/environmental decay.">>
+    &lt;&lt;set $Asc_Prof_Fear_2 = "The destruction of a rare plant species.">>
+    &lt;&lt;set $Asc_Prof_Fear_3 = "Being forced to use his toxins for evil.">>
+    &lt;&lt;set $Asc_Prof_Ambition_1 = "Create a perfect, self-sustaining botanical garden."&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ambition_2 = "Achieve a political position to enforce environmental protection.">>
+    &lt;&lt;set $Asc_Prof_Ambition_3 = "Expose all of Rick's corruption."&gt;&gt;
+
+    /* EXTERNAL RELATIONSHIPS */
+    &lt;&lt;set $Asc_Prof_Ext_Person_1 = "Environmental Activist Tom"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_1 = "Activist Apollo B secretly funds and supports.">>
+    &lt;&lt;set $Asc_Prof_Ext_Person_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_2 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Person_3 = ""&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Ext_Description_3 = ""&gt;&gt;
+
+    /* FAMILY DYNAMICS */
+    &lt;&lt;set $Asc_Prof_Family_LinkType = "The Link (The Source)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_LinkDetails = "Apollo B provides rare, organic herbs and specialized chemical compounds (toxins) to Eddie D and Matty I for college use.">>
+    &lt;&lt;set $Asc_Prof_Family_DynamicType = "The Dynamic (The Liability)"&gt;&gt;
+    &lt;&lt;set $Asc_Prof_Family_DynamicDetails = "Rick views Apollo B as a slightly deranged but useful asset for exotic supplies. Apollo views Rick as a symbol of the greed destroying the earth."&gt;&gt;
+
+&lt;&lt;/switch&gt;&gt;
