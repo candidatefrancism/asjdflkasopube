@@ -1,0 +1,641 @@
+﻿Network,FamilyName,Alias,FamilyRoleOrder,Instance,LinkNo,LinkNetwork,LinkAlias,LinkDesc
+Eloquence,Milo,Tony M,1,1,1,Eloquence,Justin S,Volunteer flyers and event sign-ups start at Tony’s counter; Tony keeps Justin’s plans grounded with real crowd flow.
+Eloquence,Milo,Tony M,1,1,2,Eloquence,Rodnar R,"The paperwork gate and the people gate: Rodnar handles approvals; Tony handles trust. They argue, then solve it anyway."
+Eloquence,Milo,Tony M,1,1,3,Eloquence,John P,"Quiet booth, quiet questions. John cross-checks details; Tony remembers faces and patterns."
+Eloquence,Milo,Tony M,1,1,4,Eloquence,Karter H,"Frat manpower helps when it matters; Tony doesn’t tolerate entitlement, so Karter learns to show up first and negotiate second."
+Eloquence,Milo,Tony M,1,1,5,Eloquence,Peter G,A repeat customer who listens more than he talks; Peter becomes Tony’s go-to for quick errands and late-night checks.
+Eloquence,Milo,Tony M,1,1,6,Eloquence,Joe B,Joe knows the regulars and the troublemakers; Tony trusts him to spot a problem before it becomes a scene.
+Eloquence,Milo,Tony M,1,1,7,Eloquence,Xano D,Same ‘earned it the hard way’ energy. Xano and Tony keep each other honest without ever getting sentimental about it.
+Eloquence,Milo,Tony M,1,1,8,Transcendence,Benedict C,Father Ben helps without asking for credit; Tony feeds the helpers and makes sure Ben gets home safe after long nights.
+Eloquence,Milo,Tony M,1,1,9,Cunning,Quinton J,They share a dry humor that shows up in short lines and longer pauses.
+Eloquence,Milo,Tony M,1,1,10,Prominence,Ryan D,"Tony and Ryan keep it light: quick banter, mutual respect, and no pressure to perform."
+Eloquence,Milo,Justin S,1,2,1,Eloquence,Peter G,Council momentum: Justin handles the moving parts while Milo carries the title. They keep each other from getting trapped by optics.
+Eloquence,Milo,Justin S,1,2,2,Eloquence,Joe B,A sharp rivalry disguised as procedure. Justin learns to read what Nade wants without ever saying it out loud.
+Eloquence,Milo,Justin S,1,2,3,Eloquence,John P,Justin brings questions; John brings receipts. Together they turn rumor into something actionable.
+Eloquence,Milo,Justin S,1,2,4,Eloquence,Rodnar R,"Rodnar approves or blocks the build phases; Justin learns the art of asking the right way, at the right time."
+Eloquence,Milo,Justin S,1,2,5,Eloquence,Karter H,Karter can summon bodies and muscle; Justin can summon purpose. Their alliance works when they respect each other’s lanes.
+Eloquence,Milo,Justin S,1,2,6,Eloquence,Tony M,"Coffee, flyers, and a calm place to coordinate. Tony’s counter is Justin’s unofficial command post."
+Eloquence,Milo,Justin S,1,2,7,Eloquence,Xano D,Xano doesn’t care about speeches—he cares about follow-through. Justin earns his support by showing up.
+Eloquence,Milo,Justin S,1,2,8,Transcendence,Benedict C,Father Ben keeps volunteers steady when nerves spike. Justin trusts Ben with the human side of chaos.
+Eloquence,Milo,Justin S,1,2,9,Glamour,London F,"Justin and London keep it light: quick banter, mutual respect, and no pressure to perform."
+Eloquence,Milo,Justin S,1,2,10,Cunning,Milan P,Justin likes how Milan stays steady. It makes the time together feel simpler.
+Eloquence,Milo,Rodnar R,1,3,1,Eloquence,John P,A lock-and-key partnership: Rodnar controls access; John controls memory. They protect each other’s blind spots.
+Eloquence,Milo,Rodnar R,1,3,2,Eloquence,Karter H,Frat chaos meets administrative gravity. Rodnar keeps Karter from turning problems into scandals.
+Eloquence,Milo,Rodnar R,1,3,3,Eloquence,Justin S,"Forms, permits, and approvals—Justin brings the plan, Rodnar tests whether it survives reality."
+Eloquence,Milo,Rodnar R,1,3,4,Eloquence,Tony M,Rodnar’s partner is a regular at Tony’s place; that simple habit becomes an unexpected trust bridge.
+Eloquence,Milo,Rodnar R,1,3,5,Eloquence,Peter G,"Ben’s steady presence calms the loudest rooms. Rodnar respects him because he works, not because he speaks."
+Eloquence,Milo,Rodnar R,1,3,6,Eloquence,Joe B,"Standards, committees, and institutional pressure. Criss is the kind of ‘help’ Rodnar never accepts for free."
+Eloquence,Milo,Rodnar R,1,3,7,Eloquence,Xano D,Funding has a shadow attached. Rodnar reads Filthy like a contract: every favor has an interest rate.
+Eloquence,Milo,Rodnar R,1,3,8,Transcendence,Benedict C,"Ben’s steady presence calms the loudest rooms. Rodnar respects him because he works, not because he speaks."
+Eloquence,Milo,Rodnar R,1,3,9,Affluence,Criss S,"Rodnar and Criss click through routine—small check-ins, small favors, no speeches."
+Eloquence,Milo,Rodnar R,1,3,10,Affluence,Filthy R,Rodnar likes how Filthy stays steady. It makes the time together feel simpler.
+Eloquence,Milo,John P,1,4,1,Eloquence,Rodnar R,John keeps the receipts; Rodnar keeps the doors. Together they decide what becomes history and what disappears.
+Eloquence,Milo,John P,1,4,2,Eloquence,Justin S,Justin’s questions sharpen John’s focus. John’s evidence keeps Justin from getting played by rumors.
+Eloquence,Milo,John P,1,4,3,Eloquence,Peter G,Library policy becomes politics fast. John quietly coaches Milo on how to win without becoming a symbol.
+Eloquence,Milo,John P,1,4,4,Eloquence,Joe B,Ben’s weekly events bring people into safe routines; John uses the calm to rebuild community knowledge.
+Eloquence,Milo,John P,1,4,5,Eloquence,Tony M,Tony sees patterns in people; John sees patterns in paper. They trade notes without calling it ‘intel.’
+Eloquence,Milo,John P,1,4,6,Eloquence,Karter H,"John has rules; Karter has impulses. Their friction is constant, but so is their usefulness to each other."
+Eloquence,Milo,John P,1,4,7,Eloquence,Xano D,Criss smiles like a policy memo. John treats him as a potential problem until proven otherwise.
+Eloquence,Milo,John P,1,4,8,Transcendence,Benedict C,Ben’s weekly events bring people into safe routines; John uses the calm to rebuild community knowledge.
+Eloquence,Milo,John P,1,4,9,Affluence,Criss S,"John and Criss click through routine—small check-ins, small favors, no speeches."
+Eloquence,Milo,John P,1,4,10,Affluence,Filthy R,John likes how Filthy stays steady. It makes the time together feel simpler.
+Eloquence,Milo,Karter H,1,5,1,Eloquence,Tony M,"Needs food, manpower, and a place that feels real. Tony gives nothing away for free—Karter respects that."
+Eloquence,Milo,Karter H,1,5,2,Eloquence,Justin S,Justin can turn Karter’s energy into something productive. Karter can turn Justin’s plans into action.
+Eloquence,Milo,Karter H,1,5,3,Eloquence,Rodnar R,Rodnar can shut the whole thing down with a signature. Karter learns when to comply and when to negotiate.
+Eloquence,Milo,Karter H,1,5,4,Eloquence,John P,John sees through excuses. Karter keeps trying anyway. It’s an arms race in manners.
+Eloquence,Milo,Karter H,1,5,5,Eloquence,Peter G,Peter is the calm teammate Karter listens to when ego starts driving.
+Eloquence,Milo,Karter H,1,5,6,Eloquence,Joe B,Joe keeps the frat from doing something dumb in public. Karter pretends he doesn’t need that help.
+Eloquence,Milo,Karter H,1,5,7,Eloquence,Xano D,Xano’s discipline is the only ‘speech’ Karter actually absorbs. Coach’s approval matters to him more than he admits.
+Eloquence,Milo,Karter H,1,5,8,Transcendence,Benedict C,Father Ben is the one adult Karter won’t posture around. Ben treats him like a person worth fixing.
+Eloquence,Milo,Karter H,1,5,9,Imperium,Zack D,"Zack’s intensity keeps Karter sharp. They don’t agree often, but when they do, it’s because something real is on the line."
+Eloquence,Milo,Karter H,1,5,10,Imperium,Kyle M,"Kyle brings a steadier rhythm that Karter respects—less noise, more follow-through, and an understanding that not every win needs an audience."
+Eloquence,Milo,Peter G,1,6,1,Eloquence,Joe B,A tight friendship built on trust and shared routines—Joe’s the one Peter calls first.
+Eloquence,Milo,Peter G,1,6,2,Eloquence,Tony M,A steady regular. Tony’s place becomes Peter’s anchor between school stress and night work.
+Eloquence,Milo,Peter G,1,6,3,Eloquence,Justin S,"Peter supports Justin’s builds when it’s practical—quiet help, no spotlight."
+Eloquence,Milo,Peter G,1,6,4,Eloquence,Karter H,Karter pulls Peter into frat problems; Peter pulls Karter back to consequences.
+Eloquence,Milo,Peter G,1,6,5,Eloquence,Xano D,"Training, discipline, and a coach who demands follow-through. Peter responds well to that."
+Eloquence,Milo,Peter G,1,6,6,Eloquence,John P,Study help and careful research; John teaches Peter how to verify instead of guessing.
+Eloquence,Milo,Peter G,1,6,7,Eloquence,Rodnar R,Peter is often the messenger when others are too heated to talk. Rodnar respects that restraint.
+Eloquence,Milo,Peter G,1,6,8,Transcendence,Benedict C,Ben remembers Peter’s name and asks real questions. That simple habit keeps Peter coming back.
+Eloquence,Milo,Peter G,1,6,9,Glamour,Danny M,They share a dry humor that shows up in short lines and longer pauses.
+Eloquence,Milo,Peter G,1,6,10,Transcendence,Delman B,Delman brings energy; Peter brings calm. It’s a balance that just works.
+Eloquence,Milo,Joe B,1,7,1,Eloquence,Peter G,Joe trusts Peter’s judgment; Peter trusts Joe’s instincts. They keep each other out of trouble.
+Eloquence,Milo,Joe B,1,7,2,Eloquence,Tony M,Tony’s counter is Joe’s community radar. Joe helps keep the space safe without making it a big deal.
+Eloquence,Milo,Joe B,1,7,3,Eloquence,Justin S,"Joe knows Justin through the network and shows up when the work is physical, not political."
+Eloquence,Milo,Joe B,1,7,4,Eloquence,Karter H,Karter’s plans sometimes need a ‘no.’ Joe is willing to be that ‘no’ in private.
+Eloquence,Milo,Joe B,1,7,5,Eloquence,Xano D,Joe respects Xano’s standards and doesn’t talk back when Coach calls him out.
+Eloquence,Milo,Joe B,1,7,6,Eloquence,John P,John helps Joe with academics; Joe helps John with anything that requires a backbone outside the library.
+Eloquence,Milo,Joe B,1,7,7,Eloquence,Rodnar R,Joe is the guy Rodnar can use for quiet logistics without triggering attention.
+Eloquence,Milo,Joe B,1,7,8,Transcendence,Benedict C,Ben’s presence lowers Joe’s guard. Joe ends up volunteering more than he intended.
+Eloquence,Milo,Joe B,1,7,9,Imperium,Luke C,"Joe and Luke keep it light: quick banter, mutual respect, and no pressure to perform."
+Eloquence,Milo,Joe B,1,7,10,Transcendence,Hank F,"Hank doesn’t talk much, but his presence is steady. Joe treats that like gold."
+Eloquence,Milo,Xano D,1,8,1,Eloquence,Peter G,"Ben’s mission makes sense to Xano: work first, talk later. They move as a two-man stabilizer crew."
+Eloquence,Milo,Xano D,1,8,2,Eloquence,Joe B,Dorm-era history and ‘quiet grind’ respect. Xano’s vouch opens a safe lane into Eloquence situations.
+Eloquence,Milo,Xano D,1,8,3,Eloquence,Justin S,Justin brings structure; Xano brings discipline. Together they keep volunteers from burning out.
+Eloquence,Milo,Xano D,1,8,4,Eloquence,Rodnar R,Xano is Rodnar’s bridge to students when admin talk won’t land.
+Eloquence,Milo,Xano D,1,8,5,Eloquence,John P,John can find what was ‘lost’ in paperwork; Xano can keep people focused long enough to act on it.
+Eloquence,Milo,Xano D,1,8,6,Eloquence,Karter H,Xano keeps Karter honest through training and expectations—no speeches required.
+Eloquence,Milo,Xano D,1,8,7,Eloquence,Tony M,"Same roots, same work ethic. Tony and Xano share the ‘show up’ code without naming it."
+Eloquence,Milo,Xano D,1,8,8,Eloquence,Peter G,Peter listens. Xano invests in listeners because they’re the ones who last.
+Eloquence,Milo,Xano D,1,8,9,Opulence,Jmac,Xano likes how Jmac stays steady. It makes the time together feel simpler.
+Eloquence,Milo,Xano D,1,8,10,Imperium,Zack D,They share a dry humor that shows up in short lines and longer pauses.
+Cunning,Kevin,Quinton J,2,1,1,Cunning,Milan P,The Kitchen Ghost. Trades favors for clean stock and quiet meals.
+Cunning,Kevin,Quinton J,2,1,2,Cunning,Max S,The Barber-Spotter. Reads Quinton’s tells before Quinton notices them.
+Cunning,Kevin,Quinton J,2,1,3,Cunning,Andrew B,The Audit Fanboy. Easily redirected with the right numbers.
+Cunning,Kevin,Quinton J,2,1,4,Cunning,Brock C,The Claims Referee. Calls it “data hygiene” and makes it sound illegal.
+Cunning,Kevin,Quinton J,2,1,5,Cunning,Ramon N,The Device Guy. Keeps Quinton’s trail looking boring.
+Cunning,Kevin,Quinton J,2,1,6,Cunning,Alex L,The Risk Sniffer. Flags the two steps Quinton pretends aren’t there.
+Cunning,Kevin,Quinton J,2,1,7,Cunning,Danny S,The Noise Cover. Sax + paperwork means nobody listens to Quinton.
+Cunning,Kevin,Quinton J,2,1,8,Transcendence,Delman B,The Pole-Climber. Gets eyes on rooftops when the store cams go blind.
+Cunning,Kevin,Quinton J,2,1,9,Eloquence,Tony M,They share a dry humor that shows up in short lines and longer pauses.
+Cunning,Kevin,Quinton J,2,1,10,Opulence,Jmac,Quinton likes how Jmac stays steady. It makes the time together feel simpler.
+Cunning,Kevin,Milan P,2,2,1,Cunning,Quinton J,The Pharmacy Runner. Keeps Milan stocked without questions.
+Cunning,Kevin,Milan P,2,2,2,Cunning,Max S,The Clean Cut. Fixes Milan’s “I haven’t slept” face in ten minutes.
+Cunning,Kevin,Milan P,2,2,3,Cunning,Andrew B,The Spreadsheet Spoon. Counts portions like they’re liabilities.
+Cunning,Kevin,Milan P,2,2,4,Cunning,Brock C,The Deadpan Judge. Gives Milan “golf rules” for kitchen chaos.
+Cunning,Kevin,Milan P,2,2,5,Cunning,Ramon N,"The Systems Admin. Keeps the burners, timers, and records from snitching."
+Cunning,Kevin,Milan P,2,2,6,Cunning,Alex L,"The Safety Lane. Forces Milan to tape the cords, every time."
+Cunning,Kevin,Milan P,2,2,7,Cunning,Danny S,The Tempo Guy. Milan cooks to that sax whether he admits it or not.
+Cunning,Kevin,Milan P,2,2,8,Transcendence,Delman B,The Grid Whisperer. Knows which breaker to flip when the kitchen needs darkness.
+Cunning,Kevin,Milan P,2,2,9,Eloquence,Justin S,Milan likes how Justin stays steady. It makes the time together feel simpler.
+Cunning,Kevin,Milan P,2,2,10,Affluence,Eddie D,"Milan and Eddie click through routine—small check-ins, small favors, no speeches."
+Cunning,Kevin,Max S,2,3,1,Cunning,Quinton J,The Regular. Talks too much; Max remembers all of it.
+Cunning,Kevin,Max S,2,3,2,Cunning,Milan P,The Lunch Hook. Pays in food and bad advice.
+Cunning,Kevin,Max S,2,3,3,Cunning,Andrew B,The Mirror Check. Max trims him; Andrew tries to audit the price.
+Cunning,Kevin,Max S,2,3,4,Cunning,Brock C,The Heckler. Calls it “fade variance” with a straight face.
+Cunning,Kevin,Max S,2,3,5,Cunning,Ramon N,The Tablet Buddy. Swaps gossip for quick fixes.
+Cunning,Kevin,Max S,2,3,6,Cunning,Alex L,The Boundary Line. Keeps Max’s shop from turning into a meeting room.
+Cunning,Kevin,Max S,2,3,7,Cunning,Danny S,The Walk-In Music. Sax riffs become free advertising.
+Cunning,Kevin,Max S,2,3,8,Transcendence,Delman B,The High-Rise Client. Leaves dust on the chair; Max doesn’t ask why.
+Cunning,Kevin,Max S,2,3,9,Transcendence,Thomas B,They’re the kind of link that can go quiet for weeks and still feel normal after.
+Cunning,Kevin,Max S,2,3,10,Imperium,Luke C,Max trusts Luke’s read of a room. Even disagreements stay clean.
+Cunning,Kevin,Andrew B,2,4,1,Cunning,Quinton J,The “Mentor.” Quinton hands him numbers that go nowhere.
+Cunning,Kevin,Andrew B,2,4,2,Cunning,Milan P,The Budget Threat. Milan feeds him; Andrew still complains.
+Cunning,Kevin,Andrew B,2,4,3,Cunning,Max S,The Reset Button. One haircut and Andrew remembers to breathe.
+Cunning,Kevin,Andrew B,2,4,4,Cunning,Brock C,The Documentary Voice. Brock narrates Andrew’s mistakes in real time.
+Cunning,Kevin,Andrew B,2,4,5,Cunning,Ramon N,The Paper Shield. Ramon turns panic into a checklist.
+Cunning,Kevin,Andrew B,2,4,6,Cunning,Alex L,The Compliance Hammer. Alex is why Andrew follows rules.
+Cunning,Kevin,Andrew B,2,4,7,Cunning,Danny S,The Wake-Up Call. Sax at 2 PM is not an accident.
+Cunning,Kevin,Andrew B,2,4,8,Transcendence,Delman B,The Field Lesson. One ladder and Andrew suddenly respects safety.
+Cunning,Kevin,Andrew B,2,4,9,Transcendence,Benedict C,"Andrew and Benedict click through routine—small check-ins, small favors, no speeches."
+Cunning,Kevin,Andrew B,2,4,10,Imperium,Josh R,They’re the kind of link that can go quiet for weeks and still feel normal after.
+Cunning,Kevin,Brock C,2,5,1,Cunning,Quinton J,The Liability. Brock sees the slip-and-fall before it happens.
+Cunning,Kevin,Brock C,2,5,2,Cunning,Milan P,The Side Bet. Brock measures Milan’s chaos in putts.
+Cunning,Kevin,Brock C,2,5,3,Cunning,Max S,The Cut Critic. Official statement: “Acceptable. Continue.”
+Cunning,Kevin,Brock C,2,5,4,Cunning,Andrew B,The Case Study. Brock files him under “repeat offender (administrative).”
+Cunning,Kevin,Brock C,2,5,5,Cunning,Ramon N,The Quiet Fix. Ramon patches; Brock signs the report.
+Cunning,Kevin,Brock C,2,5,6,Cunning,Alex L,The Risk Partner. They argue; the plan improves.
+Cunning,Kevin,Brock C,2,5,7,Cunning,Danny S,The Soundtrack. Brock pretends to hate it. He doesn’t.
+Cunning,Kevin,Brock C,2,5,8,Transcendence,Delman B,The Height Problem. Brock notices missing harnesses before anyone else does.
+Cunning,Kevin,Brock C,2,5,9,Prominence,Brick D,Brick brings energy; Brock brings calm. It’s a balance that just works.
+Cunning,Kevin,Brock C,2,5,10,Transcendence,Rian R,They share a dry humor that shows up in short lines and longer pauses.
+Cunning,Kevin,Ramon N,2,6,1,Cunning,Quinton J,The Streamer. Ramon makes his traffic look like weather.
+Cunning,Kevin,Ramon N,2,6,2,Cunning,Milan P,The Burner. Keeps Milan’s gear “accidentally” untraceable.
+Cunning,Kevin,Ramon N,2,6,3,Cunning,Max S,The Shop Wi‑Fi. Ramon keeps it alive; Max keeps him fed with gossip.
+Cunning,Kevin,Ramon N,2,6,4,Cunning,Andrew B,The Panic Buffer. Ramon turns “oh no” into a checklist.
+Cunning,Kevin,Ramon N,2,6,5,Cunning,Brock C,The Claims Loop. Ramon brings receipts; Brock makes them hurt.
+Cunning,Kevin,Ramon N,2,6,6,Cunning,Alex L,The Red Team. Alex tests; Ramon hardens.
+Cunning,Kevin,Ramon N,2,6,7,Cunning,Danny S,The Night Ping. Danny texts at weird hours; Ramon answers anyway.
+Cunning,Kevin,Ramon N,2,6,8,Transcendence,Delman B,"The Tool Twin. Analog hands, digital brain — same language."
+Cunning,Kevin,Ramon N,2,6,9,Glamour,GI J,"Ramon and GI click through routine—small check-ins, small favors, no speeches."
+Cunning,Kevin,Ramon N,2,6,10,Transcendence,Tate H,"Ramon and Tate click through routine—small check-ins, small favors, no speeches."
+Cunning,Kevin,Alex L,2,7,1,Cunning,Quinton J,The Risk Flag. Alex tags his habits with sticky notes in her head.
+Cunning,Kevin,Alex L,2,7,2,Cunning,Milan P,The Hazard Audit. Keeps him from lighting the wrong thing.
+Cunning,Kevin,Alex L,2,7,3,Cunning,Max S,The Sightlines. Alex likes Max’s shop because it has exits.
+Cunning,Kevin,Alex L,2,7,4,Cunning,Andrew B,The Accountability. Alex doesn’t care how sweet his smile is.
+Cunning,Kevin,Alex L,2,7,5,Cunning,Brock C,The Co-Sign. Brock’s deadpan + Alex’s logic = bad day for liars.
+Cunning,Kevin,Alex L,2,7,6,Cunning,Ramon N,The System Probe. Alex breaks it; Ramon fixes it better.
+Cunning,Kevin,Alex L,2,7,7,Cunning,Danny S,The Distraction Use. Danny’s chaos is sometimes the plan.
+Cunning,Kevin,Alex L,2,7,8,Transcendence,Delman B,The Safety Fight. Alex tries to keep him grounded. He climbs anyway.
+Cunning,Kevin,Alex L,2,7,9,Prominence,Oliver F,Oliver brings energy; Alex brings calm. It’s a balance that just works.
+Cunning,Kevin,Alex L,2,7,10,Glamour,Max C,Alex trusts Max’s read of a room. Even disagreements stay clean.
+Cunning,Kevin,Danny S,2,8,1,Cunning,Quinton J,The Errand Buddy. Danny asks for cough drops; Quinton provides.
+Cunning,Kevin,Danny S,2,8,2,Cunning,Milan P,The After-Hours Food. Milan trades plates for practice space.
+Cunning,Kevin,Danny S,2,8,3,Cunning,Max S,The Cut Before Show. Max trims him; Danny leaves a tip and a riff.
+Cunning,Kevin,Danny S,2,8,4,Cunning,Andrew B,The Button Pusher. Danny tests how fast Andrew cracks.
+Cunning,Kevin,Danny S,2,8,5,Cunning,Brock C,The Heckle Wall. Brock’s deadpan lines are Danny’s favorite.
+Cunning,Kevin,Danny S,2,8,6,Cunning,Ramon N,The Midnight Helpdesk. Danny calls; Ramon grumbles; it works.
+Cunning,Kevin,Danny S,2,8,7,Cunning,Alex L,The Boundary Checker. Alex is why Danny doesn’t freestyle in meetings.
+Cunning,Kevin,Danny S,2,8,8,Transcendence,Delman B,The Rooftop Jam. Delman likes the quiet; Danny likes the echo.
+Cunning,Kevin,Danny S,2,8,9,Affluence,Kai J,Danny likes how Kai stays steady. It makes the time together feel simpler.
+Cunning,Kevin,Danny S,2,8,10,Prominence,Ryan D,Ryan brings energy; Danny brings calm. It’s a balance that just works.
+Opulence,William,Jay P,3,1,1,Opulence,Colton C,The Fixer. Cleans up his messes.
+Opulence,William,Jay P,3,1,2,Opulence,Tommy P,The Supplier. Provides 'party favors'.
+Opulence,William,Jay P,3,1,3,Opulence,Ridge C,The Guard. Keeps the riff-raff out.
+Opulence,William,Jay P,3,1,4,Opulence,Jason S,The Commander. Takes orders from Jason S.
+Opulence,William,Jay P,3,1,5,Opulence,Juan L,The Chef. Demands exotic menus.
+Opulence,William,Jay P,3,1,6,Opulence,Adam L,The Source. Buys organic produce for parties.
+Opulence,William,Jay P,3,1,7,Opulence,Jmac,The Driver. Treats him like a servant.
+Opulence,William,Jay P,3,1,8,Transcendence,Hank F,House Medic. Keeps Jay presentable when nights get reckless.
+Opulence,William,Jay P,3,1,9,Prominence,Tommy W,They’re the kind of link that can go quiet for weeks and still feel normal after.
+Opulence,William,Jay P,3,1,10,Affluence,Apollo B,Apollo brings energy; Jay brings calm. It’s a balance that just works.
+Opulence,William,Colton C,3,2,1,Opulence,Jay P,The Client. His primary source of income and stress.
+Opulence,William,Colton C,3,2,2,Opulence,Tommy P,The Liability. Frequently gets arrested.
+Opulence,William,Colton C,3,2,3,Opulence,Ridge C,The Muscle. Uses Ridge for intimidation.
+Opulence,William,Colton C,3,2,4,Opulence,Jason S,The Ally. Relies on Jason for operational support.
+Opulence,William,Colton C,3,2,5,Opulence,Juan L,The Caterer. Hires Juan for firm dinners.
+Opulence,William,Colton C,3,2,6,Opulence,Adam L,The Landowner. Manages Adam's property deeds.
+Opulence,William,Colton C,3,2,7,Opulence,Jmac,The Driver. Uses Jmac for secure transport.
+Opulence,William,Colton C,3,2,8,Transcendence,Hank F,Liability Buffer. Quietly patches problems before they become cases.
+Opulence,William,Colton C,3,2,9,Imperium,Josh R,"Colton and Josh click through routine—small check-ins, small favors, no speeches."
+Opulence,William,Colton C,3,2,10,Glamour,Ray R,"Colton and Ray keep it light: quick banter, mutual respect, and no pressure to perform."
+Opulence,William,Tommy P,3,3,1,Opulence,Jay P,The Best Customer. Buys in bulk.
+Opulence,William,Tommy P,3,3,2,Opulence,Colton C,The Savior. Keeps him free.
+Opulence,William,Tommy P,3,3,3,Opulence,Ridge C,The Bouncer. Uses Ridge for security.
+Opulence,William,Tommy P,3,3,4,Opulence,Jason S,The Observer. Jason monitors his activities.
+Opulence,William,Tommy P,3,3,5,Opulence,Juan L,The Snob. Hates Juan's food.
+Opulence,William,Tommy P,3,3,6,Opulence,Adam L,The Hick. Mocks Adam's farm life.
+Opulence,William,Tommy P,3,3,7,Opulence,Jmac,The Ride. Jmac drives him around.
+Opulence,William,Tommy P,3,3,8,Transcendence,Hank F,Bad Luck Magnet. Hank’s patience is tested by Tommy’s chaos.
+Opulence,William,Tommy P,3,3,9,Imperium,Kyle M,They share a dry humor that shows up in short lines and longer pauses.
+Opulence,William,Tommy P,3,3,10,Glamour,Parker S,"Tommy and Parker keep it light: quick banter, mutual respect, and no pressure to perform."
+Opulence,William,Ridge C,3,4,1,Opulence,Jay P,The Principal. Protects Jay P.
+Opulence,William,Ridge C,3,4,2,Opulence,Colton C,The Boss. Takes orders from Colton.
+Opulence,William,Ridge C,3,4,3,Opulence,Tommy P,The Annoyance. Keeps Tommy safe.
+Opulence,William,Ridge C,3,4,4,Opulence,Jason S,The Peer. Respects Jason S's authority.
+Opulence,William,Ridge C,3,4,5,Opulence,Juan L,The Feeder. Eats Juan's leftovers.
+Opulence,William,Ridge C,3,4,6,Opulence,Adam L,The Strongman. Respects Adam's strength.
+Opulence,William,Ridge C,3,4,7,Opulence,Jmac,The Driver. Works well with Jmac.
+Opulence,William,Ridge C,3,4,8,Transcendence,Hank F,Respect-by-Results. Ridge trusts the calm hands more than the talk.
+Opulence,William,Ridge C,3,4,9,Glamour,Cyrus K,Ridge trusts Cyrus’s read of a room. Even disagreements stay clean.
+Opulence,William,Ridge C,3,4,10,Prominence,Sam S,They’re the kind of link that can go quiet for weeks and still feel normal after.
+Opulence,William,Jason S,3,5,1,Opulence,Jay P,The Commander. Organizes Jay P's events.
+Opulence,William,Jason S,3,5,2,Opulence,Colton C,The Strategist. Handles logistics for Colton C.
+Opulence,William,Jason S,3,5,3,Opulence,Tommy P,The Advisor. Monitors Tommy P's activities.
+Opulence,William,Jason S,3,5,4,Opulence,Ridge C,The Ally. Coordinates with Ridge for security.
+Opulence,William,Jason S,3,5,5,Opulence,Juan L,The Cook. Monitors Juan's kitchen for quality.
+Opulence,William,Jason S,3,5,6,Opulence,Adam L,The Peer. Works with Adam L daily.
+Opulence,William,Jason S,3,5,7,Opulence,Jmac,The Mechanic. Fixes Jason's equipment.
+Opulence,William,Jason S,3,5,8,Transcendence,Hank F,Medical Asset. Jason keeps Hank close for contingencies and cleanup.
+Opulence,William,Jason S,3,5,9,Prominence,Dan D,Jason likes how Dan stays steady. It makes the time together feel simpler.
+Opulence,William,Jason S,3,5,10,Prominence,Richard G,They share a dry humor that shows up in short lines and longer pauses.
+Opulence,William,Juan L,3,6,1,Opulence,Adam L,The Farmer. Sourcing partner.
+Opulence,William,Juan L,3,6,2,Opulence,Jay P,The Patron. Funds his kitchen.
+Opulence,William,Juan L,3,6,3,Opulence,Colton C,The Fixer. Keeps health inspectors away.
+Opulence,William,Juan L,3,6,4,Opulence,Ridge C,The Feeder. Eats Juan's leftovers.
+Opulence,William,Juan L,3,6,5,Opulence,Jason S,The Critic. Finds Jason annoying.
+Opulence,William,Juan L,3,6,6,Opulence,Tommy P,The Philistine. Hates Tommy's palate.
+Opulence,William,Juan L,3,6,7,Opulence,Jmac,The Delivery. Jmac brings supplies.
+Opulence,William,Juan L,3,6,8,Transcendence,Hank F,Kitchen Ally. Appreciates Hank’s steady routine and no-drama presence.
+Opulence,William,Juan L,3,6,9,Transcendence,Benedict C,Juan likes how Benedict stays steady. It makes the time together feel simpler.
+Opulence,William,Juan L,3,6,10,Prominence,Oliver F,"Juan and Oliver click through routine—small check-ins, small favors, no speeches."
+Opulence,William,Adam L,3,7,1,Opulence,Juan L,The Buyer. Respects Juan's taste.
+Opulence,William,Adam L,3,7,2,Opulence,Colton C,The Lawyer. Manages his property deeds.
+Opulence,William,Adam L,3,7,3,Opulence,Jason S,The Peer. Works with Jason S daily.
+Opulence,William,Adam L,3,7,4,Opulence,Ridge C,The Peer. Respects Ridge's strength.
+Opulence,William,Adam L,3,7,5,Opulence,Jay P,The Landlord. Pays rent to Jay P's family.
+Opulence,William,Adam L,3,7,6,Opulence,Tommy P,The Idiot. Chases Tommy off his land.
+Opulence,William,Adam L,3,7,7,Opulence,Jmac,The Hauler. Uses Jmac for transport.
+Opulence,William,Adam L,3,7,8,Transcendence,Hank F,Farm Call. Counts on Hank for emergencies far from the estate.
+Opulence,William,Adam L,3,7,9,Glamour,GI J,"Adam and GI click through routine—small check-ins, small favors, no speeches."
+Opulence,William,Adam L,3,7,10,Glamour,Thor J,Thor brings energy; Adam brings calm. It’s a balance that just works.
+Opulence,William,Jmac,3,8,1,Opulence,Jay P,The Boss. Drives his limos.
+Opulence,William,Jmac,3,8,2,Opulence,Tommy P,The Party. Drives his party bus.
+Opulence,William,Jmac,3,8,3,Opulence,Adam L,The Work. Fixes his trucks.
+Opulence,William,Jmac,3,8,4,Opulence,Colton C,The Getaway. Drives Colton securely.
+Opulence,William,Jmac,3,8,5,Opulence,Ridge C,The Cargo. Transports Ridge.
+Opulence,William,Jmac,3,8,6,Opulence,Jason S,The Commander. Fixes his equipment.
+Opulence,William,Jmac,3,8,7,Opulence,Juan L,The Delivery. Delivers Juan's food.
+Opulence,William,Jmac,3,8,8,Transcendence,Hank F,Road Partner. Coordinates fast pickups when minutes matter.
+Opulence,William,Jmac,3,8,9,Eloquence,Xano D,Jmac likes how Xano stays steady. It makes the time together feel simpler.
+Opulence,William,Jmac,3,8,10,Cunning,Quinton J,Jmac likes how Quinton stays steady. It makes the time together feel simpler.
+Glamour,Sebastian,Cyrus K,4,1,1,Glamour,London F,MSJ cover guardian. Cyrus grants access; London tests it daily.
+Glamour,Sebastian,Cyrus K,4,1,2,Glamour,Ray R,External drop hub. Ray runs face-to-face handoffs and stays clean.
+Glamour,Sebastian,Cyrus K,4,1,3,Glamour,Danny M,Paranoia supplier. Danny demands extra layers; Cyrus never laughs.
+Glamour,Sebastian,Cyrus K,4,1,4,Glamour,Max C,Field rhythm mismatch. Max improvises; Cyrus pre-stages backups anyway.
+Glamour,Sebastian,Cyrus K,4,1,5,Glamour,GI J,Quiet approval. GI only nods when the kit is truly solid.
+Glamour,Sebastian,Cyrus K,4,1,6,Glamour,Parker S,Systems handshake. Parker hardens Cyrus’s node and cameras.
+Glamour,Sebastian,Cyrus K,4,1,7,Glamour,Thor J,Explosive appetite. Cyrus rejects half his shopping list.
+Glamour,Sebastian,Cyrus K,4,1,8,Transcendence,Severin S,Public heat sink. Cyrus feeds him safe cover stories and exits.
+Glamour,Sebastian,Cyrus K,4,1,9,Opulence,Ridge C,Cyrus trusts Ridge’s read of a room. Even disagreements stay clean.
+Glamour,Sebastian,Cyrus K,4,1,10,Prominence,Richard G,Cyrus likes how Richard stays steady. It makes the time together feel simpler.
+Glamour,Sebastian,London F,4,2,1,Glamour,Cyrus K,Gate etiquette. London respects the lock; argues over method.
+Glamour,Sebastian,London F,4,2,2,Glamour,Ray R,Outside eyes. Ray flags arrivals; London decides who gets near.
+Glamour,Sebastian,London F,4,2,3,Glamour,Danny M,Training target. Danny copies his stance; London corrects it.
+Glamour,Sebastian,London F,4,2,4,Glamour,Max C,Precision vs flair. London keeps Max’s chaos from spilling.
+Glamour,Sebastian,London F,4,2,5,Glamour,GI J,Sparing partner. They test range-to-blade transitions.
+Glamour,Sebastian,London F,4,2,6,Glamour,Parker S,Comms discipline. London forces quiet; Parker learns.
+Glamour,Sebastian,London F,4,2,7,Glamour,Thor J,Noise tax. Thor’s blasts ruin stealth; London makes him pay in drills.
+Glamour,Sebastian,London F,4,2,8,Transcendence,Severin S,Image shield. London moves him like a VIP through choke points.
+Glamour,Sebastian,London F,4,2,9,Eloquence,Justin S,"London and Justin keep it light: quick banter, mutual respect, and no pressure to perform."
+Glamour,Sebastian,London F,4,2,10,Prominence,Tommy W,"London and Tommy click through routine—small check-ins, small favors, no speeches."
+Glamour,Sebastian,Ray R,4,3,1,Glamour,Cyrus K,Route custodian. Cyrus sets windows; Ray enforces them.
+Glamour,Sebastian,Ray R,4,3,2,Glamour,London F,North-route sentinel. London’s presence keeps Ray’s bar quiet.
+Glamour,Sebastian,Ray R,4,3,3,Glamour,Danny M,Rumor sieve. Danny feeds paranoia; Ray filters what matters.
+Glamour,Sebastian,Ray R,4,3,4,Glamour,Max C,Message courier. Ray relays briefings without names.
+Glamour,Sebastian,Ray R,4,3,5,Glamour,GI J,Silent respect. GI drinks water; Ray never asks why.
+Glamour,Sebastian,Ray R,4,3,6,Glamour,Parker S,Signal relay. Parker gives Ray dead-simple comms kits.
+Glamour,Sebastian,Ray R,4,3,7,Glamour,Thor J,Problem removal. Thor breaks things; Ray removes witnesses.
+Glamour,Sebastian,Ray R,4,3,8,Transcendence,Severin S,Crowd cover. Severin draws cameras; Ray moves unseen behind.
+Glamour,Sebastian,Ray R,4,3,9,Transcendence,Bram W,"Ray and Bram keep it light: quick banter, mutual respect, and no pressure to perform."
+Glamour,Sebastian,Ray R,4,3,10,Opulence,Colton C,"Ray and Colton keep it light: quick banter, mutual respect, and no pressure to perform."
+Glamour,Sebastian,Danny M,4,4,1,Glamour,Cyrus K,Hardware wrangler. Cyrus gives him tools; Danny suspects them anyway.
+Glamour,Sebastian,Danny M,4,4,2,Glamour,London F,Voice mirror. Danny imitates; London notices every drift.
+Glamour,Sebastian,Danny M,4,4,3,Glamour,Ray R,Safe talk. Ray listens; Danny tests him with fake stories.
+Glamour,Sebastian,Danny M,4,4,4,Glamour,Max C,Decoy play. Max uses Danny’s mimicry to reshape a scene.
+Glamour,Sebastian,Danny M,4,4,5,Glamour,GI J,Reality check. GI shuts down Danny’s spirals with one word.
+Glamour,Sebastian,Danny M,4,4,6,Glamour,Parker S,Tech co-pilot. Parker runs signals; Danny runs the human layer.
+Glamour,Sebastian,Danny M,4,4,7,Glamour,Thor J,Blast paranoia. Danny hates the noise; Thor doesn’t care.
+Glamour,Sebastian,Danny M,4,4,8,Transcendence,Severin S,Public script. Danny teaches him lines that hide truth.
+Glamour,Sebastian,Danny M,4,4,9,Eloquence,Peter G,They share a dry humor that shows up in short lines and longer pauses.
+Glamour,Sebastian,Danny M,4,4,10,Transcendence,Delman B,Delman brings energy; Danny brings calm. It’s a balance that just works.
+Glamour,Sebastian,Max C,4,5,1,Glamour,Cyrus K,Loadout gate. Cyrus insists on receipts; Max insists on speed.
+Glamour,Sebastian,Max C,4,5,2,Glamour,London F,Close-quarters anchor. London keeps the team sharp and quiet.
+Glamour,Sebastian,Max C,4,5,3,Glamour,Ray R,External channel. Ray is Max’s off-grid intake.
+Glamour,Sebastian,Max C,4,5,4,Glamour,Danny M,Mask artist. Danny becomes whoever Max needs for five minutes.
+Glamour,Sebastian,Max C,4,5,5,Glamour,GI J,Unseen finisher. GI closes angles Max can’t see.
+Glamour,Sebastian,Max C,4,5,6,Glamour,Parker S,Signal leash. Parker keeps Max connected in the chaos.
+Glamour,Sebastian,Max C,4,5,7,Glamour,Thor J,Demolition timing. Thor makes the door; Max chooses the second.
+Glamour,Sebastian,Max C,4,5,8,Transcendence,Severin S,Spotlight diversion. Severin steals eyes while Max steals exits.
+Glamour,Sebastian,Max C,4,5,9,Prominence,Brick D,Brick brings energy; Max brings calm. It’s a balance that just works.
+Glamour,Sebastian,Max C,4,5,10,Cunning,Alex L,Max trusts Alex’s read of a room. Even disagreements stay clean.
+Glamour,Sebastian,GI J,4,6,1,Glamour,Cyrus K,Quality bar. GI judges Cyrus’s kits without commentary.
+Glamour,Sebastian,GI J,4,6,2,Glamour,London F,Blade discipline. London keeps GI’s violence controlled.
+Glamour,Sebastian,GI J,4,6,3,Glamour,Ray R,Quiet logistics. Ray knows GI’s schedule better than GI does.
+Glamour,Sebastian,GI J,4,6,4,Glamour,Danny M,"Paranoia foil. GI humors him once, then ends it."
+Glamour,Sebastian,GI J,4,6,5,Glamour,Max C,Orders only. Max talks; GI moves.
+Glamour,Sebastian,GI J,4,6,6,Glamour,Parker S,Comms patience. Parker’s chatter meets GI’s stare.
+Glamour,Sebastian,GI J,4,6,7,Glamour,Thor J,Damage control. Thor breaks cover; GI clears the remainder.
+Glamour,Sebastian,GI J,4,6,8,Transcendence,Severin S,Public handshake. Severin keeps GI off camera.
+Glamour,Sebastian,GI J,4,6,9,Cunning,Ramon N,"GI and Ramon click through routine—small check-ins, small favors, no speeches."
+Glamour,Sebastian,GI J,4,6,10,Opulence,Adam L,"GI and Adam click through routine—small check-ins, small favors, no speeches."
+Glamour,Sebastian,Parker S,4,7,1,Glamour,Cyrus K,Base node. Cyrus gives access; Parker upgrades it overnight.
+Glamour,Sebastian,Parker S,4,7,2,Glamour,London F,Discipline coach. London demands silence; Parker tries.
+Glamour,Sebastian,Parker S,4,7,3,Glamour,Ray R,Field relay. Ray is Parker’s analog fallback.
+Glamour,Sebastian,Parker S,4,7,4,Glamour,Danny M,Surveillance sibling. They trade eyes and ears.
+Glamour,Sebastian,Parker S,4,7,5,Glamour,Max C,Mission hype. Max plays it big; Parker rides the adrenaline.
+Glamour,Sebastian,Parker S,4,7,6,Glamour,GI J,Noise deterrent. GI’s calm keeps Parker steady.
+Glamour,Sebastian,Parker S,4,7,7,Glamour,Thor J,Safety margins. Parker hates sparks near servers; Thor laughs.
+Glamour,Sebastian,Parker S,4,7,8,Transcendence,Severin S,Media misdirection. Parker routes feeds; Severin sells the story.
+Glamour,Sebastian,Parker S,4,7,9,Opulence,Tommy P,"Parker and Tommy keep it light: quick banter, mutual respect, and no pressure to perform."
+Glamour,Sebastian,Parker S,4,7,10,Affluence,Jodie J,"Parker and Jodie keep it light: quick banter, mutual respect, and no pressure to perform."
+Glamour,Sebastian,Thor J,4,8,1,Glamour,Cyrus K,"Explosives gate. Cyrus rationed; Thor complains, obeys."
+Glamour,Sebastian,Thor J,4,8,2,Glamour,London F,Training debt. London makes Thor practice quiet entries.
+Glamour,Sebastian,Thor J,4,8,3,Glamour,Ray R,Cleanup pact. Ray handles the mess; Thor handles the wall.
+Glamour,Sebastian,Thor J,4,8,4,Glamour,Danny M,Conspiracy bait. Thor jokes; Danny believes half of it.
+Glamour,Sebastian,Thor J,4,8,5,Glamour,Max C,Breach tempo. Max calls the beat; Thor hits it.
+Glamour,Sebastian,Thor J,4,8,6,Glamour,GI J,Old-hand respect. GI doesn’t flinch; Thor does.
+Glamour,Sebastian,Thor J,4,8,7,Glamour,Parker S,Base-friendly rule. Parker locks him out of certain corridors.
+Glamour,Sebastian,Thor J,4,8,8,Transcendence,Severin S,Damage optics. Severin keeps headlines off Thor’s work.
+Glamour,Sebastian,Thor J,4,8,9,Imperium,Logan X,"Thor and Logan keep it light: quick banter, mutual respect, and no pressure to perform."
+Glamour,Sebastian,Thor J,4,8,10,Opulence,Adam L,Adam brings energy; Thor brings calm. It’s a balance that just works.
+Prominence,Dan,Richard G,5,1,1,Prominence,Tommy W,Field shield. Richard sends him to keep meetings quiet.
+Prominence,Dan,Richard G,5,1,2,Prominence,Ryan D,Systems engineer. Trusts his code; pushes hard.
+Prominence,Dan,Richard G,5,1,3,Prominence,Oliver F,Ops filter. Keeps schedules and optics in line.
+Prominence,Dan,Richard G,5,1,4,Prominence,Codey S,Gremlin asset. Useful when deniable is required.
+Prominence,Dan,Richard G,5,1,5,Prominence,Brick D,Force option. Called when subtlety is over.
+Prominence,Dan,Richard G,5,1,6,Prominence,Dan D,New blood. Keeps him busy and pointed forward.
+Prominence,Dan,Richard G,5,1,7,Prominence,Sam S,Security brain. Gives him impossible deadlines.
+Prominence,Dan,Richard G,5,1,8,Transcendence,Tate H,Sixth ranger. Grounds plans without chasing credit.
+Prominence,Dan,Richard G,5,1,9,Glamour,Cyrus K,Richard likes how Cyrus stays steady. It makes the time together feel simpler.
+Prominence,Dan,Richard G,5,1,10,Opulence,Jason S,They share a dry humor that shows up in short lines and longer pauses.
+Prominence,Dan,Tommy W,5,2,1,Prominence,Richard G,Primary client. Keeps him safe and moving.
+Prominence,Dan,Tommy W,5,2,2,Prominence,Ryan D,Tech node. Uses Ryan's gear; expects fast fixes.
+Prominence,Dan,Tommy W,5,2,3,Prominence,Oliver F,VIP handler. Escorts Oliver; reads his panic.
+Prominence,Dan,Tommy W,5,2,4,Prominence,Codey S,Risk magnet. Watches him like a hawk.
+Prominence,Dan,Tommy W,5,2,5,Prominence,Brick D,Weight class. Commands him in a pinch.
+Prominence,Dan,Tommy W,5,2,6,Prominence,Dan D,Liability. Babysits him through messes.
+Prominence,Dan,Tommy W,5,2,7,Prominence,Sam S,Checkpoint. Clears badges and doors.
+Prominence,Dan,Tommy W,5,2,8,Transcendence,Tate H,Mutual respect. Tate plans exits; Tommy executes.
+Prominence,Dan,Tommy W,5,2,9,Opulence,Jay P,They’re the kind of link that can go quiet for weeks and still feel normal after.
+Prominence,Dan,Tommy W,5,2,10,Glamour,London F,"Tommy and London click through routine—small check-ins, small favors, no speeches."
+Prominence,Dan,Ryan D,5,3,1,Prominence,Richard G,Quiet authority. Ryan backs him without saying it.
+Prominence,Dan,Ryan D,5,3,2,Prominence,Codey S,Rival spark. Competes in silence; learns anyway.
+Prominence,Dan,Ryan D,5,3,3,Prominence,Tommy W,Hardware user. Demands now and gets it.
+Prominence,Dan,Ryan D,5,3,4,Prominence,Oliver F,Spreadsheet hunter. Ryan dodges the inbox.
+Prominence,Dan,Ryan D,5,3,5,Prominence,Sam S,Security partner. Trusts his discipline.
+Prominence,Dan,Ryan D,5,3,6,Prominence,Dan D,Junior protégé. Teaches him just enough.
+Prominence,Dan,Ryan D,5,3,7,Prominence,Brick D,Walking interruption. Keeps distance.
+Prominence,Dan,Ryan D,5,3,8,Transcendence,Tate H,Ops translator. Asks the right failure questions.
+Prominence,Dan,Ryan D,5,3,9,Eloquence,Tony M,"Ryan and Tony keep it light: quick banter, mutual respect, and no pressure to perform."
+Prominence,Dan,Ryan D,5,3,10,Cunning,Danny S,Danny brings energy; Ryan brings calm. It’s a balance that just works.
+Prominence,Dan,Oliver F,5,4,1,Prominence,Richard G,Time owner. Oliver protects his calendar.
+Prominence,Dan,Oliver F,5,4,2,Prominence,Sam S,Throughput. Overworks him and calls it strategy.
+Prominence,Dan,Oliver F,5,4,3,Prominence,Dan D,Runner. Assigns the messy tasks.
+Prominence,Dan,Oliver F,5,4,4,Prominence,Tommy W,Door policy. Calls him when optics get risky.
+Prominence,Dan,Oliver F,5,4,5,Prominence,Ryan D,Metrics demand. Wants dashboards yesterday.
+Prominence,Dan,Oliver F,5,4,6,Prominence,Codey S,Problem child. Tries to cage him; fails.
+Prominence,Dan,Oliver F,5,4,7,Prominence,Brick D,Avoids. Doesn't like being near him.
+Prominence,Dan,Oliver F,5,4,8,Transcendence,Tate H,Spreadsheet ally. Tate speaks risk and timeline.
+Prominence,Dan,Oliver F,5,4,9,Cunning,Alex L,Alex brings energy; Oliver brings calm. It’s a balance that just works.
+Prominence,Dan,Oliver F,5,4,10,Opulence,Juan L,"Oliver and Juan click through routine—small check-ins, small favors, no speeches."
+Prominence,Dan,Codey S,5,5,1,Prominence,Ryan D,Rival. Competes; steals ideas with his eyes.
+Prominence,Dan,Codey S,5,5,2,Prominence,Richard G,Boss. Codey hacks around the rules.
+Prominence,Dan,Codey S,5,5,3,Prominence,Oliver F,Paper tyrant. Pranks him for sport.
+Prominence,Dan,Codey S,5,5,4,Prominence,Tommy W,Narc. Stays out of his line of sight.
+Prominence,Dan,Codey S,5,5,5,Prominence,Dan D,New kid. Pulls him into chaos.
+Prominence,Dan,Codey S,5,5,6,Prominence,Sam S,Security buddy. Swaps shortcuts and patches.
+Prominence,Dan,Codey S,5,5,7,Prominence,Brick D,Wall. Doesn't move him.
+Prominence,Dan,Codey S,5,5,8,Transcendence,Tate H,Hobby link. Models and LARP talk keep it human.
+Prominence,Dan,Codey S,5,5,9,Affluence,Matty I,"Codey and Matty click through routine—small check-ins, small favors, no speeches."
+Prominence,Dan,Codey S,5,5,10,Transcendence,Rian R,Codey likes how Rian stays steady. It makes the time together feel simpler.
+Prominence,Dan,Brick D,5,6,1,Prominence,Richard G,Package. Brick protects him; obeys.
+Prominence,Dan,Brick D,5,6,2,Prominence,Tommy W,Orders from. Respects strength and certainty.
+Prominence,Dan,Brick D,5,6,3,Prominence,Dan D,Pest. One glare ends it.
+Prominence,Dan,Brick D,5,6,4,Prominence,Ryan D,Nerd. Brick ignores the numbers.
+Prominence,Dan,Brick D,5,6,5,Prominence,Oliver F,Suit. Brick ignores the rules.
+Prominence,Dan,Brick D,5,6,6,Prominence,Codey S,Punk. Brick watches for trouble.
+Prominence,Dan,Brick D,5,6,7,Prominence,Sam S,Worker. Brick barely notices.
+Prominence,Dan,Brick D,5,6,8,Transcendence,Tate H,Calm handler. Tate asks without poking the bear.
+Prominence,Dan,Brick D,5,6,9,Glamour,Max C,Max brings energy; Brick brings calm. It’s a balance that just works.
+Prominence,Dan,Brick D,5,6,10,Cunning,Brock C,Brock brings energy; Brick brings calm. It’s a balance that just works.
+Prominence,Dan,Dan D,5,7,1,Prominence,Oliver F,Taskmaster. Dumps work on him with a smile.
+Prominence,Dan,Dan D,5,7,2,Prominence,Sam S,Peer. Shares complaints and late shifts.
+Prominence,Dan,Dan D,5,7,3,Prominence,Codey S,North star. Learns tricks and tempo.
+Prominence,Dan,Dan D,5,7,4,Prominence,Ryan D,Mentor. Teaches him the clean way to win.
+Prominence,Dan,Dan D,5,7,5,Prominence,Tommy W,Shadow. Terrified of the quiet threat.
+Prominence,Dan,Dan D,5,7,6,Prominence,Brick D,Monster. Avoids him on instinct.
+Prominence,Dan,Dan D,5,7,7,Prominence,Richard G,Authority aura. Dan tries not to disappoint.
+Prominence,Dan,Dan D,5,7,8,Transcendence,Tate H,Big-bro energy. Pulls him into model builds.
+Prominence,Dan,Dan D,5,7,9,Imperium,Ryan L,Ryan brings energy; Dan brings calm. It’s a balance that just works.
+Prominence,Dan,Dan D,5,7,10,Opulence,Jason S,Dan likes how Jason stays steady. It makes the time together feel simpler.
+Prominence,Dan,Sam S,5,8,1,Prominence,Oliver F,Drive whip. Sam resents the pace.
+Prominence,Dan,Sam S,5,8,2,Prominence,Dan D,Break buddy. Teaches him to rest smarter.
+Prominence,Dan,Sam S,5,8,3,Prominence,Ryan D,Tech partner. Lets Ryan test in the wild.
+Prominence,Dan,Sam S,5,8,4,Prominence,Codey S,Chaos engine. Sam covers the traces.
+Prominence,Dan,Sam S,5,8,5,Prominence,Tommy W,Checkpoint. Sam keeps it clean and calm.
+Prominence,Dan,Sam S,5,8,6,Prominence,Brick D,Wall. Sam walks around him.
+Prominence,Dan,Sam S,5,8,7,Prominence,Richard G,Directive source. Never sure if it's a test.
+Prominence,Dan,Sam S,5,8,8,Transcendence,Tate H,"Safety buddy. Checks gear, keeps routines steady."
+Prominence,Dan,Sam S,5,8,9,Transcendence,Thomas B,"Sam and Thomas keep it light: quick banter, mutual respect, and no pressure to perform."
+Prominence,Dan,Sam S,5,8,10,Opulence,Ridge C,They’re the kind of link that can go quiet for weeks and still feel normal after.
+Imperium,Nick,Logan X,6,1,1,Imperium,Josh R,Logan quietly makes sure Josh never has to choose between feeding people and feeding himself; Josh repays it with loyalty he never announces.
+Imperium,Nick,Logan X,6,1,2,Imperium,Kyle M,Kyle’s calm reads through Logan’s hustle. Logan trusts Kyle’s compass even when he pretends he doesn’t need one.
+Imperium,Nick,Logan X,6,1,3,Imperium,Luke C,"Luke doesn’t like Logan’s gray routes, but he respects that Logan keeps his word once it’s given. Logan treats Luke’s code like a boundary line, not a suggestion."
+Imperium,Nick,Logan X,6,1,4,Imperium,Zack D,Zack sees Logan as a test of strength and discipline—someone to size up. Logan reads Zack’s hunger and keeps their dealings short and clean.
+Imperium,Nick,Logan X,6,1,5,Imperium,Chase A,"Chase is the kind of useful that makes Logan uneasy. They trade favors like lab samples: labeled, sealed, and never discussed twice."
+Imperium,Nick,Logan X,6,1,6,Imperium,Johnny L,Johnny wants stories; Logan wants misdirection. Each thinks they’re the one holding the leash.
+Imperium,Nick,Logan X,6,1,7,Imperium,Ryan L,"Ryan turns Logan’s world into a moving target with pranks and noise. Logan lets him, because sometimes chaos is cover."
+Imperium,Nick,Logan X,6,1,8,Transcendence,Thomas B,"Thomas watches Logan like an old file that keeps resurfacing. Logan can’t place why, but the pressure in the room always changes when Thomas arrives."
+Imperium,Nick,Logan X,6,1,9,Glamour,Thor J,"Logan and Thor keep it light: quick banter, mutual respect, and no pressure to perform."
+Imperium,Nick,Logan X,6,1,10,Transcendence,Tate H,Logan trusts Tate’s read of a room. Even disagreements stay clean.
+Imperium,Nick,Josh R,6,2,1,Imperium,Logan X,Logan is the quiet safety net Josh won’t admit he needs. Josh tries to repay him with honest work and consistent results.
+Imperium,Nick,Josh R,6,2,2,Imperium,Kyle M,"Kyle treats Josh like a younger brother—steady voice, steady pace. When Josh spirals, Kyle is the one who pulls him back to air."
+Imperium,Nick,Josh R,6,2,3,Imperium,Luke C,"Luke makes sure Josh’s work stays protected under house rules and clean procedures. Josh trusts Luke’s structure, even when it feels like a spotlight."
+Imperium,Nick,Josh R,6,2,4,Imperium,Zack D,"Zack’s ‘training advice’ comes off harsh, but it’s protection in disguise. Josh is scared of him on bad days—and grateful on worse ones."
+Imperium,Nick,Josh R,6,2,5,Imperium,Chase A,"Chase studies everything, including people. Josh hates being analyzed, but Chase’s fixes often work too well to ignore."
+Imperium,Nick,Josh R,6,2,6,Imperium,Johnny L,"Johnny turns every meal into an event. Josh keeps him fed anyway, because the house runs on momentum and Johnny sells momentum."
+Imperium,Nick,Josh R,6,2,7,Imperium,Ryan L,"Ryan steals snacks and calls it art. Josh scolds him like a parent, then leaves an extra plate out like a friend."
+Imperium,Nick,Josh R,6,2,8,Transcendence,Thomas B,"Thomas treats Josh like a key witness long before Josh understands why. The professionalism is cold, but the protection is real."
+Imperium,Nick,Josh R,6,2,9,Cunning,Andrew B,They’re the kind of link that can go quiet for weeks and still feel normal after.
+Imperium,Nick,Josh R,6,2,10,Opulence,Colton C,"Josh and Colton click through routine—small check-ins, small favors, no speeches."
+Imperium,Nick,Kyle M,6,3,1,Imperium,Logan X,"Kyle calls Logan out when the hustle turns ugly, and Logan listens more than he admits. Kyle is the rare person Logan won’t try to ‘outplay.’"
+Imperium,Nick,Kyle M,6,3,2,Imperium,Josh R,"Kyle keeps Josh breathing when pressure spikes. He’s the one who says, ‘Eat, sleep, then think,’ and means it."
+Imperium,Nick,Kyle M,6,3,3,Imperium,Luke C,Kyle thinks Luke’s rules can become cages; Luke thinks Kyle’s freedom can become risk. They meet in the middle when someone’s safety is on the line.
+Imperium,Nick,Kyle M,6,3,4,Imperium,Zack D,Kyle is one of the few who can spar with Zack without turning it personal. He teaches restraint by making it look effortless.
+Imperium,Nick,Kyle M,6,3,5,Imperium,Chase A,Kyle senses Chase’s distance and tries to pull him back toward people. Chase calls it noise; Kyle calls it survival.
+Imperium,Nick,Kyle M,6,3,6,Imperium,Johnny L,Johnny wants a stage; Kyle wants an exit route. Together they can move a crowd without starting a panic.
+Imperium,Nick,Kyle M,6,3,7,Imperium,Ryan L,"Ryan’s chaos doesn’t bother Kyle as long as nobody gets hurt. Kyle laughs once, then quietly checks the perimeter."
+Imperium,Nick,Kyle M,6,3,8,Transcendence,Thomas B,Thomas trusts Kyle’s eyes on the street and park routes. Kyle trusts Thomas’s silence—because silence is what keeps people alive.
+Imperium,Nick,Kyle M,6,3,9,Eloquence,Karter H,Kyle likes how Karter stays steady. It makes the time together feel simpler.
+Imperium,Nick,Kyle M,6,3,10,Opulence,Tommy P,They share a dry humor that shows up in short lines and longer pauses.
+Imperium,Nick,Luke C,6,4,1,Imperium,Logan X,"Luke keeps Logan at arm’s length, then uses him when the house needs a discreet solution. Logan respects Luke’s boundaries because Luke enforces them."
+Imperium,Nick,Luke C,6,4,2,Imperium,Josh R,Josh follows rules without needing threats. Luke protects that kind of reliability like it’s part of the constitution.
+Imperium,Nick,Luke C,6,4,3,Imperium,Kyle M,"Kyle is the walking exception Luke can’t file neatly. Luke argues with him, then still calls him first when things turn physical."
+Imperium,Nick,Luke C,6,4,4,Imperium,Zack D,"Luke is Zack’s restraint system—paperwork, procedure, and consequence. Zack hates it, but he listens."
+Imperium,Nick,Luke C,6,4,5,Imperium,Chase A,Luke gives Chase exit clauses and controlled permissions so Chase doesn’t become a liability. Chase pretends not to care; the structure still keeps him tethered.
+Imperium,Nick,Luke C,6,4,6,Imperium,Johnny L,"Luke drafts limits for Johnny like guardrails on a bridge. Johnny complains, then follows them when it matters."
+Imperium,Nick,Luke C,6,4,7,Imperium,Ryan L,"Ryan tests Luke’s patience for sport. Luke doesn’t smile, but he always spots the real problem behind the joke."
+Imperium,Nick,Luke C,6,4,8,Transcendence,Thomas B,Thomas respects Luke’s documentation and calm. Luke respects Thomas’s discipline—two men who speak fluently in ‘proof.’
+Imperium,Nick,Luke C,6,4,9,Eloquence,Joe B,"Luke and Joe keep it light: quick banter, mutual respect, and no pressure to perform."
+Imperium,Nick,Luke C,6,4,10,Cunning,Max S,Luke trusts Max’s read of a room. Even disagreements stay clean.
+Imperium,Nick,Zack D,6,5,1,Imperium,Logan X,"Zack doesn’t like owing favors, especially to someone who lives in shadows. Logan keeps deals clean; Zack keeps his word once the deal is made."
+Imperium,Nick,Zack D,6,5,2,Imperium,Josh R,"Zack acts like Josh annoys him, then shows up the second Josh looks cornered. Protection is easier for Zack than affection."
+Imperium,Nick,Zack D,6,5,3,Imperium,Kyle M,Kyle can cool Zack down without humiliating him. Zack trusts Kyle’s strength because Kyle doesn’t need to announce it.
+Imperium,Nick,Zack D,6,5,4,Imperium,Luke C,Luke’s rules keep Zack from crossing lines he can’t walk back. Zack respects Luke because Luke never blinks when he says ‘no.’
+Imperium,Nick,Zack D,6,5,5,Imperium,Chase A,"Chase is useful for cleanup and ‘solutions,’ which makes Zack wary. Zack keeps Chase close enough to control, far enough to blame."
+Imperium,Nick,Zack D,6,5,6,Imperium,Johnny L,Johnny talks too much and draws too much light. Zack uses that… and also threatens to shut it down when it risks the house.
+Imperium,Nick,Zack D,6,5,7,Imperium,Ryan L,Ryan’s pranks irritate Zack—until a prank becomes a perfect distraction. Zack hates that it works.
+Imperium,Nick,Zack D,6,5,8,Transcendence,Thomas B,Thomas reads Zack like a suspect and a soldier at the same time. Zack can’t decide whether to respect him or challenge him.
+Imperium,Nick,Zack D,6,5,9,Eloquence,Karter H,Zack likes how Karter stays steady. It makes the time together feel simpler.
+Imperium,Nick,Zack D,6,5,10,Eloquence,Xano D,They share a dry humor that shows up in short lines and longer pauses.
+Imperium,Nick,Chase A,6,6,1,Imperium,Logan X,Logan can get what Chase can’t order openly. Chase repays him with fixes that leave no residue—and no explanation.
+Imperium,Nick,Chase A,6,6,2,Imperium,Josh R,"Josh cooks with instinct; Chase cooks with measurements. Josh rolls his eyes, then admits the results are better."
+Imperium,Nick,Chase A,6,6,3,Imperium,Kyle M,"Kyle keeps asking Chase ‘why’ in a way that isn’t about chemicals. Chase pretends it’s pointless, then answers anyway."
+Imperium,Nick,Chase A,6,6,4,Imperium,Luke C,"Luke gives Chase controlled lanes to operate in. Chase dislikes rules, but he dislikes chaos even more."
+Imperium,Nick,Chase A,6,6,5,Imperium,Zack D,Zack is Chase’s blunt instrument when pressure needs a physical answer. Chase is Zack’s quiet cleanup when pressure needs to disappear.
+Imperium,Nick,Chase A,6,6,6,Imperium,Johnny L,Johnny’s loudness is a variable Chase can’t predict. Chase watches him like an unstable reaction—ready to contain it.
+Imperium,Nick,Chase A,6,6,7,Imperium,Ryan L,Ryan loves testing Chase’s patience with harmless chaos. Chase never reacts… which makes Ryan try harder.
+Imperium,Nick,Chase A,6,6,8,Transcendence,Thomas B,"Thomas uses Chase when a scene needs analysis instead of muscle. Chase respects the competence, even if he hates the badge."
+Imperium,Nick,Chase A,6,6,9,Affluence,Matty I,"Chase and Matty keep it light: quick banter, mutual respect, and no pressure to perform."
+Imperium,Nick,Chase A,6,6,10,Transcendence,Hank F,They share a dry humor that shows up in short lines and longer pauses.
+Imperium,Nick,Johnny L,6,7,1,Imperium,Logan X,Logan feeds Johnny just enough truth to aim him like a spotlight. Johnny thinks he’s the one controlling the narrative.
+Imperium,Nick,Johnny L,6,7,2,Imperium,Josh R,Josh keeps Johnny’s events from collapsing. Johnny calls it ‘magic’ because he can’t admit it’s work.
+Imperium,Nick,Johnny L,6,7,3,Imperium,Kyle M,Kyle tells Johnny where to stand so crowds move the right way. Johnny loves the attention and never notices the strategy.
+Imperium,Nick,Johnny L,6,7,4,Imperium,Luke C,"Luke is the reason Johnny’s chaos doesn’t turn into disaster. Johnny resents the leash, then clings to it when things go wrong."
+Imperium,Nick,Johnny L,6,7,5,Imperium,Zack D,"Zack scares Johnny in a way Johnny never jokes about. Johnny performs harder around him, hoping noise can pass for strength."
+Imperium,Nick,Johnny L,6,7,6,Imperium,Chase A,Chase doesn’t laugh at Johnny’s theatrics. That makes Johnny try to impress him like it’s a competition he can win.
+Imperium,Nick,Johnny L,6,7,7,Imperium,Ryan L,"Ryan and Johnny are a two-man misdirection engine: Ryan creates the moment, Johnny sells it. Together they can shift a room."
+Imperium,Nick,Johnny L,6,7,8,Transcendence,Thomas B,"Thomas refuses to be charmed. Johnny keeps trying anyway, because ‘no reaction’ feels like losing."
+Imperium,Nick,Johnny L,6,7,9,Affluence,Kai J,"Johnny and Kai click through routine—small check-ins, small favors, no speeches."
+Imperium,Nick,Johnny L,6,7,10,Transcendence,Severin S,Johnny likes how Severin stays steady. It makes the time together feel simpler.
+Imperium,Nick,Ryan L,6,8,1,Imperium,Logan X,Logan treats Ryan like controlled chaos on payroll. Ryan pretends it’s friendship and hopes he’s right.
+Imperium,Nick,Ryan L,6,8,2,Imperium,Josh R,Josh is Ryan’s favorite target because Josh always reacts. Ryan ‘repays’ him by making sure the house laughs when it’s tense.
+Imperium,Nick,Ryan L,6,8,3,Imperium,Kyle M,"Kyle laughs at exactly one prank, then checks exits. Ryan likes Kyle because Kyle feels safe without being soft."
+Imperium,Nick,Ryan L,6,8,4,Imperium,Luke C,Luke is Ryan’s natural enemy—rules versus impulse. Ryan pushes him until Luke notices the real trouble Ryan spotted first.
+Imperium,Nick,Ryan L,6,8,5,Imperium,Zack D,Zack threatens Ryan often and saves Ryan sometimes. Ryan can’t tell which one proves the bond.
+Imperium,Nick,Ryan L,6,8,6,Imperium,Chase A,Chase never gives Ryan the satisfaction of a reaction. Ryan takes that as a challenge and a hobby.
+Imperium,Nick,Ryan L,6,8,7,Imperium,Johnny L,Johnny gives Ryan a stage; Ryan gives Johnny timing. It’s chaos with choreography.
+Imperium,Nick,Ryan L,6,8,8,Transcendence,Thomas B,"Thomas clocks Ryan as ‘useful noise’ and refuses to call it anything else. Ryan calls him “Charlie” when adrenaline hits, then acts like it never happened."
+Imperium,Nick,Ryan L,6,8,9,Affluence,Apollo B,Ryan trusts Apollo’s read of a room. Even disagreements stay clean.
+Imperium,Nick,Ryan L,6,8,10,Prominence,Dan D,Dan brings energy; Ryan brings calm. It’s a balance that just works.
+Affluence,Rick,Peter K,7,1,1,Affluence,Criss S,"Unity’s principal and Peter’s cleanest doorway into campus power. Criss treats him like a professional convenience—useful, discreet, and never allowed too close."
+Affluence,Rick,Peter K,7,1,2,Affluence,Filthy R,The treasurer who talks in numbers and consequences. Peter reads Filthy as the one who can approve a miracle or manufacture a delay.
+Affluence,Rick,Peter K,7,1,3,Affluence,Kai J,A donor-lane student with real leverage. Peter respects Kai’s access and is careful not to be seen “using” him.
+Affluence,Rick,Peter K,7,1,4,Affluence,Eddie D,"A rising campus figure who keeps his distance. Peter offers introductions, Eddie rarely accepts."
+Affluence,Rick,Peter K,7,1,5,Affluence,Jodie J,"Peter supplies “the right room, the right people” for exhibits; Jodie returns favors with social cover and curated visibility."
+Affluence,Rick,Peter K,7,1,6,Affluence,Apollo B,Their worlds overlap at donor nights and greenhouse showcases—Apollo’s sincerity makes Peter a little softer than he admits.
+Affluence,Rick,Peter K,7,1,7,Affluence,Matty I,Matty tries to out-talk him; Peter lets Matty win in public and redirects the room anyway.
+Affluence,Rick,Peter K,7,1,8,Transcendence,Rian R,A board presence who notices patterns. Peter keeps his stories short around Rian.
+Affluence,Rick,Peter K,7,1,9,Transcendence,Severin S,Peter likes how Severin stays steady. It makes the time together feel simpler.
+Affluence,Rick,Peter K,7,1,10,Transcendence,Bram W,Bram brings energy; Peter brings calm. It’s a balance that just works.
+Affluence,Rick,Eddie D,7,2,1,Affluence,Kai J,One of the few who can approach without feeling like a spectator. Kai doesn’t push—he just stays present.
+Affluence,Rick,Eddie D,7,2,2,Affluence,Jodie J,Quiet camaraderie: Jodie never asks Eddie to explain his mood; Eddie never jokes about Jodie’s visual limits.
+Affluence,Rick,Eddie D,7,2,3,Affluence,Matty I,Mutual friction that occasionally becomes respect. Matty likes Eddie’s standards; Eddie dislikes Matty’s tone.
+Affluence,Rick,Eddie D,7,2,4,Affluence,Apollo B,Apollo’s greenhouse calm is a rare place Eddie can breathe. Eddie returns the favor by keeping Apollo’s name clean in rumors.
+Affluence,Rick,Eddie D,7,2,5,Affluence,Peter K,A connector Eddie doesn’t fully trust. Eddie accepts help only when it clearly protects someone else.
+Affluence,Rick,Eddie D,7,2,6,Affluence,Criss S,Eddie reads the principal as polished danger. Criss treats Eddie as a “valuable student” and keeps the leash invisible.
+Affluence,Rick,Eddie D,7,2,7,Affluence,Filthy R,Filthy’s scholarships and budgets touch Eddie’s world. Eddie senses the strings even when he can’t prove them.
+Affluence,Rick,Eddie D,7,2,8,Transcendence,Rian R,"A distant authority Eddie hears about, not a person he knows—yet."
+Affluence,Rick,Eddie D,7,2,9,Cunning,Milan P,"Eddie and Milan click through routine—small check-ins, small favors, no speeches."
+Affluence,Rick,Eddie D,7,2,10,Transcendence,Bram W,"Eddie and Bram keep it light: quick banter, mutual respect, and no pressure to perform."
+Affluence,Rick,Criss S,7,3,1,Affluence,Filthy R,The other half of the control room. Their partnership is policy on the surface and pressure underneath.
+Affluence,Rick,Criss S,7,3,2,Transcendence,Rian R,A board ally with a long memory. Rian is one of the few Criss cannot out-procedure.
+Affluence,Rick,Criss S,7,3,3,Affluence,Peter K,A convenient operator in Lexena—access without loud fingerprints. Criss uses Peter to keep problems “off campus.”
+Affluence,Rick,Criss S,7,3,4,Affluence,Kai J,"A donor-lane student with inconvenient instincts. Criss keeps Kai close enough to monitor, far enough to dismiss."
+Affluence,Rick,Criss S,7,3,5,Affluence,Eddie D,A student whose grief makes him unpredictable. Criss offers “support” that doubles as containment.
+Affluence,Rick,Criss S,7,3,6,Affluence,Jodie J,A curator Criss can showcase for prestige. Jodie gets resources; Criss gets optics.
+Affluence,Rick,Criss S,7,3,7,Affluence,Matty I,A mind Criss respects and quietly steers. Matty likes the attention and doesn’t notice the steering—yet.
+Affluence,Rick,Criss S,7,3,8,Affluence,Apollo B,Useful for donor narrative: ‘excellence in cultivation.’ Criss praises him publicly and watches him privately.
+Affluence,Rick,Criss S,7,3,9,Eloquence,Rodnar R,"Rodnar is the rare person who won’t be steered by tone. Criss respects it, even when it’s inconvenient."
+Affluence,Rick,Criss S,7,3,10,Eloquence,John P,"Criss and John click through routine—small check-ins, small favors, no speeches."
+Affluence,Rick,Filthy R,7,4,1,Affluence,Criss S,Co-author of Unity’s public story. Filthy lets Criss take the stage while he controls the numbers behind it.
+Affluence,Rick,Filthy R,7,4,2,Transcendence,Rian R,A board presence Filthy cannot bluff. Filthy keeps records clean enough to survive Rian’s questions.
+Affluence,Rick,Filthy R,7,4,3,Affluence,Peter K,A merchant-connector who can move favors without leaving receipts. Filthy likes him and distrusts him equally.
+Affluence,Rick,Filthy R,7,4,4,Affluence,Kai J,"A donor-lane student who asks the wrong questions. Filthy answers with budgets, not truth."
+Affluence,Rick,Filthy R,7,4,5,Affluence,Matty I,Matty’s ‘intellectual flex’ makes him easy to bait. Filthy occasionally feeds him problems just to watch how he solves them.
+Affluence,Rick,Filthy R,7,4,6,Affluence,Jodie J,Jodie’s exhibits are a funding lever. Filthy sponsors what helps the college’s signal—and declines what doesn’t.
+Affluence,Rick,Filthy R,7,4,7,Affluence,Eddie D,Filthy’s decisions affect Eddie’s lanes more than Eddie realizes. Filthy watches for the moment Eddie stops being polite.
+Affluence,Rick,Filthy R,7,4,8,Affluence,Apollo B,"Apollo’s family money is a tool, and Apollo himself is the complication."
+Affluence,Rick,Filthy R,7,4,9,Eloquence,Rodnar R,Filthy likes how Rodnar stays steady. It makes the time together feel simpler.
+Affluence,Rick,Filthy R,7,4,10,Eloquence,John P,Filthy treats John like a fragile glass; John treats Filthy like a walking audit. Somehow it works.
+Affluence,Rick,Kai J,7,5,1,Affluence,Peter K,The one who can open Lexena doors without making it look like a favor. Kai uses Peter’s routes sparingly.
+Affluence,Rick,Kai J,7,5,2,Affluence,Eddie D,"Kai understands Eddie’s distance and treats it like a boundary, not a challenge."
+Affluence,Rick,Kai J,7,5,3,Affluence,Matty I,Intellect vs spotlight: Matty tries to needle; Kai lets the barbs pass and remembers every one.
+Affluence,Rick,Kai J,7,5,4,Affluence,Jodie J,Jodie sees what others miss (even with limitations). Kai trusts his judgment in rooms that feel ‘off.’
+Affluence,Rick,Kai J,7,5,5,Affluence,Apollo B,Shared impatience with inherited expectations. Apollo’s honesty makes Kai feel less alone in the donor lane.
+Affluence,Rick,Kai J,7,5,6,Affluence,Criss S,"Kai suspects the principal’s story has missing pages. He can’t prove it, and that’s the cage."
+Affluence,Rick,Kai J,7,5,7,Affluence,Filthy R,Kai reads the treasurer as the real gate. Filthy reads Kai as a problem that still pays.
+Affluence,Rick,Kai J,7,5,8,Transcendence,Rian R,A name Kai’s parents respect. Kai has seen him once or twice—enough to know he’s watching.
+Affluence,Rick,Kai J,7,5,9,Imperium,Johnny L,"Kai and Johnny click through routine—small check-ins, small favors, no speeches."
+Affluence,Rick,Kai J,7,5,10,Cunning,Danny S,Kai likes how Danny stays steady. It makes the time together feel simpler.
+Affluence,Rick,Matty I,7,6,1,Affluence,Jodie J,Matty calls it ‘critique’; Jodie calls it ‘noise.’ Their clashes sharpen both of them.
+Affluence,Rick,Matty I,7,6,2,Affluence,Eddie D,Matty respects Eddie’s standards and hates that Eddie doesn’t care about winning rooms.
+Affluence,Rick,Matty I,7,6,3,Affluence,Apollo B,"A rivalry disguised as debate: science vs cultivation, certainty vs intuition."
+Affluence,Rick,Matty I,7,6,4,Affluence,Kai J,Matty wants donor-lane legitimacy; Kai doesn’t grant it. That imbalance irritates Matty more than he admits.
+Affluence,Rick,Matty I,7,6,5,Affluence,Peter K,Peter knows how to redirect Matty’s momentum. Matty notices and tries harder.
+Affluence,Rick,Matty I,7,6,6,Affluence,Criss S,Matty enjoys being seen by the principal. He hasn’t decided whether that’s an honor or a trap.
+Affluence,Rick,Matty I,7,6,7,Affluence,Filthy R,"Matty thinks he can out-number the treasurer. Filthy knows Matty is counting for approval, not truth."
+Affluence,Rick,Matty I,7,6,8,Transcendence,Rian R,Rian’s presence makes Matty suddenly careful—an instinct he doesn’t like about himself.
+Affluence,Rick,Matty I,7,6,9,Imperium,Chase A,"Matty and Chase keep it light: quick banter, mutual respect, and no pressure to perform."
+Affluence,Rick,Matty I,7,6,10,Prominence,Codey S,"Matty and Codey click through routine—small check-ins, small favors, no speeches."
+Affluence,Rick,Jodie J,7,7,1,Affluence,Eddie D,The easiest friend to be around: Eddie doesn’t ask for brightness Jodie can’t deliver.
+Affluence,Rick,Jodie J,7,7,2,Affluence,Apollo B,Greenhouse visits turn into design talks. Apollo thinks in growth; Jodie thinks in composition.
+Affluence,Rick,Jodie J,7,7,3,Affluence,Kai J,Kai trusts Jodie’s read on people. Jodie trusts Kai to listen without trying to fix him.
+Affluence,Rick,Jodie J,7,7,4,Affluence,Matty I,Matty’s elitism hits Jodie’s nerves. Jodie’s calm refusal hits Matty’s ego.
+Affluence,Rick,Jodie J,7,7,5,Affluence,Peter K,Peter offers visibility; Jodie accepts only when he controls the frame.
+Affluence,Rick,Jodie J,7,7,6,Affluence,Criss S,Criss wants Jodie’s work as proof the college is ‘fine.’ Jodie takes the funding and keeps his real thoughts private.
+Affluence,Rick,Jodie J,7,7,7,Affluence,Filthy R,Filthy’s sponsorship comes with strings. Jodie pretends not to see them and cuts them anyway.
+Affluence,Rick,Jodie J,7,7,8,Transcendence,Rian R,"A distant board figure Jodie clocks by habit: expensive stillness, careful eyes."
+Affluence,Rick,Jodie J,7,7,9,Glamour,Parker S,"Jodie and Parker keep it light: quick banter, mutual respect, and no pressure to perform."
+Affluence,Rick,Jodie J,7,7,10,Cunning,Milan P,"Jodie and Milan keep it light: quick banter, mutual respect, and no pressure to perform."
+Affluence,Rick,Apollo B,7,8,1,Affluence,Jodie J,Jodie talks about landscapes like they’re alive. Apollo appreciates that he listens before he labels.
+Affluence,Rick,Apollo B,7,8,2,Affluence,Kai J,Kai’s donor lane feels like a cage Apollo recognizes. They don’t need to say it out loud.
+Affluence,Rick,Apollo B,7,8,3,Affluence,Eddie D,Apollo offers quiet space. Eddie offers quiet loyalty.
+Affluence,Rick,Apollo B,7,8,4,Affluence,Matty I,Apollo dislikes Matty’s performance. Matty dislikes Apollo’s confidence. Their rivalry can turn useful in a crisis.
+Affluence,Rick,Apollo B,7,8,5,Affluence,Peter K,Peter is commerce with a smile. Apollo keeps him at arm’s length—and still uses his contacts when needed.
+Affluence,Rick,Apollo B,7,8,6,Affluence,Criss S,Criss praises Apollo as ‘prestige.’ Apollo hears the hook under the compliment.
+Affluence,Rick,Apollo B,7,8,7,Affluence,Filthy R,Filthy treats Apollo’s family money as a resource. Apollo treats Filthy as a storm warning.
+Affluence,Rick,Apollo B,7,8,8,Transcendence,Rian R,Apollo knows of Rian more than he knows him—‘the board member who doesn’t flinch.’
+Affluence,Rick,Apollo B,7,8,9,Imperium,Ryan L,Apollo trusts Ryan’s read of a room. Even disagreements stay clean.
+Affluence,Rick,Apollo B,7,8,10,Opulence,Jay P,Jay brings energy; Apollo brings calm. It’s a balance that just works.
+Trancendence,Protagonist,Rian R,8,1,1,Affluence,Criss S,Rian reads Criss as an administrator trying to outpace a sinking ship. He will help—if Criss stops hiding the leak.
+Trancendence,Protagonist,Rian R,8,1,2,Affluence,Filthy R,"Filthy’s math is strong; Rian’s questions are stronger. Their conversations are cordial, never casual."
+Trancendence,Protagonist,Rian R,8,1,3,Affluence,Kai J,Rian recognizes the donor-family thread and watches how Kai carries it. Kai is not a pawn—unless he chooses to be.
+Trancendence,Protagonist,Rian R,8,1,4,Affluence,Peter K,A well-dressed transit line for favors. Rian keeps Peter’s name in his pocket and his trust on a short leash.
+Trancendence,Protagonist,Rian R,8,1,5,Affluence,Apollo B,"Apollo’s family lane matters to the board, but Apollo’s choices matter more. Rian quietly prefers the son to the balance sheet."
+Trancendence,Protagonist,Rian R,8,1,6,Affluence,Eddie D,A student name that surfaces in the wrong conversations. Rian files it away.
+Trancendence,Protagonist,Rian R,8,1,7,Affluence,Jodie J,Rian notices the curator’s precision and restraint—useful traits in a place full of theater.
+Trancendence,Protagonist,Rian R,8,1,8,Affluence,Matty I,Rian clocks the intellect-flex immediately and doesn’t punish it; he simply refuses to reward it.
+Trancendence,Protagonist,Rian R,8,1,9,Transcendence,Bram W,"Bram is the rare politician who speaks in systems, not slogans; Rian backs him when the ‘right’ call still has a cost."
+Trancendence,Protagonist,Rian R,8,1,10,Prominence,Codey S,Rian likes how Codey stays steady. It makes the time together feel simpler.
+Trancendence,Protagonist,Hank F,8,2,1,Opulence,Jason S,Command Link. Jason is the one who calls; Hank answers.
+Trancendence,Protagonist,Hank F,8,2,2,Opulence,Ridge C,Silent Understanding. Ridge watches his back when things turn loud.
+Trancendence,Protagonist,Hank F,8,2,3,Opulence,Colton C,Paper Shield. Colton keeps Hank out of messes he never asked for.
+Trancendence,Protagonist,Hank F,8,2,4,Opulence,Jay P,Frequent Caller. Jay treats him like a service—Hank refuses to be owned.
+Trancendence,Protagonist,Hank F,8,2,5,Opulence,Tommy P,Walking Hazard. Hank has a sixth sense for Tommy’s next mistake.
+Trancendence,Protagonist,Hank F,8,2,6,Opulence,Juan L,Quiet Anchor. Juan’s steadiness keeps Hank grounded on long nights.
+Trancendence,Protagonist,Hank F,8,2,7,Opulence,Adam L,"Field Contact. Remote calls, rough roads, and a mutual respect."
+Trancendence,Protagonist,Hank F,8,2,8,Opulence,Jmac,Rapid Transport. Jmac gets him there—Hank makes it count.
+Trancendence,Protagonist,Hank F,8,2,9,Transcendence,Bram W,"Bram clears routes and buys time; Hank makes that time count—one patient, one decision, one clean save window."
+Trancendence,Protagonist,Hank F,8,2,10,Imperium,Chase A,They share a dry humor that shows up in short lines and longer pauses.
+Trancendence,Protagonist,Delman B,8,3,1,Cunning,Quinton J,The Supply Shortcut. Quinton knows where to get tape at 2 AM.
+Trancendence,Protagonist,Delman B,8,3,2,Cunning,Milan P,The Power Flick. Milan’s kitchen needs juice; Delman knows the grid.
+Trancendence,Protagonist,Delman B,8,3,3,Cunning,Max S,The Low-Key Cover. A haircut makes Delman look like he belongs.
+Trancendence,Protagonist,Delman B,8,3,4,Cunning,Andrew B,The Paperwork Magnet. Andrew keeps trying to file Delman as “not a thing.”
+Trancendence,Protagonist,Delman B,8,3,5,Cunning,Brock C,"The Harness Cop. Brock says nothing, just hands him a safety line."
+Trancendence,Protagonist,Delman B,8,3,6,Cunning,Ramon N,The Dual-Tech. They trade tools like baseball cards.
+Trancendence,Protagonist,Delman B,8,3,7,Cunning,Alex L,The Risk Rival. Alex calls the danger; Delman proves it’s survivable.
+Trancendence,Protagonist,Delman B,8,3,8,Cunning,Danny S,The Noise Screen. Sax means nobody looks up.
+Trancendence,Protagonist,Delman B,8,3,9,Transcendence,Bram W,"Bram is the only suit Delman doesn’t mind answering—because Bram asks for access, not applause."
+Trancendence,Protagonist,Delman B,8,3,10,Glamour,Danny M,Danny brings energy; Delman brings calm. It’s a balance that just works.
+Trancendence,Protagonist,Severin S,8,4,1,Glamour,Cyrus K,Backstage access. Cyrus arranges safe entrances and exits.
+Trancendence,Protagonist,Severin S,8,4,2,Glamour,London F,"VIP shepherd. London keeps him moving, smiling, and unseen."
+Trancendence,Protagonist,Severin S,8,4,3,Glamour,Ray R,"Ground contact. Ray gives him real intel, no cameras."
+Trancendence,Protagonist,Severin S,8,4,4,Glamour,Danny M,Script doctor. Danny gives lines that sound honest.
+Trancendence,Protagonist,Severin S,8,4,5,Glamour,Max C,Field cameo. Max uses Severin as moving cover.
+Trancendence,Protagonist,Severin S,8,4,6,Glamour,GI J,Security shadow. GI stays close when the room turns.
+Trancendence,Protagonist,Severin S,8,4,7,Glamour,Parker S,Feed control. Parker cleans digital trails behind him.
+Trancendence,Protagonist,Severin S,8,4,8,Glamour,Thor J,Stunt reality. Thor reminds him explosions aren’t movie props.
+Trancendence,Protagonist,Severin S,8,4,9,Transcendence,Bram W,Bram gives Severin a purpose that isn’t performative; Severin returns it by turning visibility into cooperation.
+Trancendence,Protagonist,Severin S,8,4,10,Affluence,Peter K,Severin likes how Peter stays steady. It makes the time together feel simpler.
+Trancendence,Protagonist,Bram W,8,5,1,Transcendence,Rian R,Rian thinks in doors and permissions; Bram trusts him with the city’s ‘keys’ when the crisis stops being theoretical.
+Trancendence,Protagonist,Bram W,8,5,2,Transcendence,Hank F,Bram reads Hank as the steady hand that keeps casualties from becoming headlines; he gives Hank priority lanes when minutes matter.
+Trancendence,Protagonist,Bram W,8,5,3,Transcendence,Delman B,"Delman owns the ‘skin’ of the city—poles, rooftops, panels; Bram leans on him when the fastest route is above street level."
+Trancendence,Protagonist,Bram W,8,5,4,Transcendence,Severin S,"Severin can move crowds without starting panic; Bram uses him as a clean signal when the city needs one instruction, not ten opinions."
+Trancendence,Protagonist,Bram W,8,5,5,Transcendence,Tate H,Tate keeps the team light without losing discipline; Bram values that—morale is logistics when fear spreads.
+Trancendence,Protagonist,Bram W,8,5,6,Transcendence,Benedict C,Benedict stabilizes people after the first shock; Bram trusts him to turn chaos into shelter routines that actually hold.
+Trancendence,Protagonist,Bram W,8,5,7,Transcendence,Thomas B,Thomas keeps truth intact when the city wants a convenient story; Bram protects his chain-of-custody instincts inside a broken system.
+Trancendence,Protagonist,Bram W,8,5,8,Affluence,Peter K,Peter’s the kind of competent that doesn’t need a stage. Bram trusts him with logistics because Peter turns chaos into clean routes—and never makes it personal.
+Trancendence,Protagonist,Bram W,8,5,9,Affluence,Eddie D,"Bram and Eddie keep it light: quick banter, mutual respect, and no pressure to perform."
+Trancendence,Protagonist,Bram W,8,5,10,Glamour,Ray R,"Bram and Ray keep it light: quick banter, mutual respect, and no pressure to perform."
+Trancendence,Protagonist,Tate H,8,6,1,Prominence,Richard G,Lead he backs. Asks the question that saves plans.
+Trancendence,Protagonist,Tate H,8,6,2,Prominence,Oliver F,Spreadsheet captain. Tate supplies reality checks.
+Trancendence,Protagonist,Tate H,8,6,3,Prominence,Ryan D,Systems whisperer. Tate flags failure points.
+Trancendence,Protagonist,Tate H,8,6,4,Prominence,Sam S,Ground crew. PPE enforcer and steady hand.
+Trancendence,Protagonist,Tate H,8,6,5,Prominence,Tommy W,Entry-exit partner. Tate plans routes; Tommy clears them.
+Trancendence,Protagonist,Tate H,8,6,6,Prominence,Codey S,Hobby link. Trades model tips and laughs.
+Trancendence,Protagonist,Tate H,8,6,7,Prominence,Dan D,Non-work anchor. LARP nights and kit builds.
+Trancendence,Protagonist,Tate H,8,6,8,Prominence,Brick D,Quiet boundary. Earns respect without provoking.
+Trancendence,Protagonist,Tate H,8,6,9,Transcendence,Bram W,"Bram treats Tate like a professional, not a mascot; Tate pays it back by showing up early and making hard rooms easier."
+Trancendence,Protagonist,Tate H,8,6,10,Imperium,Logan X,Tate trusts Logan’s read of a room. Even disagreements stay clean.
+Trancendence,Protagonist,Benedict C,8,7,1,Eloquence,Tony M,"Meals, logistics, and a steady place to regroup. Tony supports Ben’s work without turning it into a performance."
+Trancendence,Protagonist,Benedict C,8,7,2,Eloquence,Justin S,Justin handles the plan; Ben handles the people. They work cleanly because they don’t compete for credit.
+Trancendence,Protagonist,Benedict C,8,7,3,Eloquence,Rodnar R,"Rodnar respects Ben’s practicality. Ben respects Rodnar’s duty, even when it’s inconvenient."
+Trancendence,Protagonist,Benedict C,8,7,4,Eloquence,John P,John keeps the records of what the community survived; Ben keeps the community from breaking in the first place.
+Trancendence,Protagonist,Benedict C,8,7,5,Eloquence,Karter H,Ben sees Karter’s potential under the noise. Karter listens because Ben never tries to win an argument.
+Trancendence,Protagonist,Benedict C,8,7,6,Eloquence,Peter G,Ben checks on Peter like it matters. That small care becomes a real anchor during stressful nights.
+Trancendence,Protagonist,Benedict C,8,7,7,Eloquence,Joe B,Ben trusts Joe with small responsibilities; Joe rises to meet them without being asked twice.
+Trancendence,Protagonist,Benedict C,8,7,8,Eloquence,Xano D,A shared ‘earned it’ worldview. Xano and Ben understand each other without translating.
+Trancendence,Protagonist,Benedict C,8,7,9,Transcendence,Bram W,Bram respects Benedict’s quiet authority; Benedict respects Bram’s willingness to carry blame so others can keep working.
+Trancendence,Protagonist,Benedict C,8,7,10,Opulence,Juan L,Benedict likes how Juan stays steady. It makes the time together feel simpler.
+Trancendence,Protagonist,Thomas B,8,8,1,Imperium,Logan X,"Thomas recognizes Logan as part of the house’s shadow economy. He watches him closely, waiting to see which way Logan breaks under pressure."
+Trancendence,Protagonist,Thomas B,8,8,2,Imperium,Josh R,"Josh is the kind of civilian Thomas tries to keep alive: talented, anxious, and in the wrong place at the wrong time. Thomas stays near him when danger starts circling."
+Trancendence,Protagonist,Thomas B,8,8,3,Imperium,Kyle M,Kyle knows routes and rhythms most people ignore. Thomas trusts that kind of local sense when a situation stops being predictable.
+Trancendence,Protagonist,Thomas B,8,8,4,Imperium,Luke C,Luke is orderly in a city that isn’t. Thomas respects that—and uses Luke’s documentation when the official story starts twisting.
+Trancendence,Protagonist,Thomas B,8,8,5,Imperium,Zack D,Zack is the house’s muscle and its liability. Thomas keeps him in his peripheral vision the way you track a weapon you can’t confiscate.
+Trancendence,Protagonist,Thomas B,8,8,6,Imperium,Chase A,"Chase is the lab brain Thomas would rather not need. When he does need him, Thomas keeps it professional and short."
+Trancendence,Protagonist,Thomas B,8,8,7,Imperium,Johnny L,Johnny attracts attention like a magnet. Thomas uses that when it helps and shuts it down when it doesn’t.
+Trancendence,Protagonist,Thomas B,8,8,8,Imperium,Ryan L,"Ryan’s chaos can ruin a scene or save it. Thomas treats him like a variable and keeps moving, even when the nickname ‘Charlie’ slips out."
+Trancendence,Protagonist,Thomas B,8,8,9,Transcendence,Bram W,Bram doesn’t ask Thomas for a convenient version; he asks for the version that holds up after the city calms down.
+Trancendence,Protagonist,Thomas B,8,8,10,Prominence,Sam S,"Thomas and Sam keep it light: quick banter, mutual respect, and no pressure to perform."
